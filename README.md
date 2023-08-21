@@ -1,1 +1,1 @@
-# Apartment ptoject
+# Apartment project
