@@ -1,0 +1,50 @@
+.footer__inner {
+  align-items: flex-start;
+  font-size: 1.6rem;
+  color: #0e2341;
+  font-weight: 400;
+  line-height: 1.84rem;
+
+  .footer__social-medias {
+    gap: 0.5rem;
+    a {
+      img {
+        width: 45px;
+      }
+    }
+  }
+
+  .navigation {
+    align-items: flex-start;
+
+    a {
+      margin-bottom: 1.5rem;
+      color: #0e2341;
+      transition: all 200ms ease-in-out;
+
+      &:hover {
+        color: coral;
+      }
+    }
+  }
+
+  .footer__contacts {
+    a {
+      margin-bottom: 1.5rem;
+      color: #0e2341;
+      transition: all 200ms ease-in-out;
+
+      &:hover {
+        color: coral;
+      }
+    }
+  }
+}
+
+.footer__title {
+  font-size: 2.2rem;
+  color: #0e2341;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  line-height: 2.296rem;
+}

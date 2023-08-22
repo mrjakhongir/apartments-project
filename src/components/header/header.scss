@@ -1,0 +1,31 @@
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+.header__inner {
+  padding: 1.5rem 0;
+
+  .header__navigation {
+    gap: 4rem;
+
+    .nav-link,
+    .active-link {
+      font-size: 1.6rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: #0e2341;
+
+      transition: all 200ms ease-in-out;
+    }
+
+    .nav-link:hover {
+      color: coral;
+    }
+
+    .active-link {
+      color: coral;
+    }
+  }
+}
