@@ -1,0 +1,54 @@
+.supheader {
+  background-color: #0e2341;
+  color: #fff;
+}
+
+.supheader__inner {
+  font-size: 1.4rem;
+  padding: 0.9rem 0;
+
+  .supheader__contacts {
+    gap: 5rem;
+
+    a {
+      color: #fff;
+    }
+  }
+
+  .supheader__right-col {
+    gap: 5rem;
+
+    .supheader__social-medias {
+      gap: 2rem;
+    }
+
+    .lang-accordion-wrapper {
+      gap: 0.3rem;
+      cursor: pointer;
+      position: relative;
+
+      .lang-accordion-content {
+        position: absolute;
+        width: 100px;
+        top: 33px;
+        right: -37px;
+        z-index: 10;
+        color: #fff;
+        padding: 1rem 0;
+        background-color: #0e2341;
+        text-align: center;
+
+        .language {
+          cursor: pointer;
+          padding: 0.5rem 1rem;
+          transition: all 200ms ease-in;
+
+          &:hover {
+            background-color: #fff;
+            color: #0e2341;
+          }
+        }
+      }
+    }
+  }
+}

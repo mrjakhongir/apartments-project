@@ -16,6 +16,10 @@ import poolIcon from "../assets/svg/pool-icon.svg";
 import sofaIcon from "../assets/svg/sofa-icon.svg";
 import telegramIcon from "../assets/svg/telegram-icon.svg";
 import tikTokIcon from "../assets/svg/tik-tok-icon.svg";
+import caretFill from "../assets/svg/caret-fill.svg";
+import linkedinSquare from "../assets/svg/square-linkedin.svg";
+import instagramSquare from "../assets/svg/square-instagram.svg";
+import facebookSquare from "../assets/svg/square-facebook.svg";
 
 // png images
 
@@ -54,6 +58,10 @@ export const svgs = {
   sofaIcon,
   telegramIcon,
   tikTokIcon,
+  caretFill,
+  instagramSquare,
+  linkedinSquare,
+  facebookSquare,
 };
 
 export const pngs = {
