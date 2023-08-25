@@ -1,19 +1,14 @@
-.home {
+// Welcome Section
+
+.welcome {
+  padding: 9rem 7.3rem;
   background-image: url("../../assets/png/welcome-img.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-color: #0c1d3680;
   background-blend-mode: multiply;
-}
 
-.home__inner {
-  padding: 9rem 7.3rem;
-}
-
-// Welcome Section
-
-.welcome {
   .welcome__title {
     font-size: 6.2rem;
     line-height: 7.13rem;
@@ -107,4 +102,139 @@
 
 .accordion-content {
   position: absolute;
+}
+
+// About Section
+
+.home__about {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 2.5rem 0;
+
+  > div {
+    justify-content: space-around;
+    > div {
+      padding: 1.5rem 5rem 1.5rem 2rem;
+      border-right: 2px solid #3d6cbb;
+      display: flex;
+      flex-direction: column;
+
+      &:last-child {
+        border: none;
+        padding-right: 0;
+      }
+      &:first-child {
+        padding-left: 0;
+      }
+      h1 {
+        font-size: 3.2rem;
+        line-height: 4rem;
+        color: #3d6cbb;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+      }
+      .red__title {
+        color: #bb3d3d;
+      }
+      p {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        color: #b7b7b7;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+// Section Home About Desctiption
+
+.home__about-desctiption {
+  width: 100%;
+  background-image: url("../../assets/png/home-bg-img.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  > div {
+    padding: 8rem;
+  }
+
+  .home__about-description_content {
+    width: 50%;
+    padding: 3rem 3rem 4rem 3rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+    h2 {
+      font-size: 3.4rem;
+      line-height: 4.63rem;
+      font-weight: 600;
+      color: #0e2341;
+      margin-bottom: 0.7rem;
+    }
+
+    p {
+      font-size: 1.8rem;
+      line-height: 2.451rem;
+      font-weight: 300;
+      color: #0e2341;
+    }
+  }
+}
+
+// Section Services
+
+.home__service {
+  background-color: #3d6cbb1a;
+
+  > div {
+    padding: 5rem 4rem 6rem;
+  }
+}
+
+.service__title {
+  font-size: 4.2rem;
+  line-height: 5.72rem;
+  font-weight: 600;
+  color: #0e2341;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.service-row1 {
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+
+  img:nth-of-type(odd) {
+    width: 80px;
+  }
+  img:nth-of-type(even) {
+    width: 270px;
+  }
+}
+
+.service-row2 {
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10rem;
+  div {
+    text-align: center;
+
+    h3 {
+      font-size: 2.2rem;
+      line-height: 2.996rem;
+      color: #0e2341;
+      font-weight: 600;
+      margin-bottom: 0.7rem;
+    }
+    p {
+      font-size: 1.5rem;
+      line-height: 2.043rem;
+      font-weight: 400;
+      color: #0e2341; 
+    }
+  }
 }
