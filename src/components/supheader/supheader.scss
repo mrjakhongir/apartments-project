@@ -20,6 +20,12 @@
 
     .supheader__social-medias {
       gap: 2rem;
+      img {
+        transition: all 200ms linear;
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
     }
 
     .lang-accordion-wrapper {

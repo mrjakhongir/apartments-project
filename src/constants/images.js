@@ -18,8 +18,10 @@ import telegramIcon from "../assets/svg/telegram-icon.svg";
 import tikTokIcon from "../assets/svg/tik-tok-icon.svg";
 import caretFill from "../assets/svg/caret-fill.svg";
 import linkedinSquare from "../assets/svg/square-linkedin.svg";
-import instagramSquare from "../assets/svg/square-instagram.svg";
+import telegramSquare from "../assets/svg/square-telegram.svg";
 import facebookSquare from "../assets/svg/square-facebook.svg";
+import diplomat from "../assets/svg/diplomat.svg";
+import savings from "../assets/svg/savings.svg";
 
 // png images
 
@@ -59,9 +61,11 @@ export const svgs = {
   telegramIcon,
   tikTokIcon,
   caretFill,
-  instagramSquare,
+  telegramSquare,
   linkedinSquare,
   facebookSquare,
+  diplomat,
+  savings,
 };
 
 export const pngs = {
