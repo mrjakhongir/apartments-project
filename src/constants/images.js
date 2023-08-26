@@ -42,6 +42,7 @@ import house1 from "../assets/png/house1.png";
 import house2 from "../assets/png/house2.png";
 import house3 from "../assets/png/house3.png";
 import house4 from "../assets/png/house4.png";
+import homeBg3 from "../assets/png/home-bg3.png";
 
 export const svgs = {
   emailIcon,
@@ -85,5 +86,6 @@ export const pngs = {
   house1,
   house2,
   house3,
+  homeBg3,
   house4,
 };

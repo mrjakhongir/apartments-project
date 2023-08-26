@@ -20,7 +20,7 @@ a {
 
 .wrapper {
   width: 100%;
-  max-width: 1100px;
+  max-width: 1110px;
   margin: 0 auto;
 }
 
@@ -47,4 +47,8 @@ img {
   padding: 1.9rem 3.6rem;
   cursor: pointer;
   transition: all 200ms ease-in-out;
+}
+
+ul {
+  list-style: none;
 }
