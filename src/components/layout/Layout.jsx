@@ -10,7 +10,6 @@ function Layout() {
       <Supheader />
       <Header />
       <Outlet />
-      <Footer />
     </div>
   );
 }

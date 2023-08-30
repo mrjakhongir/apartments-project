@@ -1,0 +1,37 @@
+.about-section2 {
+  .about-section2_banner {
+    background-image: url("../../../assets/png/about-bg2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10rem 0 10rem 0rem;
+
+    h2 {
+      border-left: 5px solid #fff;
+      padding-left: 3rem;
+    }
+  }
+
+  .about-section2_description {
+    background-color: rgba(61, 108, 187, 0.1);
+    > div {
+      padding: 5rem 0;
+      font-size: 2rem;
+      line-height: 2.724rem;
+      font-weight: 400;
+      color: #0e2341;
+
+      ul,
+      ol {
+        margin-bottom: 2rem;
+      }
+      ol {
+        margin-left: 2rem;
+      }
+
+      > p {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}

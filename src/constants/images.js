@@ -22,6 +22,14 @@ import telegramSquare from "../assets/svg/square-telegram.svg";
 import facebookSquare from "../assets/svg/square-facebook.svg";
 import diplomat from "../assets/svg/diplomat.svg";
 import savings from "../assets/svg/savings.svg";
+import aboutWorld from "../assets/svg/about-world.svg";
+import aboutSun from "../assets/svg/about-sun.svg";
+import aboutMountain from "../assets/svg/about-mountain.svg";
+import aboutCompass from "../assets/svg/about-compass.svg";
+import balanceIcon from "../assets/svg/balance-icon.svg";
+import sunIcon from "../assets/svg/sun-icon.svg";
+import skidivingIcon from "../assets/svg/skidiving-icon.svg";
+import rainIcon from "../assets/svg/rain-icon.svg";
 
 // png images
 
@@ -45,6 +53,10 @@ import house4 from "../assets/png/house4.png";
 import homeBg3 from "../assets/png/home-bg3.png";
 
 export const svgs = {
+  balanceIcon,
+  rainIcon,
+  skidivingIcon,
+  sunIcon,
   emailIcon,
   airplaneTicket,
   arrow,
@@ -67,6 +79,10 @@ export const svgs = {
   facebookSquare,
   diplomat,
   savings,
+  aboutWorld,
+  aboutSun,
+  aboutMountain,
+  aboutCompass,
 };
 
 export const pngs = {

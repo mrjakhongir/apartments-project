@@ -1,0 +1,29 @@
+.about-section1 {
+  .about-section1_banner {
+    background-image: url("../../../assets/png/about-bg1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    h1 {
+      font-size: 6.2rem;
+      line-height: 7.13rem;
+      font-weight: 700;
+      color: #fff;
+      padding: 6.5rem 0;
+    }
+  }
+
+  .about-section1_description {
+    background-color: rgba(61, 108, 187, 0.1);
+    padding: 5rem 0;
+
+    p {
+      font-size: 2rem;
+      line-height: 2.724rem;
+      font-weight: 400;
+      color: #0e2341;
+      margin-bottom: 2rem;
+    }
+  }
+}

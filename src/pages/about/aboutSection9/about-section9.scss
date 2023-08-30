@@ -1,0 +1,45 @@
+.about-section9 {
+  .about-section9_banner {
+    background-image: url("../../../assets/png/about-bg9.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10rem 0 10rem 0rem;
+
+    h2 {
+      border-left: 5px solid #fff;
+      padding: 3rem 0;
+      padding-left: 3rem;
+    }
+  }
+
+  .about-section9_description {
+    padding: 5rem 0;
+    background-color: rgba(61, 108, 187, 0.1);
+    p,
+    span {
+      font-size: 2rem;
+      line-height: 2.724rem;
+      font-weight: 400;
+      color: #0e2341;
+    }
+    p {
+      margin-bottom: 2rem;
+    }
+    span {
+      font-weight: 600;
+    }
+    ul {
+      margin-bottom: 2rem;
+      list-style: disc;
+
+      li {
+        font-size: 2rem;
+        line-height: 2.724rem;
+        font-weight: 400;
+        color: #0e2341;
+        margin-left: 3rem;
+      }
+    }
+  }
+}
