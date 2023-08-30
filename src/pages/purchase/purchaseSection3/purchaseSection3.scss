@@ -1,0 +1,48 @@
+.purchase-section3 {
+    margin-top: 100px;
+    .purchase-section3_banner {
+      background-image: url("../../../assets/png/purchase-bg3.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      padding: 10rem 0 10rem 0rem;
+  
+      h2 {
+        border-left: 5px solid #fff;
+        padding-left: 3rem;
+      }
+    }
+    
+    .purchase-section3_description {
+        display: flex;
+        margin-top: 70px;
+        &_body{
+          display: flex;
+          flex-direction: column;
+          &_text{
+              font-size: 34px;
+              font-weight: 600;
+              line-height: 46px;
+              letter-spacing: 0em;
+              text-align: left;
+              color: #3D6CBB;
+              margin-bottom: 20px;
+          }
+          &_desc{
+              font-size: 20px;
+              font-weight: 400;
+              line-height: 24px;
+              letter-spacing: 0em;
+              text-align: left;
+              color: #0E2341;
+          }
+        }
+        &_body2{
+          display: flex;
+          flex-direction: column;
+          margin-top: 70px;
+        }
+      }
+    
+  }
+  
