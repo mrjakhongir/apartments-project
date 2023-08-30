@@ -1,0 +1,131 @@
+.purchase-section1 {
+    .purchase-section1_banner {
+      background-image: url("../../../assets/png/purchase-bg1.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 200px;
+      display: flex;
+      align-items: center;
+  
+      h1 {
+        font-size: 62px;
+        font-weight: 700;
+        line-height: 71px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #FFFFFF;
+      }
+    }
+  
+    .purchase-section1_description {
+    //   background-color: rgba(61, 108, 187, 0.1);
+      padding: 5rem 0;
+  
+    }
+  }
+  
+  .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80px;
+    &_name{
+        font-size: 28px;
+        font-weight: 800;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #FFFFFF;
+        background: #3D6CBB;
+        width: 60px;
+        height: 60px;
+        padding-top: 10px;
+        border-radius: 59px;
+        z-index: 2;
+    }
+    &_body{
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        border-radius: 5px;
+        margin-left: 40px;
+        background: #ECF1F9;
+        box-shadow: 0px 0px 4px 4px #0000001A;
+        padding-top: 15px;
+        padding-left: 20px;
+        padding-bottom: 30px;
+        z-index: 2;
+        h6 {
+            width: 145px;
+            border: 0.23em solid #3D6CBB;
+            margin-bottom: 8px;
+        }
+
+    }
+    
+    &_text{
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #3D6CBB;
+        margin-bottom: 8px;
+    }
+    p {
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #0E2341;
+    }
+  }
+
+  .card1{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    &::after{
+        content: " ";
+        position: absolute;
+        width: 605px;
+        border: 2px dotted #756558;
+        left: 55px;
+        top: 28px;
+    }
+  }
+  .card2{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    &::before{
+        content: " ";
+        position: absolute;
+        width: 290px;
+        border: 2px dotted #756558;
+        top: 200px;
+        right: 273px;
+        transform: rotate(-90deg);
+    }
+  }
+  .card3{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 150px;
+  }
+  .card4{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 150px;
+    position: relative;
+    &::after{
+        content: " ";
+        position: absolute;
+        width: 605px;
+        border: 2px dotted #756558;
+        left: 55px;
+        top: 28px;
+    }
+  }
