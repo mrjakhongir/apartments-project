@@ -1,0 +1,19 @@
+[
+  {
+    "projectId": 1,
+    "projectImgUrl": "./assets/png/project1.png",
+    "projectArea": "001 - Комплекс вилл в деревне Эпископи",
+    "projectStatus": "Завершен",
+    "projectType": "Частная",
+    "projectNote": "Примечание",
+    "projects": [
+      {
+        "type": "Вилла TYPE B",
+        "bedroom": 3,
+        "area": 148.6,
+        "yard": 345.1,
+        "price": 450000
+      }
+    ]
+  }
+]

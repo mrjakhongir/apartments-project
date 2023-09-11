@@ -12,6 +12,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+
         h2 {
           font-size: 3.2rem;
           line-height: 3.68rem;
@@ -34,38 +35,39 @@
         }
 
         .table-content {
-          max-height: 278px;
-          overflow-y: hidden;
           width: 100%;
-        }
+          overflow: hidden;
+          max-height: 273px;
 
-        table {
-          border-collapse: collapse;
-          margin-top: 2.5rem;
-          width: 100%;
+          table {
+            border-collapse: collapse;
+            margin-top: 2.5rem;
+            width: 100%;
 
-          thead {
-            background-color: #d7bb83;
-          }
+            thead {
+              background-color: #d7bb83;
+            }
 
-          td,
-          th {
-            text-align: start;
-            padding: 1.4rem;
-            font-size: 1.6rem;
-            line-height: 2.179rem;
-            color: #0e2341;
-            font-weight: 400;
-            border-bottom: 1px solid #d7bb83;
-            padding-left: 3rem;
-          }
-
-          tbody {
-            tr:last-child {
-              td {
+            td,
+            th {
+              text-align: start;
+              padding: 1.4rem;
+              font-size: 1.6rem;
+              line-height: 2.179rem;
+              color: #0e2341;
+              font-weight: 400;
+              border-bottom: 1px solid #d7bb83;
+            }
+            tbody {
+              td:last-child {
+                color: #d7bb83;
               }
             }
           }
+        }
+
+        .extended-content {
+          max-height: 100%;
         }
       }
 
@@ -78,6 +80,8 @@
         line-height: 1.907rem;
         font-weight: 600;
         align-self: flex-end;
+        width: 130px;
+        padding: 1.5rem 2.4rem;
 
         &:hover {
           background-color: #756558;

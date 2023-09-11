@@ -1,9 +1,11 @@
-import React from 'react'
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import './projectsSection2.scss'
 import { pngs } from '../../../constants/images'
 
 const allProjects = [
   {
+    projectId: 1,
     projectImgUrl: pngs.project1,
     projectArea: '001 - Комплекс вилл в деревне Эпископи',
     projectStatus: 'Завершен',
@@ -20,6 +22,7 @@ const allProjects = [
     ],
   },
   {
+    projectId: 2,
     projectImgUrl: pngs.project2,
     projectArea: '002 Комплекс вилл в деревне Эмба (Пафос)',
     projectStatus: 'В процессе',
@@ -57,6 +60,7 @@ const allProjects = [
     ],
   },
   {
+    projectId: 3,
     projectImgUrl: pngs.project1,
     projectArea: '002 Комплекс вилл в деревне Эмба (Пафос)',
     projectStatus: 'В процессе',
@@ -94,6 +98,7 @@ const allProjects = [
     ],
   },
   {
+    projectId: 4,
     projectImgUrl: pngs.project2,
     projectArea: '002 Комплекс вилл в деревне Эмба (Пафос)',
     projectStatus: 'В процессе',
@@ -128,9 +133,24 @@ const allProjects = [
         yard: 345.1,
         price: 450000,
       },
+      {
+        type: 'Вилла TYPE A',
+        bedroom: 3,
+        area: 148.6,
+        yard: 345.1,
+        price: 450000,
+      },
+      {
+        type: 'Вилла TYPE A',
+        bedroom: 3,
+        area: 148.6,
+        yard: 345.1,
+        price: 450000,
+      },
     ],
   },
   {
+    projectId: 5,
     projectImgUrl: pngs.project1,
     projectArea: '002 Комплекс вилл в деревне Эмба (Пафос)',
     projectStatus: 'В процессе',
@@ -165,9 +185,17 @@ const allProjects = [
         yard: 345.1,
         price: 450000,
       },
+      {
+        type: 'Вилла TYPE A',
+        bedroom: 3,
+        area: 148.6,
+        yard: 345.1,
+        price: 450000,
+      },
     ],
   },
   {
+    projectId: 6,
     projectImgUrl: pngs.project2,
     projectArea: '002 Комплекс вилл в деревне Эмба (Пафос)',
     projectStatus: 'В процессе',
@@ -179,6 +207,13 @@ const allProjects = [
         bedroom: 3,
         area: 145.6,
         yard: 323,
+        price: 450000,
+      },
+      {
+        type: 'Вилла TYPE A',
+        bedroom: 3,
+        area: 148.6,
+        yard: 345.1,
         price: 450000,
       },
       {
@@ -207,16 +242,19 @@ const allProjects = [
 ]
 
 export const ProjectsSection2 = () => {
+  const [extendContent, setExtendContent] = useState(false)
   return (
     <section className="project-section2">
       <div className="wrapper">
-        {allProjects.map((project) => (
-          <div className="projects-row flex">
-            <div>
+        {allProjects.map((project, index) => (
+          <div key={index} className="projects-row flex">
+            <Link to={`/projects/${project.projectId}`}>
               <img src={project.projectImgUrl} alt="" />
-            </div>
-            <div className='projects-content'>
-              <h2>{project.projectArea}</h2>
+            </Link>
+            <div className="projects-content">
+              <Link to={`/projects/${project.projectId}`}>
+                <h2>{project.projectArea}</h2>
+              </Link>
               <p>
                 Статус: <span>{project.projectStatus}</span>
               </p>
@@ -226,7 +264,11 @@ export const ProjectsSection2 = () => {
               <p>
                 Примечание: <span>{project.projectNote}</span>
               </p>
-              <div className="table-content">
+              <div
+                className={`table-content ${
+                  extendContent && 'extended-content'
+                }`}
+              >
                 <table>
                   <thead>
                     <tr>
@@ -238,19 +280,26 @@ export const ProjectsSection2 = () => {
                     </tr>
                   </thead>
                   <tbody>
-                    {project.projects.map((item) => (
-                      <tr>
+                    {project.projects.map((item, index) => (
+                      <tr key={index}>
                         <td>{item.type}</td>
                         <td>{item.bedroom}</td>
-                        <td>{item.area}</td>
-                        <td>{item.yard}</td>
-                        <td>{item.price}</td>
+                        <td>{item.area} m2</td>
+                        <td>{item.yard} m2</td>
+                        <td>€{item.price}</td>
                       </tr>
                     ))}
                   </tbody>
                 </table>
               </div>
-              <button className='btn extend-btn'>Развернуть</button>
+              {project.projects.length > 4 ? (
+                <button
+                  onClick={() => setExtendContent((prevState) => !prevState)}
+                  className="btn extend-btn"
+                >
+                  {extendContent ? 'Завернуть' : 'Развернуть'}
+                </button>
+              ) : null}
             </div>
           </div>
         ))}
