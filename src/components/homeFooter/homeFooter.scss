@@ -1,4 +1,4 @@
-.footer1 {
+.home-footer {
   background-color: #3d6cbb1a;
 }
 
@@ -9,11 +9,10 @@
   font-weight: 400;
   line-height: 1.84rem;
   justify-content: space-between;
-  padding: 2rem 0 0.5rem 0;
 
   .footer__social-medias {
-    justify-content: flex-start;
-    gap: 2rem;
+    // justify-content: flex-start;
+    // gap: 2rem;
 
     a {
       img {
@@ -43,24 +42,12 @@
 
   .footer__contacts {
     a {
-      margin-bottom: 1.5rem;
+      margin-bottom: 15rem;
       color: #0e2341;
       transition: all 200ms ease-in-out;
 
       &:hover {
         color: coral;
-      }
-    }
-  }
-
-  .footer__consult {
-    button {
-      background-color: #0e2341;
-      color: #fff;
-      font-weight: 600;
-
-      &:hover {
-        background-color: #3d8298;
       }
     }
   }

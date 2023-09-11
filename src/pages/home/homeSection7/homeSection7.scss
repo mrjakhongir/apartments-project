@@ -1,0 +1,143 @@
+.home__section7 {
+  > div {
+    padding: 10rem 0;
+
+    h1 {
+      font-size: 4rem;
+      line-height: 5.447rem;
+      font-weight: 600;
+      color: #0e2341;
+      margin-bottom: 3.2rem;
+    }
+
+    .section7-navigation {
+      margin-bottom: 4rem;
+      .filter-btn {
+        margin-right: 3rem;
+        border: none;
+        background-color: transparent;
+        font-size: 2rem;
+        line-height: 2.724rem;
+        font-weight: 600;
+        color: #b7b7b7;
+        cursor: pointer;
+        transition: all 200ms linear;
+
+        &:hover {
+          color: #3d6cbb;
+          text-decoration: underline;
+        }
+
+        &:last-child {
+          margin: 0;
+          margin-left: auto;
+          font-size: 1.6rem;
+          line-height: 2.179rem;
+          color: #fff;
+          background-color: #0e2341;
+          padding: 1.9rem 3.6rem;
+          border-radius: 5px;
+          transition: all 200ms linear;
+
+          &:hover {
+            opacity: 0.9;
+            text-decoration: none;
+          }
+        }
+      }
+      .selected {
+        color: #3d6cbb;
+        text-decoration: underline;
+      }
+    }
+    .home__section7-projects {
+      display: flex;
+      flex-flow: wrap;
+      gap: 3rem;
+
+      .house-card {
+        background-color: #fff;
+        padding: 2rem;
+        border-radius: 5px;
+        border: 1px solid #cbcbcb;
+        max-width: 255px;
+
+        .card-header {
+          position: relative;
+          margin-bottom: 1rem;
+          z-index: 1;
+
+          p {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            font-size: 1.6rem;
+            line-height: 2rem;
+            font-weight: 600;
+            color: #756558;
+          }
+        }
+      }
+
+      .card-content {
+        h3 {
+          font-size: 1.6rem;
+          line-height: 2rem;
+          font-weight: 600;
+          color: #0e2341;
+          margin-bottom: 6px;
+        }
+
+        > div {
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 1rem;
+          margin-bottom: 1rem;
+
+          > div {
+            display: flex;
+            align-items: center;
+            gap: 3px;
+
+            span {
+              font-size: 1.3rem;
+              line-height: 2rem;
+              letter-spacing: -5%;
+              color: #51627b;
+            }
+          }
+        }
+      }
+
+      .card-footer {
+        display: flex;
+        align-items: center;
+
+        button {
+          font-size: 1.2rem;
+          line-height: 1.634rem;
+          font-weight: 400;
+          color: #fff;
+          padding: 1rem 2.2rem;
+          border: none;
+          background-color: #3d6cbb;
+          border-radius: 3px;
+          cursor: pointer;
+          margin-right: 2rem;
+
+          &:hover {
+            opacity: 0.9;
+          }
+        }
+
+        span {
+          font-size: 1.6rem;
+          line-height: 2rem;
+          font-weight: 600;
+          color: #d7bb83;
+        }
+      }
+    }
+  }
+}

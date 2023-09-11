@@ -1,8 +1,8 @@
-import React from "react";
-import { Outlet } from "react-router-dom";
-import Footer from "../footer/Footer";
-import Header from "../header/Header";
-import Supheader from "../supheader/Supheader";
+import React from 'react'
+import { Outlet } from 'react-router-dom'
+import Footer from '../footer/Footer'
+import Header from '../header/Header'
+import Supheader from '../supheader/Supheader'
 
 function Layout() {
   return (
@@ -10,8 +10,9 @@ function Layout() {
       <Supheader />
       <Header />
       <Outlet />
+      <Footer />
     </div>
-  );
+  )
 }
 
-export default Layout;
+export default Layout

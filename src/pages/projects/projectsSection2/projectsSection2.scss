@@ -1,0 +1,131 @@
+.project-section2 {
+  > div {
+    padding: 10rem 0 7rem 0;
+
+    .projects-row {
+      justify-content: flex-start;
+      align-items: flex-start;
+      gap: 3rem;
+      margin-bottom: 7rem;
+
+      .projects-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        h2 {
+          font-size: 3.2rem;
+          line-height: 3.68rem;
+          color: #0e2341;
+          font-weight: 600;
+          margin-bottom: 2rem;
+        }
+
+        p {
+          font-size: 1.8rem;
+          line-height: 2.451rem;
+          color: #d7bb83;
+          font-weight: 600;
+          margin-bottom: 3px;
+
+          span {
+            color: #0e2341;
+            margin-left: 5px;
+          }
+        }
+
+        .table-content {
+          max-height: 278px;
+          overflow-y: hidden;
+          width: 100%;
+        }
+
+        table {
+          border-collapse: collapse;
+          margin-top: 2.5rem;
+          width: 100%;
+
+          thead {
+            background-color: #d7bb83;
+          }
+
+          td,
+          th {
+            text-align: start;
+            padding: 1.4rem;
+            font-size: 1.6rem;
+            line-height: 2.179rem;
+            color: #0e2341;
+            font-weight: 400;
+            border-bottom: 1px solid #d7bb83;
+            padding-left: 3rem;
+          }
+
+          tbody {
+            tr:last-child {
+              td {
+              }
+            }
+          }
+        }
+      }
+
+      .extend-btn {
+        background-color: #fff;
+        border: 1px solid #756558;
+        margin-top: 5px;
+        color: #756558;
+        font-size: 1.4rem;
+        line-height: 1.907rem;
+        font-weight: 600;
+        align-self: flex-end;
+
+        &:hover {
+          background-color: #756558;
+          color: #fff;
+        }
+      }
+    }
+
+    .projects-pagination {
+      display: flex;
+      align-items: center;
+      gap: 3rem;
+
+      .caret-left {
+        background-image: url('../../../assets/svg/caret-left.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 1.6rem;
+
+        &:hover {
+          background-image: url('../../../assets/svg/caret-left_hover.svg');
+        }
+      }
+      .caret-right {
+        background-image: url('../../../assets/svg/caret-right.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 1.6rem;
+
+        &:hover {
+          background-image: url('../../../assets/svg/caret-right_hover.svg');
+        }
+      }
+      button {
+        width: 40px;
+        height: 40px;
+        font-size: 1.6rem;
+        background-color: #fff;
+        border: 1px solid #b7b7b7;
+        color: #0e2341;
+        transition: all 200ms linear;
+
+        &:hover {
+          cursor: pointer;
+          background-color: #756558;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

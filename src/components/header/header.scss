@@ -3,6 +3,8 @@
   top: 0;
   background-color: #fff;
   z-index: 9;
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 .header__inner {
@@ -22,11 +24,11 @@
     }
 
     .nav-link:hover {
-      color: coral;
+      color: #3d8298;
     }
 
     .active-link {
-      color: coral;
+      color: #3d8298;
     }
   }
 }

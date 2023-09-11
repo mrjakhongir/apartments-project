@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { svgs } from '../../constants/images'
-import './footer.scss'
+import './homeFooter.scss'
 
-function Footer() {
+function HomeFooter() {
   return (
-    <section className="footer1">
+    <div className="home-footer">
       <div className="wrapper">
         <div className="footer__inner flex">
           <div>
@@ -47,14 +47,18 @@ function Footer() {
               </a>
             </div>
           </div>
-          <div className="footer__consult">
-            <h3 className="footer__title">Бесплатная консультация</h3>
-            <button className="btn">Оставить заявку</button>
+          <div className="footer__licence">
+            <h3 className="footer__title">Лицензия</h3>
+            <p>Reiwa Group&Reiwa Investments Ltd</p>
+            <p>HE 437808</p>
+            <p>TAX. 104378</p>
+            <p>VAT 10437808U</p>
+            <p>License: 1081/595</p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   )
 }
 
-export default Footer
+export default HomeFooter

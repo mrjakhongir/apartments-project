@@ -1,0 +1,110 @@
+.home__section8 {
+  background-image: url('../../../assets/png/home-contacts-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  > div {
+    padding: 11rem 0 10rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .home__contacts {
+    min-width: 720px;
+    min-height: 440px;
+    display: flex;
+
+    .contacts-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      background-image: url('../../../assets/png/home-contact-bg-small.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      padding: 2.5rem 2.5rem 3rem 2rem;
+      width: 50%;
+
+      > img {
+        margin-bottom: 25rem;
+        width: 130px;
+      }
+      .contects-left_content {
+        align-self: flex-start;
+
+        div {
+          justify-content: flex-start;
+
+          span {
+            font-size: 1.4rem;
+            line-height: 1.9rem;
+            font-weight: 600;
+            color: #fff;
+          }
+          img {
+            width: 15px;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+    .contacts-right {
+      background-color: #fff;
+      width: 50%;
+      opacity: 0.9;
+      padding: 2.5rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      img {
+        width: 130px;
+        margin-bottom: 7.2rem;
+      }
+
+      div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h2 {
+          font-size: 3rem;
+          line-height: 4rem;
+          font-weight: 600;
+          color: #0e2341;
+          margin-bottom: 3px;
+        }
+
+        p {
+          font-size: 1.6rem;
+          line-height: 1.84rem;
+          font-weight: 600;
+          color: #756558;
+          margin-bottom: 2rem;
+        }
+
+        button {
+          font-size: 1.6rem;
+          line-height: 1.84rem;
+          color: #fff;
+          font-weight: 600;
+
+          padding: 1.6rem 7rem;
+          border: none;
+          background-color: #d7bb83;
+          border-radius: 3px;
+          cursor: pointer;
+          opacity: 0.9;
+          transition: all 200ms linear;
+
+          &:hover {
+            opacity: 1;
+          }
+        }
+      }
+    }
+  }
+}

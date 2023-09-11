@@ -1,8 +1,13 @@
-import React from "react";
-import "./projects.scss";
+import { ProjectsSection1 } from './projectsSection1/ProjectsSection1'
+import { ProjectsSection2 } from './projectsSection2/ProjectsSection2'
 
 function Projects() {
-  return <div>Projects</div>;
+  return (
+    <div>
+      <ProjectsSection1 />
+      <ProjectsSection2 />
+    </div>
+  )
 }
 
-export default Projects;
+export default Projects
