@@ -1,17 +1,10 @@
-import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import { pngs } from '../../constants/images'
-
+import data from '../../assets/data.json'
 function ProjectsDetail() {
   const { id } = useParams()
-  const [projects, setProjects] = useState([])
 
-  useEffect(() => {
-    fetch('../../data.json')
-      .then((res) => res.json())
-      .then((data) => console.log(data))
-  }, [id])
-
+  console.log(id, data)
   return (
     <div>
       <div className="projects-allery">

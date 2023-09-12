@@ -1,0 +1,239 @@
+{
+  "projects": [
+    {
+      "projectId": 1,
+      "projectImgUrl": "./assets/png/project1.png",
+      "projectArea": "001 - Комплекс вилл в деревне Эпископи",
+      "projectStatus": "Завершен",
+      "projectType": "Частная",
+      "projectNote": "Примечание",
+      "projects": [
+        {
+          "type": "Вилла TYPE B",
+          "bedroom": 3,
+          "area": 148.6,
+          "yard": 345.1,
+          "price": 450000
+        }
+      ]
+    },
+    {
+      "projectId": 2,
+      "projectImgUrl": "pngs.project2",
+      "projectArea": "002 Комплекс вилл в деревне Эмба (Пафос)",
+      "projectStatus": "В процессе",
+      "projectType": "Инвестиционная ",
+      "projectNote": "Бассейн",
+      "projects": [
+        {
+          "type": "Вилла TYPE A(M)",
+          "bedroom": 3,
+          "area": 145.6,
+          "yard": 323,
+          "price": 450000
+        },
+        {
+          "type": "Вилла TYPE A",
+          "bedroom": 3,
+          "area": 148.6,
+          "yard": 345.1,
+          "price": 450000
+        },
+        {
+          "type": "Вилла TYPE A",
+          "bedroom": 3,
+          "area": 148.6,
+          "yard": 345.1,
+          "price": 450000
+        },
+        {
+          "type": "Вилла TYPE A",
+          "bedroom": 3,
+          "area": 148.6,
+          "yard": 345.1,
+          "price": 450000
+        }
+      ]
+    },
+    {
+      "projectId": 3,
+      "projectImgUrl": "pngs.project1",
+      "projectArea": "002 Комплекс вилл в деревне Эмба (Пафос)",
+      "projectStatus": "В процессе",
+      "projectType": "Инвестиционная ",
+      "projectNote": "Бассейн",
+      "projects": [
+        {
+          "type": "Вилла TYPE A(M)",
+          "bedroom": 3,
+          "area": 145.6,
+          "yard": 323,
+          "price": 450000
+        },
+        {
+          "type": "Вилла TYPE A",
+          "bedroom": 3,
+          "area": 148.6,
+          "yard": 345.1,
+          "price": 450000
+        },
+        {
+          "type": "Вилла TYPE A",
+          "bedroom": 3,
+          "area": 148.6,
+          "yard": 345.1,
+          "price": 450000
+        },
+        {
+          "type": "Вилла TYPE A",
+          "bedroom": 3,
+          "area": 148.6,
+          "yard": 345.1,
+          "price": 450000
+        }
+      ]
+    },
+    {
+      "projectId": 4,
+      "projectImgUrl": "pngs.project2",
+      "projectArea": "002 Комплекс вилл в деревне Эмба (Пафос)",
+      "projectStatus": "В процессе",
+      "projectType": "Инвестиционная ",
+      "projectNote": "Бассейн",
+      "projects": [
+        {
+          "type": "Вилла TYPE A(M)",
+          "bedroom": 3,
+          "area": 145.6,
+          "yard": 323,
+          "price": 450000
+        },
+        {
+          "type": "Вилла TYPE A",
+          "bedroom": 3,
+          "area": 148.6,
+          "yard": 345.1,
+          "price": 450000
+        },
+        {
+          "type": "Вилла TYPE A",
+          "bedroom": 3,
+          "area": 148.6,
+          "yard": 345.1,
+          "price": 450000
+        },
+        {
+          "type": "Вилла TYPE A",
+          "bedroom": 3,
+          "area": 148.6,
+          "yard": 345.1,
+          "price": 450000
+        },
+        {
+          "type": "Вилла TYPE A",
+          "bedroom": 3,
+          "area": 148.6,
+          "yard": 345.1,
+          "price": 450000
+        },
+        {
+          "type": "Вилла TYPE A",
+          "bedroom": 3,
+          "area": 148.6,
+          "yard": 345.1,
+          "price": 450000
+        }
+      ]
+    },
+    {
+      "projectId": 5,
+      "projectImgUrl": "pngs.project1",
+      "projectArea": "002 Комплекс вилл в деревне Эмба (Пафос)",
+      "projectStatus": "В процессе",
+      "projectType": "Инвестиционная ",
+      "projectNote": "Бассейн",
+      "projects": [
+        {
+          "type": "Вилла TYPE A(M)",
+          "bedroom": 3,
+          "area": 145.6,
+          "yard": 323,
+          "price": 450000
+        },
+        {
+          "type": "Вилла TYPE A",
+          "bedroom": 3,
+          "area": 148.6,
+          "yard": 345.1,
+          "price": 450000
+        },
+        {
+          "type": "Вилла TYPE A",
+          "bedroom": 3,
+          "area": 148.6,
+          "yard": 345.1,
+          "price": 450000
+        },
+        {
+          "type": "Вилла TYPE A",
+          "bedroom": 3,
+          "area": 148.6,
+          "yard": 345.1,
+          "price": 450000
+        },
+        {
+          "type": "Вилла TYPE A",
+          "bedroom": 3,
+          "area": 148.6,
+          "yard": 345.1,
+          "price": 450000
+        }
+      ]
+    },
+    {
+      "projectId": 6,
+      "projectImgUrl": "pngs.project2",
+      "projectArea": "002 Комплекс вилл в деревне Эмба (Пафос)",
+      "projectStatus": "В процессе",
+      "projectType": "Инвестиционная ",
+      "projectNote": "Бассейн",
+      "projects": [
+        {
+          "type": "Вилла TYPE A(M)",
+          "bedroom": 3,
+          "area": 145.6,
+          "yard": 323,
+          "price": 450000
+        },
+        {
+          "type": "Вилла TYPE A",
+          "bedroom": 3,
+          "area": 148.6,
+          "yard": 345.1,
+          "price": 450000
+        },
+        {
+          "type": "Вилла TYPE A",
+          "bedroom": 3,
+          "area": 148.6,
+          "yard": 345.1,
+          "price": 450000
+        },
+        {
+          "type": "Вилла TYPE A",
+          "bedroom": 3,
+          "area": 148.6,
+          "yard": 345.1,
+          "price": 450000
+        },
+        {
+          "type": "Вилла TYPE A",
+          "bedroom": 3,
+          "area": 148.6,
+          "yard": 345.1,
+          "price": 450000
+        }
+      ]
+    }
+  ]
+}

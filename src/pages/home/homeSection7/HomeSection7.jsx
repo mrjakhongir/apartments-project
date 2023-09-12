@@ -159,8 +159,8 @@ export const HomeSection7 = () => {
           </button>
         </div>
         <div className="home__section7-projects">
-          {filteredData.map((house) => (
-            <div key={house.index} className="house-card">
+          {filteredData.map((house, index) => (
+            <div key={index} className="house-card">
               <div className="card-header">
                 <img src={house.houseImgUrl} alt="" />
                 <p className="house-index">{house.houseIndex}</p>
