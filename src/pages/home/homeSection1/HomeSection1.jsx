@@ -35,9 +35,9 @@ export const HomeSection1 = () => {
           </div>
 
           <div className="double-type__filter flex">
-            <div className="accordion">
+            <div className="accordion ">
               <div className="type__filter flex">
-                <div>
+                <div >
                   <h4>Комнат от</h4>
                   <p>Все </p>
                 </div>
