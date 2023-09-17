@@ -1,8 +1,8 @@
-import React from "react";
-import { NavLink, Link } from "react-router-dom";
+import React from "react"
+import { NavLink, Link } from "react-router-dom"
 
-import { pngs } from "../../constants/images";
-import "./header.scss";
+import { svgs } from "../../constants/images"
+import "./header.scss"
 
 function Header() {
   return (
@@ -10,7 +10,7 @@ function Header() {
       <div className="wrapper">
         <div className="header__inner flex">
           <Link to="/" className="header__logo">
-            <img src={pngs.logoDark} alt="" />
+            <img src={svgs.logoDark} alt="" />
           </Link>
           <nav className="header__navigation flex">
             <NavLink
@@ -57,7 +57,7 @@ function Header() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Header;
+export default Header

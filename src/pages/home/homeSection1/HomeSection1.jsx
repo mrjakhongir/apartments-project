@@ -1,6 +1,6 @@
-import React from 'react'
-import './homeSection1.scss'
-import { svgs } from '../../../constants/images'
+import React from "react"
+import "./homeSection1.scss"
+import { svgs } from "../../../constants/images"
 
 export const HomeSection1 = () => {
   return (
@@ -13,9 +13,9 @@ export const HomeSection1 = () => {
           Лучшие решения по недвижимости и возможности получения ПМЖ на Кипре
         </p>
         <button className="btn welcome__btn">Оставить заявку</button>
-        <div className="welcome__filters flex">
-          <div className="accordion type__filter-accordion">
-            <div className="type__filter flex">
+        <div className="projects__filters flex">
+          <div className="accordion">
+            <div className="filter-btn flex">
               <div>
                 <h4>Тип</h4>
                 <p>Все типы</p>
@@ -24,8 +24,8 @@ export const HomeSection1 = () => {
             </div>
           </div>
 
-          <div className="accordion region__filter-accordion">
-            <div className="type__filter flex">
+          <div className="accordion">
+            <div className="filter-btn flex">
               <div>
                 <h4>Регион</h4>
                 <p>Все Регионы</p>
@@ -35,9 +35,9 @@ export const HomeSection1 = () => {
           </div>
 
           <div className="double-type__filter flex">
-            <div className="accordion ">
-              <div className="type__filter flex">
-                <div >
+            <div className="accordion">
+              <div className="filter-btn flex">
+                <div>
                   <h4>Комнат от</h4>
                   <p>Все </p>
                 </div>
@@ -45,7 +45,7 @@ export const HomeSection1 = () => {
               </div>
             </div>
             <div className="accordion">
-              <div className="type__filter flex">
+              <div className="filter-btn flex">
                 <div>
                   <h4>До</h4>
                   <p>Все </p>
@@ -57,7 +57,7 @@ export const HomeSection1 = () => {
 
           <div className="double-type__filter flex">
             <div className="accordion">
-              <div className="type__filter flex">
+              <div className="filter-btn flex">
                 <div>
                   <h4>Цена от</h4>
                   <p>Все </p>
@@ -67,7 +67,7 @@ export const HomeSection1 = () => {
             </div>
 
             <div className="accordion">
-              <div className="type__filter flex">
+              <div className="filter-btn flex">
                 <div>
                   <h4>До</h4>
                   <p>Все </p>
@@ -77,7 +77,7 @@ export const HomeSection1 = () => {
             </div>
           </div>
 
-          <div className=" welcome__search flex">
+          <div className="flex">
             <img src={svgs.search} alt="search" />
             <input type="text" placeholder="Поиск" />
           </div>

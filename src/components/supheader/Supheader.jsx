@@ -1,17 +1,17 @@
-import React, { useState } from "react";
-import "./supheader.scss";
-import { svgs } from "../../constants/images";
+import React, { useState } from "react"
+import "./supheader.scss"
+import { svgs } from "../../constants/images"
 
 function Supheader() {
-  const [openLang, setOpenLang] = useState(false);
-  const [currentLang, setCurrentLang] = useState("RU");
-  const languages = ["UZ", "EN", "RU"];
+  const [openLang, setOpenLang] = useState(false)
+  const [currentLang, setCurrentLang] = useState("RU")
+  const languages = ["UZ", "EN", "RU"]
   function toggleLanguage() {
-    setOpenLang((prevState) => !prevState);
+    setOpenLang((prevState) => !prevState)
   }
   function setLanguage(index) {
-    setCurrentLang(languages[index]);
-    toggleLanguage();
+    setCurrentLang(languages[index])
+    toggleLanguage()
   }
   return (
     <div className="supheader">
@@ -27,7 +27,7 @@ function Supheader() {
                 <img src={svgs.instagramIcon} alt="instagram" />
               </a>
               <a href="#telegram">
-                <img src={svgs.telegramIcon} alt="telegram" />
+                <img src={svgs.telegramIconOutlined} alt="telegram" />
               </a>
               <a href="#facebook">
                 <img src={svgs.facebookIcon} alt="facebook" />
@@ -53,7 +53,7 @@ function Supheader() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Supheader;
+export default Supheader

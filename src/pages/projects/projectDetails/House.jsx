@@ -25,7 +25,7 @@ const House = ({ project, index }) => {
         </div>
         <div>
           <button onClick={() => showHouseDetails(index)} className="btn">
-            Подробнее
+            {showDetails ? "Свернуть" : "Подробнее"}
           </button>
         </div>
       </div>
