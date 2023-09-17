@@ -3,6 +3,7 @@ import { useSearchParams, Link } from "react-router-dom"
 import "./homeSection7.scss"
 import { pngs } from "../../../constants/images"
 import { svgs } from "../../../constants/images"
+import AnyNews from "../../../components/anynews/AnyNews"
 
 const projects = [
   {
@@ -182,6 +183,10 @@ export const HomeSection7 = () => {
             </div>
           ))}
         </div>
+        <div className="wrapper">
+            <h2 className="home_anynews" >Новости</h2>
+            <AnyNews/>
+          </div>
       </div>
     </section>
   )

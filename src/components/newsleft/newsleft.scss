@@ -1,0 +1,109 @@
+.newsleft_card{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 180px;
+    margin-bottom: 80px;
+    &_section{
+        display: flex;
+        flex-direction: column;
+        width: 68%;
+        height: 547px;
+        position: relative;
+        position: absolute;
+        right: 0;
+    }
+    &_img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px
+    }
+
+    &_title{
+        position: absolute;
+        width: 100%;
+        height: 80px;
+        background: #0E2341;
+        bottom: 0;
+        &_text{
+            font-family: Open Sans;
+            font-size: 34px;
+            font-weight: 600;
+            line-height: 46px;
+            letter-spacing: 0em;
+            text-align: center;
+            margin-top: 20px;
+            color: #FFFFFF;
+        }
+    }
+
+    &_section1{
+        z-index: 3;
+        width: 529px;
+        height: 440px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 4px 4px #0000001A;
+        background: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 30px 30px 30px 30px;
+    }
+
+    &_desc{
+        font-family: Open Sans;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        color:#0E2341;
+
+        &_title{
+            font-family: Open Sans;
+            font-size: 34px;
+            font-weight: 600;
+            line-height: 46px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #0E2341;
+        }
+    }
+
+    &_btn{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h6 {
+            font-family: Open Sans;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 27px;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #0E2341;
+        }
+    }
+
+    &_button{
+        width: 130px;
+        height: 50px;
+        width: 130px;
+        height: 50px;
+        border-radius: 3px;
+        border: 1px solid #0E2341;
+        color: #0E2341;
+        background: #FFFFFF;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: 0em;
+        &:hover{
+            background: #0E2341;
+            color: #FFFFFF;
+        }
+    }
+
+}
