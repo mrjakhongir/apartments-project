@@ -17,7 +17,10 @@
           "bedroom": 3,
           "area": 148.6,
           "yard": 345.1,
-          "price": 450000
+          "price": 450000,
+          "innerArea": 93,
+          "veranda": 6,
+          "procePerSquareMetre": 2348
         }
       ]
     },
@@ -38,28 +41,40 @@
           "bedroom": 3,
           "area": 145.6,
           "yard": 323,
-          "price": 450000
+          "price": 450000,
+          "innerArea": 93,
+          "veranda": 6,
+          "procePerSquareMetre": 2348
         },
         {
           "type": "Вилла TYPE A",
           "bedroom": 3,
           "area": 148.6,
           "yard": 345.1,
-          "price": 450000
+          "price": 450000,
+          "innerArea": 93,
+          "veranda": 6,
+          "procePerSquareMetre": 2348
         },
         {
           "type": "Вилла TYPE A",
           "bedroom": 3,
           "area": 148.6,
           "yard": 345.1,
-          "price": 450000
+          "price": 450000,
+          "innerArea": 93,
+          "veranda": 6,
+          "procePerSquareMetre": 2348
         },
         {
           "type": "Вилла TYPE A",
           "bedroom": 3,
           "area": 148.6,
           "yard": 345.1,
-          "price": 450000
+          "price": 450000,
+          "innerArea": 93,
+          "veranda": 6,
+          "procePerSquareMetre": 2348
         }
       ]
     },
@@ -80,28 +95,34 @@
           "bedroom": 3,
           "area": 145.6,
           "yard": 323,
-          "price": 450000
+          "price": 450000,
+          "innerArea": 93,
+          "veranda": 6,
+          "procePerSquareMetre": 2348
         },
         {
           "type": "Вилла TYPE A",
           "bedroom": 3,
           "area": 148.6,
           "yard": 345.1,
-          "price": 450000
+          "price": 450000,
+          "innerArea": 93
         },
         {
           "type": "Вилла TYPE A",
           "bedroom": 3,
           "area": 148.6,
           "yard": 345.1,
-          "price": 450000
+          "price": 450000,
+          "veranda": 6
         },
         {
           "type": "Вилла TYPE A",
           "bedroom": 3,
           "area": 148.6,
           "yard": 345.1,
-          "price": 450000
+          "price": 450000,
+          "procePerSquareMetre": 2348
         }
       ]
     },
@@ -122,42 +143,60 @@
           "bedroom": 3,
           "area": 145.6,
           "yard": 323,
-          "price": 450000
+          "price": 450000,
+          "innerArea": 93,
+          "veranda": 6,
+          "procePerSquareMetre": 2348
         },
         {
           "type": "Вилла TYPE A",
           "bedroom": 3,
           "area": 148.6,
           "yard": 345.1,
-          "price": 450000
+          "price": 450000,
+          "innerArea": 93,
+          "veranda": 6,
+          "procePerSquareMetre": 2348
         },
         {
           "type": "Вилла TYPE A",
           "bedroom": 3,
           "area": 148.6,
           "yard": 345.1,
-          "price": 450000
+          "price": 450000,
+          "innerArea": 93,
+          "veranda": 6,
+          "procePerSquareMetre": 2348
         },
         {
           "type": "Вилла TYPE A",
           "bedroom": 3,
           "area": 148.6,
           "yard": 345.1,
-          "price": 450000
+          "price": 450000,
+          "innerArea": 93,
+          "veranda": 6,
+          "procePerSquareMetre": 2348
         },
         {
           "type": "Вилла TYPE A",
           "bedroom": 3,
           "area": 148.6,
           "yard": 345.1,
-          "price": 450000
+          "price": 450000,
+          "innerArea": 93,
+          "veranda": 6,
+          "procePerSquareMetre": 2348
         },
         {
           "type": "Вилла TYPE A",
           "bedroom": 3,
           "area": 148.6,
           "yard": 345.1,
-          "price": 450000
+          "price": 450000,
+          "innerArea": 93,
+          "veranda": 6,
+          "procePerSquareMetre": 2348
         }
       ]
     },
@@ -178,35 +217,50 @@
           "bedroom": 3,
           "area": 145.6,
           "yard": 323,
-          "price": 450000
+          "price": 450000,
+          "innerArea": 93,
+          "veranda": 6,
+          "procePerSquareMetre": 2348
         },
         {
           "type": "Вилла TYPE A",
           "bedroom": 3,
           "area": 148.6,
           "yard": 345.1,
-          "price": 450000
+          "price": 450000,
+          "innerArea": 93,
+          "veranda": 6,
+          "procePerSquareMetre": 2348
         },
         {
           "type": "Вилла TYPE A",
           "bedroom": 3,
           "area": 148.6,
           "yard": 345.1,
-          "price": 450000
+          "price": 450000,
+          "innerArea": 93,
+          "veranda": 6,
+          "procePerSquareMetre": 2348
         },
         {
           "type": "Вилла TYPE A",
           "bedroom": 3,
           "area": 148.6,
           "yard": 345.1,
-          "price": 450000
+          "price": 450000,
+          "innerArea": 93,
+          "veranda": 6,
+          "procePerSquareMetre": 2348
         },
         {
           "type": "Вилла TYPE A",
           "bedroom": 3,
           "area": 148.6,
           "yard": 345.1,
-          "price": 450000
+          "price": 450000,
+          "innerArea": 93,
+          "veranda": 6,
+          "procePerSquareMetre": 2348
         }
       ]
     },
@@ -227,35 +281,50 @@
           "bedroom": 3,
           "area": 145.6,
           "yard": 323,
-          "price": 450000
+          "price": 450000,
+          "innerArea": 93,
+          "veranda": 6,
+          "procePerSquareMetre": 2348
         },
         {
           "type": "Вилла TYPE A",
           "bedroom": 3,
           "area": 148.6,
           "yard": 345.1,
-          "price": 450000
+          "price": 450000,
+          "innerArea": 93,
+          "veranda": 6,
+          "procePerSquareMetre": 2348
         },
         {
           "type": "Вилла TYPE A",
           "bedroom": 3,
           "area": 148.6,
           "yard": 345.1,
-          "price": 450000
+          "price": 450000,
+          "innerArea": 93,
+          "veranda": 6,
+          "procePerSquareMetre": 2348
         },
         {
           "type": "Вилла TYPE A",
           "bedroom": 3,
           "area": 148.6,
           "yard": 345.1,
-          "price": 450000
+          "price": 450000,
+          "innerArea": 93,
+          "veranda": 6,
+          "procePerSquareMetre": 2348
         },
         {
           "type": "Вилла TYPE A",
           "bedroom": 3,
           "area": 148.6,
           "yard": 345.1,
-          "price": 450000
+          "price": 450000,
+          "innerArea": 93,
+          "veranda": 6,
+          "procePerSquareMetre": 2348
         }
       ]
     }
