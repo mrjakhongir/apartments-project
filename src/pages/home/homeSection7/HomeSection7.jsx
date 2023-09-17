@@ -1,125 +1,125 @@
-import React from 'react'
-import { useSearchParams } from 'react-router-dom'
-import './homeSection7.scss'
-import { pngs } from '../../../constants/images'
-import { svgs } from '../../../constants/images'
+import React from "react"
+import { useSearchParams, Link } from "react-router-dom"
+import "./homeSection7.scss"
+import { pngs } from "../../../constants/images"
+import { svgs } from "../../../constants/images"
 
 const projects = [
   {
-    houseIndex: '001',
+    houseIndex: "001",
     houseImgUrl: pngs.house1,
-    houseName: 'Комплекс вилл в деревне Эпископи',
+    houseName: "Комплекс вилл в деревне Эпископи",
     houseRoomMin: 2,
     houseAreaMin: 150,
-    housePrice: '450,000',
-    type: 'Частные',
+    housePrice: "450,000",
+    type: "Частные",
   },
   {
-    houseIndex: '002',
+    houseIndex: "002",
     houseImgUrl: pngs.house2,
-    houseName: 'Комплекс вилл в деревне Эпископи',
+    houseName: "Комплекс вилл в деревне Эпископи",
     houseRoomMin: 2,
     houseAreaMin: 150,
-    housePrice: '450,000',
-    type: 'Частные',
+    housePrice: "450,000",
+    type: "Частные",
   },
   {
-    houseIndex: '003',
+    houseIndex: "003",
     houseImgUrl: pngs.house3,
-    houseName: 'Комплекс вилл в деревне Эпископи',
+    houseName: "Комплекс вилл в деревне Эпископи",
     houseRoomMin: 2,
     houseAreaMin: 150,
-    housePrice: '450,000',
-    type: 'Частные',
+    housePrice: "450,000",
+    type: "Частные",
   },
   {
-    houseIndex: '004',
+    houseIndex: "004",
     houseImgUrl: pngs.house4,
-    houseName: 'Комплекс вилл в деревне Эпископи',
+    houseName: "Комплекс вилл в деревне Эпископи",
     houseRoomMin: 2,
     houseAreaMin: 150,
-    housePrice: '450,000',
-    type: 'Частные',
+    housePrice: "450,000",
+    type: "Частные",
   },
   {
-    houseIndex: '005',
+    houseIndex: "005",
     houseImgUrl: pngs.house1,
-    houseName: 'Комплекс вилл в деревне Эпископи',
+    houseName: "Комплекс вилл в деревне Эпископи",
     houseRoomMin: 2,
     houseAreaMin: 150,
-    housePrice: '450,000',
-    type: 'Коммерческие',
+    housePrice: "450,000",
+    type: "Коммерческие",
   },
   {
-    houseIndex: '006',
+    houseIndex: "006",
     houseImgUrl: pngs.house2,
-    houseName: 'Комплекс вилл в деревне Эпископи',
+    houseName: "Комплекс вилл в деревне Эпископи",
     houseRoomMin: 2,
     houseAreaMin: 150,
-    housePrice: '450,000',
-    type: 'Коммерческие',
+    housePrice: "450,000",
+    type: "Коммерческие",
   },
   {
-    houseIndex: '007',
+    houseIndex: "007",
     houseImgUrl: pngs.house3,
-    houseName: 'Комплекс вилл в деревне Эпископи',
+    houseName: "Комплекс вилл в деревне Эпископи",
     houseRoomMin: 2,
     houseAreaMin: 150,
-    housePrice: '450,000',
-    type: 'Коммерческие',
+    housePrice: "450,000",
+    type: "Коммерческие",
   },
   {
-    houseIndex: '008',
+    houseIndex: "008",
     houseImgUrl: pngs.house4,
-    houseName: 'Комплекс вилл в деревне Эпископи',
+    houseName: "Комплекс вилл в деревне Эпископи",
     houseRoomMin: 2,
     houseAreaMin: 150,
-    housePrice: '450,000',
-    type: 'Коммерческие',
+    housePrice: "450,000",
+    type: "Коммерческие",
   },
   {
-    houseIndex: '009',
+    houseIndex: "009",
     houseImgUrl: pngs.house1,
-    houseName: 'Комплекс вилл в деревне Эпископи',
+    houseName: "Комплекс вилл в деревне Эпископи",
     houseRoomMin: 2,
     houseAreaMin: 150,
-    housePrice: '450,000',
-    type: 'Инвестиционные',
+    housePrice: "450,000",
+    type: "Инвестиционные",
   },
   {
-    houseIndex: '010',
+    houseIndex: "010",
     houseImgUrl: pngs.house2,
-    houseName: 'Комплекс вилл в деревне Эпископи',
+    houseName: "Комплекс вилл в деревне Эпископи",
     houseRoomMin: 2,
     houseAreaMin: 150,
-    housePrice: '450,000',
-    type: 'Инвестиционные',
+    housePrice: "450,000",
+    type: "Инвестиционные",
   },
   {
-    houseIndex: '011',
+    houseIndex: "011",
     houseImgUrl: pngs.house3,
-    houseName: 'Комплекс вилл в деревне Эпископи',
+    houseName: "Комплекс вилл в деревне Эпископи",
     houseRoomMin: 2,
     houseAreaMin: 150,
-    housePrice: '450,000',
-    type: 'Инвестиционные',
+    housePrice: "450,000",
+    type: "Инвестиционные",
   },
   {
-    houseIndex: '012',
+    houseIndex: "012",
     houseImgUrl: pngs.house4,
-    houseName: 'Комплекс вилл в деревне Эпископи',
+    houseName: "Комплекс вилл в деревне Эпископи",
     houseRoomMin: 2,
     houseAreaMin: 150,
-    housePrice: '450,000',
-    type: 'Инвестиционные',
+    housePrice: "450,000",
+    type: "Инвестиционные",
   },
 ]
 
 export const HomeSection7 = () => {
   const [searchParams, setSearchparams] = useSearchParams()
-  const typeFilter = searchParams.get('type') || 'частные'
+  const typeFilter = searchParams.get("type") || "частные"
   const filteredData =
-    typeFilter && typeFilter !== 'все'
+    typeFilter && typeFilter !== "все"
       ? projects.filter((house) => house.type.toLowerCase() === typeFilter)
       : projects
   return (
@@ -129,34 +129,31 @@ export const HomeSection7 = () => {
         <div className="section7-navigation flex">
           <button
             className={`filter-btn ${
-              typeFilter === 'частные' ? 'selected' : ''
+              typeFilter === "частные" ? "selected" : ""
             }`}
-            onClick={() => setSearchparams({ type: 'частные' })}
+            onClick={() => setSearchparams({ type: "частные" })}
           >
             Частные
           </button>
           <button
             className={`filter-btn ${
-              typeFilter === 'коммерческие' ? 'selected' : ''
+              typeFilter === "коммерческие" ? "selected" : ""
             }`}
-            onClick={() => setSearchparams({ type: 'коммерческие' })}
+            onClick={() => setSearchparams({ type: "коммерческие" })}
           >
             Коммерческие
           </button>
           <button
             className={`filter-btn ${
-              typeFilter === 'инвестиционные' ? 'selected' : ''
+              typeFilter === "инвестиционные" ? "selected" : ""
             }`}
-            onClick={() => setSearchparams({ type: 'инвестиционные' })}
+            onClick={() => setSearchparams({ type: "инвестиционные" })}
           >
             Инвестиционные
           </button>
-          <button
-            className={`filter-btn ${typeFilter === 'все' ? 'selected' : ''}`}
-            onClick={() => setSearchparams({ type: 'все' })}
-          >
+          <Link to="/projects" className="filter-btn">
             Смотреть все проекты
-          </button>
+          </Link>
         </div>
         <div className="home__section7-projects">
           {filteredData.map((house, index) => (
@@ -169,11 +166,11 @@ export const HomeSection7 = () => {
                 <h3>{house.houseName}</h3>
                 <div>
                   <div>
-                    <img style={{ width: '14px' }} src={svgs.bedIcon} alt="" />
+                    <img style={{ width: "14px" }} src={svgs.bedIcon} alt="" />
                     <span>от {house.houseRoomMin}-х комнат</span>
                   </div>
                   <div>
-                    <img style={{ width: '14px' }} src={svgs.sofaIcon} alt="" />
+                    <img style={{ width: "14px" }} src={svgs.sofaIcon} alt="" />
                     <span>от {house.houseAreaMin} m2</span>
                   </div>
                 </div>

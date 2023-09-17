@@ -1,12 +1,12 @@
-import React from 'react'
-import './homeSection3.scss'
+import React from "react"
+import "./homeSection3.scss"
 
 export const HomeSection3 = () => {
   return (
     <section className="home__section3">
       <div className="wrapper">
         <div className="home__about-description_content">
-          <h2>Reiwa Investments</h2>
+          <h2>Reiwa</h2>
           <p>
             Мы предоставляем широкий спектр услуг, которые помогут вам стать
             законным обладателем роскошной недвижимости на Средиземноморском

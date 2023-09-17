@@ -1,5 +1,5 @@
 .projects-section1 {
-  background-image: url('../../../assets/png/project-bg1.png');
+  background-image: url("../../../assets/png/project-bg1.png");
 
   > div {
     padding: 5rem 0;
@@ -54,19 +54,28 @@
         border-radius: 3px;
         max-width: 120px;
         padding-left: 2rem;
+        cursor: pointer;
+        transition: all 200ms linear;
+
         input {
-          font-size: 1.4rem;
-          line-height: 1.907rem;
-          font-weight: 600;
-          color: #fff;
-          background-color: transparent;
+          padding: 1.5rem 0;
+          background-color: rgba($color: #fff, $alpha: 0);
           border: none;
-          width: 100%;
           outline: none;
-          padding: 1.6rem 0;
+          color: #fff;
+          font-size: 1.4rem;
+          font-weight: 600;
+          line-height: 1.907rem;
         }
         img {
           width: 13px;
+        }
+
+        &:hover,
+        &:focus,
+        &:active {
+          background-color: #3d6cbb;
+          border-color: #3d6cbb;
         }
       }
 

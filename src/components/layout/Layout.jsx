@@ -2,6 +2,7 @@ import React from "react"
 import { Outlet } from "react-router-dom"
 
 import Header from "../header/Header"
+import SubFooter from "../subFooter/SubFooter"
 import Supheader from "../supheader/Supheader"
 
 function Layout() {
@@ -10,6 +11,7 @@ function Layout() {
       <Supheader />
       <Header />
       <Outlet />
+      <SubFooter />
     </div>
   )
 }
