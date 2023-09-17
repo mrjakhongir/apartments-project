@@ -2,7 +2,11 @@
   "projects": [
     {
       "projectId": 1,
-      "projectImgUrl": "./assets/png/project1.png",
+      "projectImgUrl": [
+        "https://imperiallegal.com/wp-content/uploads/2020/01/Cyprus-property-2.jpg",
+        "https://estateofcypruscom.akamaized.net/2019/03/444-8360.jpg",
+        "https://spm.estate/upload/img/articles/Kipr.jpg"
+      ],
       "projectArea": "001 - Комплекс вилл в деревне Эпископи",
       "projectStatus": "Завершен",
       "projectType": "Частная",
@@ -19,7 +23,11 @@
     },
     {
       "projectId": 2,
-      "projectImgUrl": "pngs.project2",
+      "projectImgUrl": [
+        "https://estateofcypruscom.akamaized.net/2019/03/444-8360.jpg",
+        "https://imperiallegal.com/wp-content/uploads/2020/01/Cyprus-property-2.jpg",
+        "https://spm.estate/upload/img/articles/Kipr.jpg"
+      ],
       "projectArea": "002 Комплекс вилл в деревне Эмба (Пафос)",
       "projectStatus": "В процессе",
       "projectType": "Инвестиционная ",
@@ -57,7 +65,11 @@
     },
     {
       "projectId": 3,
-      "projectImgUrl": "pngs.project1",
+      "projectImgUrl": [
+        "https://spm.estate/upload/img/articles/Kipr.jpg",
+        "https://imperiallegal.com/wp-content/uploads/2020/01/Cyprus-property-2.jpg",
+        "https://estateofcypruscom.akamaized.net/2019/03/444-8360.jpg"
+      ],
       "projectArea": "002 Комплекс вилл в деревне Эмба (Пафос)",
       "projectStatus": "В процессе",
       "projectType": "Инвестиционная ",
@@ -95,7 +107,11 @@
     },
     {
       "projectId": 4,
-      "projectImgUrl": "pngs.project2",
+      "projectImgUrl": [
+        "https://estateofcypruscom.akamaized.net/2019/03/444-8360.jpg",
+        "https://imperiallegal.com/wp-content/uploads/2020/01/Cyprus-property-2.jpg",
+        "https://spm.estate/upload/img/articles/Kipr.jpg"
+      ],
       "projectArea": "002 Комплекс вилл в деревне Эмба (Пафос)",
       "projectStatus": "В процессе",
       "projectType": "Инвестиционная ",
@@ -147,7 +163,11 @@
     },
     {
       "projectId": 5,
-      "projectImgUrl": "pngs.project1",
+      "projectImgUrl": [
+        "https://spm.estate/upload/img/articles/Kipr.jpg",
+        "https://imperiallegal.com/wp-content/uploads/2020/01/Cyprus-property-2.jpg",
+        "https://estateofcypruscom.akamaized.net/2019/03/444-8360.jpg"
+      ],
       "projectArea": "002 Комплекс вилл в деревне Эмба (Пафос)",
       "projectStatus": "В процессе",
       "projectType": "Инвестиционная ",
@@ -192,7 +212,11 @@
     },
     {
       "projectId": 6,
-      "projectImgUrl": "pngs.project2",
+      "projectImgUrl": [
+        "https://imperiallegal.com/wp-content/uploads/2020/01/Cyprus-property-2.jpg",
+        "https://estateofcypruscom.akamaized.net/2019/03/444-8360.jpg",
+        "https://spm.estate/upload/img/articles/Kipr.jpg"
+      ],
       "projectArea": "002 Комплекс вилл в деревне Эмба (Пафос)",
       "projectStatus": "В процессе",
       "projectType": "Инвестиционная ",

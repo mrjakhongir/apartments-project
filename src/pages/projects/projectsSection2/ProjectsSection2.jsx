@@ -5,14 +5,19 @@ import allProjects from "../../../assets/data.json"
 
 export const ProjectsSection2 = () => {
   const [extendContent, setExtendContent] = useState(false)
+
   return (
     <section className="project-section2">
       <div className="wrapper">
-        {allProjects.map((project, index) => (
+        {allProjects.projects.map((project, index) => (
           <div key={index} className="projects-row flex">
             <Link to={`/projects/${project.projectId}`}>
-              <img src={project.projectImgUrl} alt="" />
+              <img
+                src={project.projectImgUrl[0]}
+                alt={`project ${project.projectId}`}
+              />
             </Link>
+
             <div className="projects-content">
               <Link to={`/projects/${project.projectId}`}>
                 <h2>{project.projectArea}</h2>

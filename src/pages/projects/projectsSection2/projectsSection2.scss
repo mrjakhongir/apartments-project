@@ -8,6 +8,13 @@
       gap: 3rem;
       margin-bottom: 7rem;
 
+      img {
+        max-width: 445px;
+        width: 100%;
+        min-height: 300px;
+        border-radius: 5px;
+      }
+
       .projects-content {
         display: flex;
         flex-direction: column;
@@ -96,23 +103,23 @@
       gap: 3rem;
 
       .caret-left {
-        background-image: url('../../../assets/svg/caret-left.svg');
+        background-image: url("../../../assets/svg/caret-left.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 1.6rem;
 
         &:hover {
-          background-image: url('../../../assets/svg/caret-left_hover.svg');
+          background-image: url("../../../assets/svg/caret-left_hover.svg");
         }
       }
       .caret-right {
-        background-image: url('../../../assets/svg/caret-right.svg');
+        background-image: url("../../../assets/svg/caret-right.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: 1.6rem;
 
         &:hover {
-          background-image: url('../../../assets/svg/caret-right_hover.svg');
+          background-image: url("../../../assets/svg/caret-right_hover.svg");
         }
       }
       button {
@@ -122,7 +129,7 @@
         background-color: #fff;
         border: 1px solid #b7b7b7;
         color: #0e2341;
-        transition: all 200ms linear;
+        transition: all 100ms linear;
 
         &:hover {
           cursor: pointer;
