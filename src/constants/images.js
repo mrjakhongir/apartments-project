@@ -55,6 +55,10 @@ import house4 from "../assets/png/house4.png"
 import homeBg3 from "../assets/png/home-bg3.png"
 import project1 from "../assets/png/project1.png"
 import project2 from "../assets/png/project2.png"
+import newsPhoto from "../assets/png/news-photo.png"
+import anyPhoto1 from "../assets/png/any-news1.png"
+import anyPhoto2 from "../assets/png/any-news2.png"
+import anyPhoto3 from "../assets/png/any-news3.png"
 
 export const svgs = {
   caretLeft,
@@ -112,4 +116,8 @@ export const pngs = {
   house3,
   homeBg3,
   house4,
+  newsPhoto,
+  anyPhoto1,
+  anyPhoto2,
+  anyPhoto3
 }
