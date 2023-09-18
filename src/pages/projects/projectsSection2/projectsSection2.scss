@@ -102,24 +102,19 @@
       align-items: center;
       gap: 2.5rem;
 
-      .caret-left {
-        background-image: url("../../../assets/svg/caret-left.svg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 1.6rem;
+      .caret {
+        width: 40px;
+        height: 40px;
+        font-size: 1.6rem;
+        background-color: #fff;
+        border: 1px solid #b7b7b7;
+        color: #0e2341;
+        transition: all 100ms linear;
 
         &:hover {
-          background-image: url("../../../assets/svg/caret-left_hover.svg");
-        }
-      }
-      .caret-right {
-        background-image: url("../../../assets/svg/caret-right.svg");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 1.6rem;
-
-        &:hover {
-          background-image: url("../../../assets/svg/caret-right_hover.svg");
+          cursor: pointer;
+          background-color: #756558;
+          color: #fff;
         }
       }
     }
