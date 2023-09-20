@@ -128,4 +128,300 @@
         left: 55px;
         top: 28px;
     }
+
   }
+
+  .card3_4{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 1060px) and (min-width: 996px){
+    .card1{
+      &::after{
+          width: 496px;
+      }
+    }
+    .card4{
+      &::after{
+          width: 496px;
+      }
+    }
+  }
+
+  @media only screen and (max-width: 996px) and (min-width: 950px){
+    .card1{
+      &::after{
+          width: 440px;
+      }
+    }
+    .card4{
+      &::after{
+          width: 440px;
+      }
+    }
+  }
+
+
+  @media only screen and (max-width: 950px) and (min-width: 778px){
+    .purchase-section1 {
+      .purchase-section1_banner {
+    
+        h1 {
+          font-size: 48px;
+        }
+      }
+    
+    }
+  
+  .card{
+    display: flex;
+    flex-direction: column;
+    &_name{
+      margin-bottom: 30px;
+    }
+
+  }
+
+  .card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    // align-items: flex-start;
+    position: relative;
+    margin-bottom: 30px;
+    &::after{
+        transform: rotate(90deg);
+        width: 40px;
+        left: 48%;
+        top: 67px;
+    }
+  }
+  .card2{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+    position: relative;
+    &::before{
+        width: 130px;
+        top: 32px;
+        left: 42%;
+        transform: rotate(-90deg);
+    }
+  }
+  .card3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    &::after{
+      content: " ";
+      position: absolute;
+      border: 2px dotted #756558;
+      width: 276px;
+      transform: rotate(-90deg);
+  }
+  }
+  .card4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    position: relative;
+    &::after{
+        width: 276px;
+        right: 50%;
+        top: 0;
+        transform: rotate(-90deg);
+    }
+  }
+  .card3_4{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 778px) and (min-width:649px){
+  .purchase-section1 {
+    .purchase-section1_banner {
+  
+      h1 {
+        font-size: 42px;
+      }
+    }
+  
+  }
+
+.card{
+  display: flex;
+  flex-direction: column;
+  &_name{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+&_text{
+    font-size: 20px;
+}
+p {
+    font-size: 15px;
+}
+
+}
+
+.card1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  // align-items: flex-start;
+  position: relative;
+  margin-bottom: 30px;
+  &::after{
+      transform: rotate(90deg);
+      width: 40px;
+      left: 47%;
+      top: 67px;
+  }
+}
+.card2{
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+  position: relative;
+  &::before{
+      width: 106px;
+      top: 32px;
+      left: 42%;
+      transform: rotate(-90deg);
+  }
+}
+.card3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  &::after{
+    content: " ";
+    position: absolute;
+    border: 2px dotted #756558;
+    width: 276px;
+    transform: rotate(-90deg);
+}
+}
+.card4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  position: relative;
+  &::after{
+      width: 276px;
+      right: 50%;
+      top: 0;
+      transform: rotate(-90deg);
+  }
+}
+.card3_4{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+}
+
+@media only screen and (max-width: 649px){
+  .purchase-section1 {
+    .purchase-section1_banner {
+  
+      h1 {
+        font-size: 38px;
+      }
+    }
+  
+  }
+
+.card{
+  display: flex;
+  flex-direction: column;
+  &_name{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+&_text{
+    font-size: 20px;
+}
+p {
+    font-size: 15px;
+}
+
+}
+
+.card1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  // align-items: flex-start;
+  position: relative;
+  margin-bottom: 30px;
+  &::after{
+      transform: rotate(90deg);
+      width: 40px;
+      left: 46%;
+      top: 67px;
+  }
+}
+.card2{
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+  position: relative;
+  &::before{
+      width: 106px;
+      top: 32px;
+      left: 41%;
+      transform: rotate(-90deg);
+  }
+}
+.card3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  &::after{
+    content: " ";
+    position: absolute;
+    border: 2px dotted #756558;
+    width: 276px;
+    transform: rotate(-90deg);
+}
+}
+.card4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  position: relative;
+  &::after{
+      width: 276px;
+      right: 50%;
+      top: 0;
+      transform: rotate(-90deg);
+  }
+}
+.card3_4{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+}

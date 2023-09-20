@@ -32,7 +32,7 @@ function HomeFooter() {
               </div>
               <div className="flex-c">
                 <Link to="/about">О Kипре</Link>
-                <Link to="/">Новости</Link>
+                <Link to="/news">Новости</Link>
               </div>
             </div>
           </div>

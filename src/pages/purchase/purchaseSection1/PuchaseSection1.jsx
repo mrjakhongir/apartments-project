@@ -31,22 +31,24 @@ export default function PurchaseSection1() {
                             <p>Выбор юриста <br /> Заключение договора <br /> Проверка права собственности <br /> Подготовка пакета документов</p>
                         </div>
                     </div>
+                  <div className="card3_4">
                     <div className="card4">
-                        <h2 className="card_name">4</h2>
-                        <div className="card_body">
-                            <h3 className="card_text">Оформление сделки</h3>
-                            <h6></h6>
-                            <p>Проверка документов органами <br /> Подписание договора купли-продажи <br /> Перевод денежных средств <br /> Уплата сопутствующих расходов и налогов</p>
+                            <h2 className="card_name">4</h2>
+                            <div className="card_body">
+                                <h3 className="card_text">Оформление сделки</h3>
+                                <h6></h6>
+                                <p>Проверка документов органами <br /> Подписание договора купли-продажи <br /> Перевод денежных средств <br /> Уплата сопутствующих расходов и налогов</p>
+                            </div>
                         </div>
-                    </div>
-                    <div className="card3">
-                        <h2 className="card_name">3</h2>
-                        <div className="card_body">
-                            <h3 className="card_text">Регистрация прав собственности (Title Deed)</h3>
-                            <h6></h6>
-                            <p>Регистрация договора  в Земельном Департаменте <br /> Получение разрешения на перевод Титула <br /> Оплата налогов <br /> Получение Титула</p>
+                        <div className="card3">
+                            <h2 className="card_name">3</h2>
+                            <div className="card_body">
+                                <h3 className="card_text">Регистрация прав собственности (Title Deed)</h3>
+                                <h6></h6>
+                                <p>Регистрация договора  в Земельном Департаменте <br /> Получение разрешения на перевод Титула <br /> Оплата налогов <br /> Получение Титула</p>
+                            </div>
                         </div>
-                    </div>
+                  </div>
                 </div>
                 </div>
             </div>

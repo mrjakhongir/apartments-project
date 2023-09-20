@@ -1,5 +1,6 @@
 import React from 'react'
 import './homeSection6.scss'
+import {Link} from 'react-router-dom'
 
 export const HomeSection6 = () => {
   return (
@@ -12,7 +13,9 @@ export const HomeSection6 = () => {
           получения постоянного места жительства по программе ускоренного
           получения гражданства.
         </p>
+        <Link to='/about'>
         <button className="btn">Подробнее</button>
+        </Link>
       </div>
     </section>
   )

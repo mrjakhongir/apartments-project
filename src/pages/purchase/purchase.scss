@@ -18,3 +18,24 @@
   .purchase_bg{
     background: #FFFFFF;
   }
+
+  @media only screen and (max-width: 950px) and (min-width:778px){
+    .purchase-subheader {
+      font-size: 36px;
+    }
+
+  }
+
+  @media only screen and (max-width: 778px) and (min-width: 649px){
+    .purchase-subheader {
+      font-size: 30px;
+    }
+
+  }
+
+  @media only screen and (max-width: 649px){
+    .purchase-subheader {
+      font-size: 24px;
+    }
+
+  }

@@ -12,7 +12,7 @@ const styles = {
 const SubFooter = () => {
   return (
     <div style={styles}>
-      Reiwa Investments | Copyright 2023. All Rigths Reserved{" "}
+      Reiwa Group | Copyright 2023. All Rigths Reserved{" "}
     </div>
   )
 }

@@ -32,3 +32,36 @@
     }
   }
 }
+
+
+@media only screen and (max-width: 778px) and (min-width:519px){
+  .header__inner {
+    padding: 1.5rem 0;
+  
+    .header__navigation {
+      gap: 2rem;
+  
+      .nav-link,
+      .active-link {
+        font-size: 1.2rem;
+      }
+    }
+  }
+  
+}
+
+@media only screen and (max-width: 519px){
+  .header__inner {
+    padding: 1.2rem 0;
+  
+    .header__navigation {
+      gap: 1rem;
+  
+      .nav-link,
+      .active-link {
+        font-size: 1.2rem;
+      }
+    }
+  }
+  
+}
