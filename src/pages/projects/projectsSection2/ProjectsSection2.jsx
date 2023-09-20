@@ -25,7 +25,7 @@ export const ProjectsSection2 = () => {
   }
 
   useEffect(() => {
-    window.scrollTo(400, 400)
+    window.scrollTo(0, 0)
   }, [currentPage])
 
   return (
