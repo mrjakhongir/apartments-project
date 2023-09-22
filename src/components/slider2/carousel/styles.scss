@@ -1,0 +1,38 @@
+.carousel_position{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    transform-style: preserve-3d;
+    overflow: hidden;
+  }
+  .carousel_prev{
+    position: absolute;
+    left: 10%;
+    z-index: 8;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    background: #756558;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+  
+  }
+  
+  .slide-arrow{
+    position: absolute;
+    right: 23%;
+    z-index: 8;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    background: #756558;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+  }

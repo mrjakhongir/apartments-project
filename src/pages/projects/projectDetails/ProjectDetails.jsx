@@ -3,9 +3,10 @@ import { useParams } from "react-router-dom"
 import allProjects from "../../../assets/data.json"
 import "./projectDetails.scss"
 
-import { ImageSlider } from "../../../components/slider/ImageSlider"
+// import { ImageSlider } from "../../../components/slider/ImageSlider"
 import Footer from "../../../components/footer/Footer"
 import House from "./House"
+import Slider from "../../../components/slider2/Slider"
 
 function ProjectDetails() {
   const { id } = useParams()
@@ -18,6 +19,7 @@ function ProjectDetails() {
 
   return (
     <section className="project-details">
+      <Slider/>
       <div className="wrapper">
         <div className="project-details_inner">
           <h2>{data.projectArea}</h2>
@@ -83,7 +85,7 @@ function ProjectDetails() {
           ))}
         </div>
       </div>
-      <Footer />
+      <Footer style={{backgroundColor:'none'}}/>
     </section>
   )
 }

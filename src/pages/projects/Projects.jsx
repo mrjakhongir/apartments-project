@@ -7,7 +7,7 @@ function Projects() {
     <div>
       <ProjectsSection1 />
       <ProjectsSection2 />
-      <Footer/>
+      <Footer />
     </div>
   )
 }

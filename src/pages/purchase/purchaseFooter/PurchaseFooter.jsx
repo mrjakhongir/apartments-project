@@ -5,7 +5,7 @@ import "./PurchaseFooter.scss";
 
 function PurchaseFooter() {
   return (
-    <div className="footer">
+    <div className="footer_purchase">
       <div className="wrapper">
         <div className="footer__inner flex">
           <div>
