@@ -143,25 +143,6 @@
               }
             }
           }
-
-          .accordion-bottom {
-            h4 {
-              font-size: 2.2rem;
-              line-height: 2.5rem;
-              font-weight: 400;
-              color: #0e2341;
-              margin-bottom: 1.5rem;
-            }
-
-            > div {
-              display: flex;
-              align-items: center;
-              justify-content: space-between;
-            }
-            p {
-              color: #756558;
-            }
-          }
         }
 
         .accordion-open {
@@ -169,5 +150,25 @@
         }
       }
     }
+  }
+}
+
+.accordion-bottom {
+  margin-bottom: 2rem;
+  h4 {
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+    color: #0e2341;
+    margin-bottom: 1.5rem;
+  }
+
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  p {
+    color: #756558;
   }
 }

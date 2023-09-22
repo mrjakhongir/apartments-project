@@ -29,6 +29,7 @@ const House = ({ project, index }) => {
           </button>
         </div>
       </div>
+
       <div className={`accordion ${showDetails ? "accordion-open" : ""}`}>
         <div className="accordion-top flex">
           <div className="accordion-detail">
@@ -50,12 +51,12 @@ const House = ({ project, index }) => {
             <p>Бассейн</p>
           </div>
         </div>
-        <div className="accordion-bottom">
-          <h4>Заполните форму и мы отправим вам всю информацию</h4>
-          <div>
-            <button className="btn">Заполнить</button>
-            <p>€{project.price}</p>
-          </div>
+      </div>
+      <div className="accordion-bottom">
+        <h4>Заполните форму и мы отправим вам всю информацию</h4>
+        <div>
+          <button className="btn">Заполнить</button>
+          <p>€{project.price}</p>
         </div>
       </div>
     </div>

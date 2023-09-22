@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 a {
@@ -46,27 +46,27 @@ img {
   padding: 1.9rem 3.6rem;
   cursor: pointer;
   transition: all 200ms ease-in-out;
+  font-family: "Open Sans" sans-serif;
 }
 
 ul {
   list-style: none;
 }
 
-
-@media only screen and (max-width: 1060px){
+@media only screen and (max-width: 1060px) {
   .wrapper {
     width: 95%;
     margin: 0 auto;
   }
 }
 
-@media only screen and (max-width: 778px){
+@media only screen and (max-width: 778px) {
   .btn {
-    padding: 0 2.0rem;
+    padding: 0 2rem;
   }
 }
 
-@media only screen and (max-width: 675px){
+@media only screen and (max-width: 675px) {
   .btn {
     padding: 0 2.1rem;
   }
