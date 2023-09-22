@@ -3,16 +3,16 @@
   background-color: #fff;
   border-radius: 5px;
   background-color: #ffffff4d;
-  justify-content: flex-start;
-  gap: 2.5rem;
+  justify-content: space-between;
+  // gap: 2.5rem;
   width: 100%;
-  max-width: 980px;
+  // max-width: 980px;
 
   .accordion {
     background-color: #fff;
     border-radius: 3px;
     padding: 0.9rem 1.3rem;
-    width: 120px;
+    width: 130px;
     cursor: pointer;
     position: relative;
 
