@@ -1,3 +1,4 @@
+import { useState } from "react"
 import { useParams } from "react-router-dom"
 import allProjects from "../../../assets/data.json"
 import "./projectDetails.scss"
@@ -8,6 +9,7 @@ import House from "./House"
 
 function ProjectDetails() {
   const { id } = useParams()
+  const [showDetails, setShowDetails] = useState(false)
 
   const filteredData = allProjects.projects.filter(
     (project) => project.projectId === parseInt(id)
@@ -16,27 +18,61 @@ function ProjectDetails() {
 
   return (
     <section className="project-details">
-      <ImageSlider slides={data.projectImgUrl} />
       <div className="wrapper">
-        <h2>{data.projectArea}</h2>
-        <div>
+        <div className="project-details_inner">
+          <h2>{data.projectArea}</h2>
+          <div className="project-overview">
+            <p>
+              Статус: <span> {data.projectStatus}</span>
+            </p>
+            <p>
+              Тип: <span> {data.projectType}</span>
+            </p>
+            <p>
+              Примечание: <span> {data.projectNote}</span>
+            </p>
+          </div>
           <p>
-            Статус: <span> {data.projectStatus}</span>
+            Современный жилой комплекс, состоящий из 10 вилл с тремя спальнями и
+            потрясающим видом на горы и море. Все резиденции располагают
+            просторными открытыми площадками и крытыми верандами в спокойной
+            обстановке, идеально подходящей для воспитания семьи и проведения
+            спокойных летних каникул.
           </p>
-          <p>
-            Тип: <span> {data.projectType}</span>
-          </p>
-          <p>
-            Примечание: <span> {data.projectNote}</span>
-          </p>
+          {showDetails && (
+            <div className="project-description">
+              <p>
+                Проект окружен прекрасными пейзажами в одном из самых зеленых
+                районов Пафоса и находится всего в 10 минутах езды от центра
+                Пафоса и в 2 минутах от одного из лучших полей для гольфа на
+                Кипре.
+              </p>
+              <ul>
+                <p>Особенности</p>
+                <li>· Система охлаждения по технологии VRV</li>
+                <li>· Аварийная система</li>
+                <li>· Внешняя теплоизоляция</li>
+                <li>· Высококачественные</li>
+                <li>· столешницы и отделка</li>
+                <li>· Полы с подогревом</li>
+                <li>· Частное парковочное место</li>
+                <li>· Два этажа</li>
+                <li>· Энергосберегающее спроектированное свойство</li>
+                <li>· Система напора воды</li>
+                <li>· Ламинатные полы в спальнях</li>
+                <li>· Энергоэффективный, устойчивый дизайн</li>
+                <li>· Частная благоустроенная территория</li>
+                <li>· Высококачественная фурнитура по всему периметру</li>
+              </ul>
+            </div>
+          )}
+          <button
+            onClick={() => setShowDetails((prevState) => !prevState)}
+            className="btn"
+          >
+            {showDetails ? "Свернут" : "Подробнее"}
+          </button>
         </div>
-        <p>
-          Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру
-          сгенерировать несколько абзацев более менее осмысленного текста.
-          Вебмастеру сгенерировать несколько абзацев более менее осмысленного
-          текста.
-        </p>
-        <button className="btn">Подробнее</button>
       </div>
       <div className="house-details">
         <div className="wrapper">

@@ -1,5 +1,5 @@
 .project-details {
-  > div {
+  .project-details_inner {
     padding: 3rem 5rem;
 
     > h2 {
@@ -10,7 +10,7 @@
       margin-bottom: 1.5rem;
     }
 
-    > div {
+    .project-overview {
       margin-bottom: 4rem;
       display: flex;
       gap: 5rem;
@@ -26,12 +26,23 @@
       }
     }
 
-    p {
+    p,
+    li {
       font-size: 1.8rem;
       line-height: 2.451rem;
       font-weight: 400;
       color: #0e2341;
       margin-bottom: 2rem;
+    }
+
+    .project-description {
+      margin-bottom: 2rem;
+      ul {
+        li,
+        p {
+          margin-bottom: 0;
+        }
+      }
     }
 
     button {
