@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { svgs } from "../../constants/images"
 import allProjects from "../../assets/data.json"
+import { useLocation, useNavigate } from "react-router-dom"
 import "./filter.scss"
 
 import { useSelector, useDispatch } from "react-redux"
@@ -27,6 +28,8 @@ const Filter = () => {
   const [roomToOpen, setRoomToOpen] = useState(false)
   const [priceFromOpen, setPriceFromOpen] = useState(false)
   const [priceToOpen, setPriceToOpen] = useState(false)
+  const location = useLocation().pathname
+  const navigate = useNavigate()
 
   const data = allProjects.projects
   const typeFilter = data.filter((project) => project.projectType === type)
@@ -42,6 +45,9 @@ const Filter = () => {
 
   function filterProjects() {
     dispatch(filterData(filterProject))
+    if (location === "/") {
+      navigate("/projects")
+    }
   }
 
   function handleType(item) {
