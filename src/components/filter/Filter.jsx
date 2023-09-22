@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { svgs } from "../../constants/images"
+import allProjects from "../../assets/data.json"
 import "./filter.scss"
 
 import { useSelector, useDispatch } from "react-redux"
@@ -9,6 +10,7 @@ import { selectRoomFrom } from "../../redux/roomFromSlice"
 import { selectRoomTo } from "../../redux/roomToSlice"
 import { selectPriceFrom } from "../../redux/priceFromSlice"
 import { selectPriceTo } from "../../redux/priceToSlice"
+import { filterData } from "../../redux/filteredDateSlice"
 
 const Filter = () => {
   const { type } = useSelector((state) => state.type)
@@ -26,10 +28,27 @@ const Filter = () => {
   const [priceFromOpen, setPriceFromOpen] = useState(false)
   const [priceToOpen, setPriceToOpen] = useState(false)
 
+  const data = allProjects.projects
+  const typeFilter = data.filter((project) => project.projectType === type)
+  const regionFilter = typeFilter.length
+    ? typeFilter.filter((project) => project.region === region)
+    : data.filter((project) => project.region === region)
+
+  const filterProject = regionFilter.length
+    ? regionFilter
+    : typeFilter.length
+    ? typeFilter
+    : data
+
+  function filterProjects() {
+    dispatch(filterData(filterProject))
+  }
+
   function handleType(item) {
     setTypeOpen((prevState) => !prevState)
     dispatch(selectType(item))
   }
+
   function handleRegion(item) {
     setRegionOpen((prevState) => !prevState)
     dispatch(selectRegion(item))
@@ -40,20 +59,29 @@ const Filter = () => {
     dispatch(selectRoomFrom(item))
   }
   function handleRoomTo(item) {
-    if (roomFrom < item) {
-      setRoomToOpen((prevState) => !prevState)
-      dispatch(selectRoomTo(item))
-    }
+    setRoomToOpen((prevState) => !prevState)
+    dispatch(selectRoomTo(item))
   }
   function handlePriceFrom(item) {
-    setPriceFromOpen((prevState) => !prevState)
-    dispatch(selectPriceFrom(item))
-  }
-  function handlePriceTo(item) {
-    if (priceFrom < item) {
-      setPriceToOpen((prevState) => !prevState)
-      dispatch(selectPriceTo(item))
+    let value
+    if (typeof item === "string") {
+      value = item
+    } else {
+      value = `€ ${item.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ")}`
     }
+    dispatch(selectPriceFrom(value))
+    setPriceFromOpen((prevState) => !prevState)
+  }
+
+  function handlePriceTo(item) {
+    let value
+    if (typeof item === "string") {
+      value = item
+    } else {
+      value = `€ ${item.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ")}`
+    }
+    dispatch(selectPriceTo(value))
+    setPriceToOpen((prevState) => !prevState)
   }
 
   return (
@@ -71,11 +99,13 @@ const Filter = () => {
         </div>
         <div className="accordion-content">
           {typeOpen &&
-            ["Частная", "Инвестиционная", "Коммерческая"].map((item, index) => (
-              <p onClick={() => handleType(item)} key={index}>
-                {item}
-              </p>
-            ))}
+            ["Все типы", "Частная", "Инвестиционная", "Коммерческая"].map(
+              (item, index) => (
+                <p onClick={() => handleType(item)} key={index}>
+                  {item}
+                </p>
+              )
+            )}
         </div>
       </div>
 
@@ -92,7 +122,7 @@ const Filter = () => {
         </div>
         <div className="accordion-content">
           {regionOpen &&
-            ["Пафос", "Эпископи"].map((item, index) => (
+            ["Все регионы", "Пафос", "Эпископи"].map((item, index) => (
               <p onClick={() => handleRegion(item)} key={index}>
                 {item}
               </p>
@@ -114,7 +144,7 @@ const Filter = () => {
           </div>
           <div className="accordion-content">
             {roomFromOpen &&
-              [1, 2, 3, 4, 5, 6].map((item, index) => (
+              ["Все", 1, 2, 3, 4, 5, 6].map((item, index) => (
                 <p onClick={() => handleRoomFrom(item)} key={index}>
                   {item}
                 </p>
@@ -134,7 +164,7 @@ const Filter = () => {
           </div>
           <div className="accordion-content">
             {roomToOpen &&
-              [1, 2, 3, 4, 5, 6].map((item, index) => (
+              ["Все", 1, 2, 3, 4, 5, 6].map((item, index) => (
                 <p onClick={() => handleRoomTo(item)} key={index}>
                   {item}
                 </p>
@@ -158,11 +188,24 @@ const Filter = () => {
           <div className="accordion-content">
             {priceFromOpen &&
               [
-                100000, 200000, 300000, 400000, 500000, 600000, 700000, 800000,
-                900000, 1000000,
+                "Все",
+                100000,
+                200000,
+                300000,
+                400000,
+                500000,
+                600000,
+                700000,
+                800000,
+                900000,
+                1000000,
               ].map((item, index) => (
                 <p onClick={() => handlePriceFrom(item)} key={index}>
-                  {item}
+                  {typeof item === "string"
+                    ? item.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ")
+                    : `€ ${item
+                        .toString()
+                        .replace(/\B(?=(\d{3})+(?!\d))/g, " ")}`}
                 </p>
               ))}
           </div>
@@ -182,18 +225,31 @@ const Filter = () => {
           <div className="accordion-content">
             {priceToOpen &&
               [
-                100000, 200000, 300000, 400000, 500000, 600000, 700000, 800000,
-                900000, 1000000,
+                "Все",
+                100000,
+                200000,
+                300000,
+                400000,
+                500000,
+                600000,
+                700000,
+                800000,
+                900000,
+                1000000,
               ].map((item, index) => (
                 <p onClick={() => handlePriceTo(item)} key={index}>
-                  {item}
+                  {typeof item === "string"
+                    ? item.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ")
+                    : `€ ${item
+                        .toString()
+                        .replace(/\B(?=(\d{3})+(?!\d))/g, " ")}`}
                 </p>
               ))}
           </div>
         </div>
       </div>
 
-      <button className="search-btn">
+      <button onClick={filterProjects} className="search-btn">
         <img src={svgs.search} alt="search" />
         <span>Поиск</span>
       </button>

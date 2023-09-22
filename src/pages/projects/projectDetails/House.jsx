@@ -42,7 +42,7 @@ const House = ({ project, index }) => {
             </div>
             <div>
               <p>Цена за кв.м:</p>
-              <p className="house-price">€{project.procePerSquareMetre}</p>
+              <p className="house-price">€{project.pricePerSquareMetre}</p>
             </div>
           </div>
           <div className="house-note">

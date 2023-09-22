@@ -8,10 +8,20 @@
       gap: 3rem;
       margin-bottom: 7rem;
 
-      img {
-        max-width: 445px;
+      div:first-child() {
         width: 100%;
+        min-width: 445px;
         min-height: 300px;
+      }
+
+      div:last-child() {
+        width: 100%;
+        max-width: 635px;
+      }
+
+      img {
+        width: 445px;
+        height: 300px;
         border-radius: 5px;
       }
 

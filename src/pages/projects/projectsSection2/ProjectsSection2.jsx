@@ -1,16 +1,18 @@
-import { useState, useEffect } from "react"
+import { useState } from "react"
+import { useSelector } from "react-redux"
 import "./projectsSection2.scss"
-import allProjects from "../../../assets/data.json"
 import Project from "./Project"
 import Pagination from "../../../components/pagination/Pagination"
 
 export const ProjectsSection2 = () => {
   const [currentPage, setCurrentPage] = useState(1)
+  const { filterData } = useSelector((state) => state.filterData)
   const projectsPerPage = 5
   const lastIndex = currentPage * projectsPerPage
   const firstIndex = lastIndex - projectsPerPage
-  const currentPageProjects = allProjects.projects.slice(firstIndex, lastIndex)
-  const totalPages = Math.ceil(allProjects.projects.length / projectsPerPage)
+  const totalPages = Math.ceil(filterData.length / projectsPerPage)
+
+  const currentPageProjects = filterData.slice(firstIndex, lastIndex)
 
   function goToPrevPage() {
     if (currentPage !== 1) {
@@ -23,11 +25,6 @@ export const ProjectsSection2 = () => {
       setCurrentPage((prevState) => prevState + 1)
     }
   }
-
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [currentPage])
-
   return (
     <section className="project-section2">
       <div className="wrapper">
