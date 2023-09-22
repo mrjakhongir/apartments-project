@@ -3,15 +3,14 @@ import { Link } from "react-router-dom"
 
 const Project = ({ project }) => {
   const [extendContent, setExtendContent] = useState(false)
+
   return (
     <div className="projects-row flex">
-      <Link to={`/projects/${project.projectId}`}>
-        <img
-          src={project.projectImgUrl[0]}
-          alt={`project ${project.projectId}`}
-        />
-      </Link>
-
+      <div>
+        <Link to={`/projects/${project.projectId}`}>
+          <img src={project.projectImgUrl[0]} alt="project" />
+        </Link>
+      </div>
       <div className="projects-content">
         <Link to={`/projects/${project.projectId}`}>
           <h2>{project.projectArea}</h2>
@@ -43,13 +42,18 @@ const Project = ({ project }) => {
                   <td>{item.bedroom}</td>
                   <td>{item.area} m2</td>
                   <td>{item.yard} m2</td>
-                  <td>€{item.price}</td>
+                  <td>
+                    €
+                    {item.price
+                      .toString()
+                      .replace(/\B(?=(\d{3})+(?!\d))/g, " ")}
+                  </td>
                 </tr>
               ))}
             </tbody>
           </table>
         </div>
-        {project.projects.length > 4 ? (
+        {project.projects?.length > 4 ? (
           <button
             onClick={() => setExtendContent((prevState) => !prevState)}
             className="btn extend-btn"

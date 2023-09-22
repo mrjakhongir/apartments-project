@@ -3,16 +3,8 @@ import "./supheader.scss"
 import { svgs } from "../../constants/images"
 
 function Supheader() {
-  const [openLang, setOpenLang] = useState(false)
   const [currentLang, setCurrentLang] = useState("RU")
-  const languages = ["UZ", "EN", "RU"]
-  function toggleLanguage() {
-    setOpenLang((prevState) => !prevState)
-  }
-  function setLanguage(index) {
-    setCurrentLang(languages[index])
-    toggleLanguage()
-  }
+
   return (
     <div className="supheader">
       <div className="wrapper">
@@ -32,22 +24,6 @@ function Supheader() {
               <a href="#facebook">
                 <img src={svgs.facebookIcon} alt="facebook" />
               </a>
-            </div>
-
-            <div className="lang-accordion-wrapper">
-              <div onClick={toggleLanguage} className="lang-switch-btn flex">
-                <p>{currentLang}</p>
-                <img src={svgs.caretFill} alt="caret" />
-              </div>
-              {openLang && (
-                <div className="lang-accordion-content">
-                  {languages.map((lang, index) => (
-                    <p onClick={() => setLanguage(index)} className="language">
-                      {lang}
-                    </p>
-                  ))}
-                </div>
-              )}
             </div>
           </div>
         </div>
