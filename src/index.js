@@ -10,8 +10,8 @@ import store from "./redux/store"
 const root = ReactDOM.createRoot(document.getElementById("root"))
 root.render(
   <BrowserRouter>
-    <ScrollToTop />
     <Provider store={store}>
+      <ScrollToTop />
       <App />
     </Provider>
   </BrowserRouter>

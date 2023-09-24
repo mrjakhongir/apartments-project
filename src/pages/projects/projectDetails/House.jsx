@@ -8,7 +8,7 @@ const House = ({ project, index }) => {
   }
   return (
     <div className="house">
-      <div className="flex">
+      <div className="accordion-top flex">
         <div>
           <h2>{project.type}</h2>
           <div className="house-description flex">
@@ -16,21 +16,21 @@ const House = ({ project, index }) => {
               Спальни: <span> {project.bedroom}</span>
             </p>
             <p>
-              Жилая площадь: <span> {project.area}</span>
+              Жилая площадь: <span> {project.area} m2</span>
             </p>
             <p>
-              Участок: <span> {project.yard}</span>
+              Участок: <span> {project.yard} m2</span>
             </p>
           </div>
         </div>
-        <div>
-          <button onClick={() => showHouseDetails(index)} className="btn">
-            {showDetails ? "Свернуть" : "Подробнее"}
-          </button>
-        </div>
+        <button onClick={() => showHouseDetails(index)} className="btn">
+          {showDetails ? "Свернуть" : "Подробнее"}
+        </button>
       </div>
 
-      <div className={`accordion ${showDetails ? "accordion-open" : ""}`}>
+      <div
+        className={`accordion-middle ${showDetails ? "accordion-open" : ""}`}
+      >
         <div className="accordion-top flex">
           <div className="accordion-detail">
             <div>
@@ -43,7 +43,12 @@ const House = ({ project, index }) => {
             </div>
             <div>
               <p>Цена за кв.м:</p>
-              <p className="house-price">€{project.pricePerSquareMetre}</p>
+              <p className="house-price">
+                €
+                {project.pricePerSquareMetre
+                  .toString()
+                  .replace(/\B(?=(\d{3})+(?!\d))/g, " ")}
+              </p>
             </div>
           </div>
           <div className="house-note">
@@ -54,10 +59,7 @@ const House = ({ project, index }) => {
       </div>
       <div className="accordion-bottom">
         <h4>Заполните форму и мы отправим вам всю информацию</h4>
-        <div>
-          <button className="btn">Заполнить</button>
-          <p>€{project.price}</p>
-        </div>
+        <button className="btn">Заполнить</button>
       </div>
     </div>
   )

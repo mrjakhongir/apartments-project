@@ -3,7 +3,7 @@ import Layout from "./components/layout/Layout"
 import About from "./pages/about/About"
 import Home from "./pages/home/Home"
 import News from "./pages/news/News"
-import NewsDetail from "./pages/news/NewsDetail"
+import NewsDetails from "./pages/news/newsDetail/NewsDetails"
 import ProjectDetails from "./pages/projects/projectDetails/ProjectDetails"
 import Projects from "./pages/projects/Projects"
 
@@ -17,7 +17,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="news" element={<News />} />
-          <Route path="news/:id" element={<NewsDetail />} />
+          <Route path="news/:id" element={<NewsDetails />} />
           <Route path="projects" element={<Projects />} />
           <Route path="projects/:id" element={<ProjectDetails />} />
           <Route path="purchase" element={<Purchase />} />

@@ -1,102 +1,20 @@
-.news{
-    background-image: url("../../assets/png/news-bg.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 200px;
-    display: flex;
-    align-items: center;
+.news-banner {
+  background-image: url("../../assets/png/news-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 6.5rem 0;
 
-    h1 {
-        font-size: 62px;
-        font-weight: 700;
-        line-height: 71px;
-        letter-spacing: 0em;
-        text-align: left;
-        color: #FFFFFF;
-      }
-}
-
-.news_detail{
-    background-image: url("../../assets/png/news-detailbg.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    position: relative;
-    &_bg{
-      position: absolute;
-      width: 100%;
-      height: 100px;
-      background: #0E2341;
-      bottom: 0;
-    }
-    &_position{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-top: 30px;
-    }
-    &_title{
-      font-family: Open Sans;
-      font-size: 30px;
-      font-weight: 600;
-      line-height: 41px;
-      letter-spacing: 0em;
-      color: #FFFFFF;
-    }
-
-    &_date{
-      font-family: Open Sans;
-      font-size: 20px;
-      font-weight: 600;
-      line-height: 27px;
-      letter-spacing: 0em;
-      color: #FFFFFF;
-    }
-
-    &_img{
-      margin: 20px 0 20px 0;
-    }
-
-    &_anynews{
-      font-family: Open Sans;
-      font-size: 42px;
-      font-weight: 600;
-      line-height: 57px;
-      letter-spacing: 0em;
-      text-align: center;
-      color: #0E2341;
-      margin-top: 40px;
-    }
-
-}
-
-.news_detail_section1{
-  padding-top: 50px;
-  background: #3D6CBB1A;
-
-  &_title{
-    font-family: Open Sans;
-    font-size: 34px;
-    font-weight: 600;
-    line-height: 46px;
+  h1 {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 71px;
     letter-spacing: 0em;
     text-align: left;
-    color: #0E2341;
+    color: #ffffff;
   }
+}
 
-  &_desc{
-    font-family: Open Sans;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 27px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #0E2341;
-    margin-top: 10px;
-    padding-bottom: 20px;
-  }
+.newspaper {
+  padding: 10rem 0;
 }

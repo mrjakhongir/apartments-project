@@ -7,12 +7,24 @@ const Project = ({ project }) => {
   return (
     <div className="projects-row flex">
       <div>
-        <Link to={`/projects/${project.projectId}`}>
+        <Link
+          to={`${
+            project.projectId === 4
+              ? "https://www.fayno-reiwa.com/"
+              : `/projects/${project.projectId}`
+          }`}
+        >
           <img src={project.projectImgUrl[0]} alt="project" />
         </Link>
       </div>
       <div className="projects-content">
-        <Link to={`/projects/${project.projectId}`}>
+        <Link
+          to={`${
+            project.projectId === 4
+              ? "https://www.fayno-reiwa.com/"
+              : `/projects/${project.projectId}`
+          }`}
+        >
           <h2>{project.projectArea}</h2>
         </Link>
         <p>
