@@ -47,21 +47,26 @@ ul {
   list-style: none;
 }
 
-@media only screen and (max-width: 1060px) {
-  .wrapper {
-    width: 95%;
-    margin: 0 auto;
-  }
-}
+.arrow-up {
+  width: 55px;
+  height: 55px;
+  background-color: #756558;
+  border: 1px solid #756558;
+  border: none;
+  border-radius: 50%;
 
-@media only screen and (max-width: 778px) {
-  .btn {
-    padding: 0 2rem;
-  }
-}
+  position: fixed;
+  top: 70%;
+  right: 1%;
+  cursor: pointer;
 
-@media only screen and (max-width: 675px) {
-  .btn {
-    padding: 0 2.1rem;
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.2);
+  img {
+    width: 15px;
+    transition: transform 100ms linear;
+  }
+
+  &:hover img {
+    transform: translateY(-2px);
   }
 }

@@ -6,10 +6,14 @@ import News from "./pages/news/News"
 import NewsDetails from "./pages/news/newsDetail/NewsDetails"
 import ProjectDetails from "./pages/projects/projectDetails/ProjectDetails"
 import Projects from "./pages/projects/Projects"
+import { svgs } from "./constants/images"
 
 import Purchase from "./pages/purchase/Purchase"
 
 function App() {
+  function goUp() {
+    window.scrollTo(0, 0)
+  }
   return (
     <div>
       <Routes>
@@ -23,6 +27,9 @@ function App() {
           <Route path="purchase" element={<Purchase />} />
         </Route>
       </Routes>
+      <button onClick={goUp} className="arrow-up">
+        <img src={svgs.arrow} alt="arrow up" />
+      </button>
     </div>
   )
 }

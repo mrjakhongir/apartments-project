@@ -63,12 +63,13 @@
         border-radius: 5px;
         border: 1px solid #cbcbcb;
         max-width: 255px;
+        display: flex;
+        flex-direction: column;
 
         .card-header {
           position: relative;
           margin-bottom: 1rem;
           z-index: 1;
-
           p {
             position: absolute;
             top: 1rem;
@@ -79,68 +80,69 @@
             color: #756558;
           }
         }
-      }
 
-      .card-content {
-        h3 {
-          font-size: 1.6rem;
-          line-height: 2rem;
-          font-weight: 600;
-          color: #0e2341;
-          margin-bottom: 6px;
-        }
-
-        > div {
-          display: flex;
-          justify-content: flex-start;
-          align-items: center;
-          gap: 1rem;
-          margin-bottom: 1rem;
+        .card-content {
+          h3 {
+            font-size: 1.6rem;
+            line-height: 2rem;
+            font-weight: 600;
+            color: #0e2341;
+            margin-bottom: 6px;
+          }
 
           > div {
             display: flex;
+            justify-content: flex-start;
             align-items: center;
-            gap: 3px;
+            gap: 1rem;
+            margin-bottom: 1rem;
 
-            span {
-              font-size: 1.3rem;
-              line-height: 2rem;
-              letter-spacing: -5%;
-              color: #51627b;
+            > div {
+              display: flex;
+              align-items: center;
+              gap: 3px;
+
+              span {
+                font-size: 1.3rem;
+                line-height: 2rem;
+                letter-spacing: -5%;
+                color: #51627b;
+              }
             }
           }
         }
-      }
 
-      .card-footer {
-        display: flex;
-        align-items: center;
+        .card-footer {
+          display: flex;
+          align-items: center;
+          margin-top: auto;
 
-        button {
-          font-size: 1.2rem;
-          line-height: 1.634rem;
-          font-weight: 400;
-          color: #fff;
-          padding: 1rem 2.2rem;
-          border: none;
-          background-color: #3d6cbb;
-          border: 1px solid #3d6cbb;
-          border-radius: 3px;
-          cursor: pointer;
-          margin-right: 2rem;
-          transition: all 200ms linear;
+          button {
+            font-size: 1.2rem;
+            line-height: 1.634rem;
+            font-weight: 400;
+            color: #fff;
+            padding: 1rem 2.2rem;
+            border: none;
+            background-color: #3d6cbb;
+            border: 1px solid #3d6cbb;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-right: 2rem;
+            transition: all 200ms linear;
 
-          &:hover {
-            background-color: transparent;
-            color: #3d6cbb;
+            &:hover {
+              background-color: transparent;
+              color: #3d6cbb;
+            }
           }
-        }
 
-        span {
-          font-size: 1.6rem;
-          line-height: 2rem;
-          font-weight: 600;
-          color: #d7bb83;
+          span {
+            font-size: 1.6rem;
+            line-height: 2rem;
+            font-weight: 600;
+            color: #d7bb83;
+          }
         }
       }
     }
