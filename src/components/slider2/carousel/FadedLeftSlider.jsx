@@ -12,7 +12,8 @@ const FadedLeftSlide = ({ url }) => {
     backgroundPosition: 'center',
     marginTop: '35px',
     transform: 'translateX(0%)',
-    opacity: '0.5'
+    opacity: '0.5',
+    transition: '900ms ease-in-out 0s'
   }
 
   return <div className="image-slide" style={styles} />

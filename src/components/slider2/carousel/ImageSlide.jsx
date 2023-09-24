@@ -10,7 +10,8 @@ const ImageSlide = ({ url }) => {
     width: '1900px',
     height: '500px',
     borderRadius: '3px',
-    transform: 'translate3d(-3%, 0,-50px)'
+    transform: 'translate3d(-3%, 0,-50px)',
+    transition: '900ms ease-in-out 0s'
   }
 
   return <div className="image-slide" style={styles} />
