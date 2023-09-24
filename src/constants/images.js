@@ -57,11 +57,12 @@ import newsPhoto from "../assets/png/news-photo.png"
 import anyPhoto1 from "../assets/png/any-news1.png"
 import anyPhoto2 from "../assets/png/any-news2.png"
 import anyPhoto3 from "../assets/png/any-news3.png"
-import home1 from '../assets/png/project1.png'
-import home2 from '../assets/png/project2.png'
-import home3  from '../assets/png/project3.png'
-import home4 from '../assets/png/project4.png'
-import home5 from '../assets/png/project5.png'
+import home1 from "../assets/png/project1.png"
+import home2 from "../assets/png/project2.png"
+import home3 from "../assets/png/project3.png"
+import home4 from "../assets/png/project4.png"
+import home5 from "../assets/png/project5.png"
+import notFound from "../assets/png/notFound.jpg"
 
 export const svgs = {
   caretLeft,
@@ -125,5 +126,6 @@ export const pngs = {
   home2,
   home3,
   home4,
-  home5
+  home5,
+  notFound,
 }

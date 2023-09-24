@@ -1,7 +1,8 @@
 import React from "react"
-import { useSearchParams, Link } from "react-router-dom"
+import { useSearchParams, Link, useParams } from "react-router-dom"
 import "./homeSection7.scss"
 import { svgs } from "../../../constants/images"
+import { pngs } from "../../../constants/images"
 import allProjectsData from "../../../assets/data.json"
 
 export const HomeSection7 = () => {
@@ -15,6 +16,8 @@ export const HomeSection7 = () => {
         )
       : projects
 
+  const { id } = useParams()
+
   console.log(projects)
   return (
     <section className="home__section7">
@@ -23,7 +26,7 @@ export const HomeSection7 = () => {
         <div className="section7-navigation flex">
           <button
             className={`filter-btn ${
-              typeFilter === "частные" ? "selected" : ""
+              typeFilter === "частная" ? "selected" : ""
             }`}
             onClick={() => setSearchparams({ type: "частная" })}
           >
@@ -55,7 +58,7 @@ export const HomeSection7 = () => {
               <div key={index} className="house-card">
                 <div className="card-header">
                   <img src={house.projectImgUrl[0]} alt="" />
-                  <p className="house-index">{house.projectId}</p>
+                  <p className="house-index">{house.projectIndex}</p>
                 </div>
                 <div className="card-content">
                   <h3>{house.projectArea}</h3>
@@ -79,13 +82,16 @@ export const HomeSection7 = () => {
                   </div>
                 </div>
                 <div className="card-footer">
-                  <button>Подробнее</button>
+                  <Link to={`/projects/${house.projectId}`}>Подробнее</Link>
                   <span>€ 450000</span>
                 </div>
               </div>
             ))
           ) : (
-            <h2>No Projects found</h2>
+            <div className="card-not-found">
+              <h2>No Projects found</h2>
+              <img src={pngs.notFound} alt="not found" />
+            </div>
           )}
         </div>
       </div>
