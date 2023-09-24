@@ -10,7 +10,7 @@ function New({ news }) {
           <h1>{news.newsSubtitle}</h1>
         </div>
       </div>
-      <div className="news-item-description">
+      <div className={`news-item-description ${news.newsId % 2 !== 0 ? "" : "index"}`}>
         <h1>{news.newsTitle}</h1>
         <div>
           <span>{news.newsDate}</span>

@@ -11,7 +11,8 @@ const FadedRightSlide = ({ url }) => {
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     marginTop: '35px',
-    transform: 'translate3d(-82%,0,-50px)'
+    transform: 'translate3d(-12%,0,-50px)',
+    opacity: '0.5'
   }
 
   return <div className="image-slide" style={styles} />

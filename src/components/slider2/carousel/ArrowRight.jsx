@@ -6,7 +6,7 @@ const ArrowRight = ({ clickFunction, glyph }) => (
     style={{ fontSize: '24px' }}
     // className={`slide-arrow ${direction}`}
     onClick={clickFunction}
-    className="slide-arrow"
+    className="slide-arrow wrapper"
   >
     {glyph}
   </div>

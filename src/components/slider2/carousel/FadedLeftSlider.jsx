@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const FadedLeftSlide = ({ url }) => {
   const styles = {
-    width: '920px',
+    width: '1171px',
     height: '500px',
     borderRadius: '3px',
     // opacity: '0.5',
@@ -11,7 +11,8 @@ const FadedLeftSlide = ({ url }) => {
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     marginTop: '35px',
-    transform: 'translate3d(-74%,0,-50px)'
+    transform: 'translateX(0%)',
+    opacity: '0.5'
   }
 
   return <div className="image-slide" style={styles} />

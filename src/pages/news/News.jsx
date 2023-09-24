@@ -1,9 +1,11 @@
 import Footer from "../../components/footer/Footer"
-import allProjectData from "../../assets/data.json"
 import New from "./new/New.jsx"
 
 import "./news.scss"
-const newsData = allProjectData.news
+import { news } from "../../constants/news"
+
+
+const newsData = news
 function News() {
   return (
     <div className="news">

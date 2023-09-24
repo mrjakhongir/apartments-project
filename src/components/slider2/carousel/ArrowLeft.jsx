@@ -6,7 +6,7 @@ const ArrowLeft = ({ clickFunction, glyph }) => (
     style={{ fontSize: '24px' }}
     // className={`slide-arrow ${direction}`}
     onClick={clickFunction}
-    className="carousel_prev"
+    className="carousel_prev wrapper"
   >
     {glyph}
   </div>

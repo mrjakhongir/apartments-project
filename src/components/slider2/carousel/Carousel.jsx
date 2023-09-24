@@ -45,7 +45,7 @@ function Carousel({ images }) {
         glyph="&#9664;"
       />
 
-      <div style={{ display: 'flex', justifyContent: "space-around" , }}>
+      <div style={{ display: 'flex', justifyContent: "space-between", overflow: "hidden" }}>
         <FadedRightSlide
           url={index === 0 ? images[images.length - 1] : images[index - 1]}
         />

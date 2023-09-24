@@ -6,7 +6,6 @@ import { pngs } from '../../constants/images'
 
 const imgUrls = [ pngs.home1, pngs.home2, pngs.home3, pngs.home4, pngs.home5]
 
-console.log(imgUrls);
 function Slider() {
   return (
     <div>

@@ -1,12 +1,12 @@
 import { useParams } from "react-router-dom"
-import allProjectData from "../../../assets/data.json"
+import { news } from "../../../constants/news"
 import Footer from "../../../components/footer/Footer"
 import NewsComponent from "../../../components/news/NewsComponent"
 import "./newsDetails.scss"
 
 const NewsDetails = () => {
   const { id } = useParams()
-  const newsData = allProjectData.news
+  const newsData = news
   const data = newsData[id]
 
   return (
