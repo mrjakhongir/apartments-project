@@ -2,6 +2,7 @@
   "projects": [
     {
       "projectId": 1,
+      "projectIndex": "001",
       "projectImgUrl": [
         "images/project-1.png",
         "images/project-1.png",
@@ -27,6 +28,7 @@
     },
     {
       "projectId": 2,
+      "projectIndex": "002",
       "projectImgUrl": [
         "images/project-2.png",
         "images/project-2.png",
@@ -112,6 +114,7 @@
     },
     {
       "projectId": 3,
+      "projectIndex": "003",
       "projectImgUrl": [
         "images/project-3.png",
         "images/project-3.png",
@@ -187,6 +190,7 @@
     },
     {
       "projectId": 4,
+      "projectIndex": "004",
       "projectImgUrl": [
         "images/project-4.png",
         "images/project-4.png",
@@ -286,6 +290,7 @@
     },
     {
       "projectId": 5,
+      "projectIndex": "005",
       "projectImgUrl": [
         "images/project-5.png",
         "images/project-5.png",
