@@ -14,12 +14,12 @@ function News() {
       </div>
       <div className="newspaper">
         <div className="wrapper">
-          {newsData.map((item, index) => (
+          {newsData.map((item) => (
             <New key={item.newsId} news={item} />
           ))}
         </div>
       </div>
-      <Footer />
+      <Footer bgColor="#3D6CBB1A" />
     </div>
   )
 }

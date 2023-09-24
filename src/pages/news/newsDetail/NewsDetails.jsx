@@ -42,7 +42,7 @@ const NewsDetails = () => {
         </div>
       </div>
       <NewsComponent />
-      <Footer />
+      <Footer bgColor="#3D6CBB1A" />
     </div>
   )
 }

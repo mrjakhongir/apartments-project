@@ -57,10 +57,11 @@
       background-color: #756558;
       padding: 1.6rem 6.1rem;
       margin-bottom: 4.8rem;
+      border: 1px solid #756558;
 
       &:hover {
-        transform: translateY(2px);
-        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+        background-color: #fff;
+        color: #756558;
       }
     }
 

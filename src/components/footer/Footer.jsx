@@ -1,11 +1,11 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import { svgs } from '../../constants/images'
-import './footer.scss'
+import React from "react"
+import { Link } from "react-router-dom"
+import { svgs } from "../../constants/images"
+import "./footer.scss"
 
-function Footer() {
+function Footer({ bgColor }) {
   return (
-    <section className="footer1">
+    <section style={{ backgroundColor: bgColor }} className="footer1">
       <div className="wrapper">
         <div className="footer__inner flex">
           <div>
@@ -25,12 +25,12 @@ function Footer() {
           <div className="footer__navigation">
             <h3 className="footer__title">Навигация по сайту</h3>
             <div className="navigation flex">
-              <div className="flex-c">
+              <div>
                 <Link to="/">Главная</Link>
                 <Link to="/projects">Проекты</Link>
                 <Link to="/purchase">Покупка</Link>
               </div>
-              <div className="flex-c">
+              <div>
                 <Link to="/about">О Kипре</Link>
                 <Link to="/news">Новости</Link>
               </div>
@@ -38,11 +38,11 @@ function Footer() {
           </div>
           <div className="footer__contacts">
             <h3 className="footer__title">Контакты</h3>
-            <div className="flex-c">
+            <div>
               <a href="tel: +998 90 039 88 68">+998 90 039 88 68</a>
               <a href="mailto: reiwamail@gmail.com">reiwamail@gmail.com</a>
               <a href="map">
-                Address: 59, Office 01,<br></br> Ellados Leoforos,<br></br>{' '}
+                Address: 59, Office 01,<br></br> Ellados Leoforos,<br></br>{" "}
                 Pafos, 8020
               </a>
             </div>

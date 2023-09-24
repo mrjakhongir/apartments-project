@@ -1,13 +1,13 @@
-import Footer from '../../components/footer/Footer'
-import { ProjectsSection1 } from './projectsSection1/ProjectsSection1'
-import { ProjectsSection2 } from './projectsSection2/ProjectsSection2'
+import Footer from "../../components/footer/Footer"
+import { ProjectsSection1 } from "./projectsSection1/ProjectsSection1"
+import { ProjectsSection2 } from "./projectsSection2/ProjectsSection2"
 
 function Projects() {
   return (
     <div>
       <ProjectsSection1 />
       <ProjectsSection2 />
-      <Footer />
+      <Footer bgColor="#3D6CBB1A" />
     </div>
   )
 }
