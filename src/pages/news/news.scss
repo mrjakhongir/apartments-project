@@ -17,4 +17,9 @@
 
 .newspaper {
   padding: 10rem 0;
+
+  > div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }

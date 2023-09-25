@@ -87,7 +87,7 @@
     }
   }
 
-  &:last-child {
+  &:first-child {
     margin-bottom: 0px;
   }
 }
@@ -100,7 +100,7 @@
     margin-right: -18rem;
   }
 
-  .news-item-description.index{
+  .news-item-description.index {
     z-index: 1;
   }
 }

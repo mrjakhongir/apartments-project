@@ -35,11 +35,11 @@ const House = ({ project, index }) => {
           <div className="accordion-detail">
             <div>
               <p>Внутренняя площадь:</p>
-              <p>{project.area}m2</p>
+              <p>{project.area} m2</p>
             </div>
             <div>
               <p>Крытая веранда:</p>
-              <p>{project.veranda}m2</p>
+              <p>{project.veranda} m2</p>
             </div>
             <div>
               <p>Цена за кв.м:</p>

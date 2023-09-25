@@ -82,7 +82,15 @@ export const HomeSection7 = () => {
                   </div>
                 </div>
                 <div className="card-footer">
-                  <Link to={`/projects/${house.projectId}`}>Подробнее</Link>
+                  <Link
+                    to={`${
+                      house.projectId === 4
+                        ? "https://www.fayno-reiwa.com/"
+                        : `/projects/${house.projectId}`
+                    }`}
+                  >
+                    Подробнее
+                  </Link>
                   <span>€ 450000</span>
                 </div>
               </div>
