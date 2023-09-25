@@ -1,12 +1,17 @@
-import React from "react";
-import "./about-section7.scss";
+import { motion } from "framer-motion"
+import "./about-section7.scss"
 
 export default function AboutSection7() {
   return (
     <section className="about-section7">
       <div className="about-section7_banner">
         <div className="wrapper">
-          <h2 className="about-header">Достопримечательности</h2>
+          <motion.div
+            whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+            transition={{ duration: 0.3 }}
+          >
+            <h2 className="about-header">Достопримечательности</h2>
+          </motion.div>
         </div>
       </div>
       <div className="about-section7_description">
@@ -39,5 +44,5 @@ export default function AboutSection7() {
         </div>
       </div>
     </section>
-  );
+  )
 }

@@ -1,4 +1,5 @@
 import { Link, useLocation } from "react-router-dom"
+import { motion } from "framer-motion"
 import "./newsComponent.scss"
 import { news } from "../../constants/news"
 
@@ -10,7 +11,11 @@ function NewsComponent() {
 
   return (
     <div className="news-component">
-      <div className="wrapper">
+      <motion.div
+        whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+        transition={{ duration: 0.3 }}
+        className="wrapper"
+      >
         <h1>Новости</h1>
         <div className="news-list">
           {newsPost.map((newsItem) => (
@@ -23,7 +28,7 @@ function NewsComponent() {
         <Link to={`${location}`} className="btn">
           Смотреть все
         </Link>
-      </div>
+      </motion.div>
     </div>
   )
 }

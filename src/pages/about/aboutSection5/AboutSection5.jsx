@@ -1,13 +1,18 @@
-import React from "react";
-import "./about-section5.scss";
-import { svgs } from "../../../constants/images";
+import { motion } from "framer-motion"
+import "./about-section5.scss"
+import { svgs } from "../../../constants/images"
 
 export default function AboutSection5() {
   return (
     <section className="about-section5">
       <div className="about-section5_banner">
         <div className="wrapper">
-          <h2 className="about-header">Климат Кипра</h2>
+          <motion.div
+            whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+            transition={{ duration: 0.3 }}
+          >
+            <h2 className="about-header">Климат Кипра</h2>
+          </motion.div>
         </div>
       </div>
       <div className="about-section5_description">
@@ -20,7 +25,11 @@ export default function AboutSection5() {
           </p>
         </div>
       </div>
-      <div className="about-section5_illustration">
+      <motion.div
+        whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+        transition={{ duration: 0.3 }}
+        className="about-section5_illustration"
+      >
         <div className="wrapper">
           <div>
             <img src={svgs.balanceIcon} alt="" />
@@ -49,7 +58,7 @@ export default function AboutSection5() {
             </p>
           </div>
         </div>
-      </div>
+      </motion.div>
     </section>
-  );
+  )
 }

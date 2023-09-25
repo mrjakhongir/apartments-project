@@ -1,13 +1,16 @@
-import React from "react"
+import { motion } from "framer-motion"
 import "./homeSection8.scss"
-import { pngs } from "../../../constants/images"
 import { svgs } from "../../../constants/images"
 
 export const HomeSection8 = () => {
   return (
     <section className="home__section8">
       <div className="wrapper">
-        <div className="home__contacts">
+        <motion.div
+          whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+          transition={{ duration: 0.3 }}
+          className="home__contacts"
+        >
           <img src={svgs.logoDark} alt="reiwa logo" />
           <div>
             <h2>Оставьте заявку</h2>
@@ -29,7 +32,7 @@ export const HomeSection8 = () => {
             </div>
           </div>
           <div className="overlay"></div>
-        </div>
+        </motion.div>
       </div>
     </section>
   )

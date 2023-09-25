@@ -1,13 +1,18 @@
-import React from "react";
-import "./about-section4.scss";
-import { svgs } from "../../../constants/images";
+import { motion } from "framer-motion"
+import "./about-section4.scss"
+import { svgs } from "../../../constants/images"
 
 export default function AboutSection4() {
   return (
     <section className="about-section4">
       <div className="about-section_banner">
         <div className="wrapper">
-          <h2 className="about-header">География Кипра</h2>
+          <motion.div
+            whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+            transition={{ duration: 0.3 }}
+          >
+            <h2 className="about-header">География Кипра</h2>
+          </motion.div>
         </div>
       </div>
       <div className="about-section4_description">
@@ -36,29 +41,33 @@ export default function AboutSection4() {
           </p>
         </div>
       </div>
-      <div className="about-section4_illustration">
+      <motion.div
+        whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+        transition={{ duration: 0.3 }}
+        className="about-section4_illustration"
+      >
         <div className="wrapper">
-            <div>
-              <img src={svgs.aboutWorld} alt="" />
-              <p>Страна-участник Евросоюза</p>
-            </div>
-            <div>
-              <img src={svgs.aboutSun} alt="" />
-              <p>Самый солнечный остров в Европе</p>
-            </div>
-            <div>
-              <img src={svgs.aboutMountain} alt="" />
-              <p>
-                Уникальное географическое разнообразие: от песчаных пляжей 
-              горных   горных вершин
-              </p>
-            </div>
-            <div>
-              <img src={svgs.aboutCompass} alt="" />
-              <p>Удобная отправная точка для путешествий и бизнеса</p>
-            </div>
+          <div>
+            <img src={svgs.aboutWorld} alt="" />
+            <p>Страна-участник Евросоюза</p>
           </div>
-      </div>
+          <div>
+            <img src={svgs.aboutSun} alt="" />
+            <p>Самый солнечный остров в Европе</p>
+          </div>
+          <div>
+            <img src={svgs.aboutMountain} alt="" />
+            <p>
+              Уникальное географическое разнообразие: от песчаных пляжей горных
+              горных вершин
+            </p>
+          </div>
+          <div>
+            <img src={svgs.aboutCompass} alt="" />
+            <p>Удобная отправная точка для путешествий и бизнеса</p>
+          </div>
+        </div>
+      </motion.div>
     </section>
-  );
+  )
 }

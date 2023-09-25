@@ -1,16 +1,25 @@
 import { Link } from "react-router-dom"
+import { motion } from "framer-motion"
 import "./new.scss"
 
 function New({ news }) {
   return (
-    <div className={`news-item ${news.newsId % 2 !== 0 ? "" : "reverse"}`}>
+    <motion.div
+      whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+      transition={{ duration: 0.3 }}
+      className={`news-item ${news.newsId % 2 !== 0 ? "" : "reverse"}`}
+    >
       <div className="news-item-img">
         <img src={news.newsImage} alt="news" />
         <div className="news-subtitle">
           <h1>{news.newsSubtitle}</h1>
         </div>
       </div>
-      <div className={`news-item-description ${news.newsId % 2 !== 0 ? "" : "index"}`}>
+      <div
+        className={`news-item-description ${
+          news.newsId % 2 !== 0 ? "" : "index"
+        }`}
+      >
         <h1>{news.newsTitle}</h1>
         <div>
           <span>{news.newsDate}</span>
@@ -19,7 +28,7 @@ function New({ news }) {
           </Link>
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

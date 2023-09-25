@@ -1,11 +1,15 @@
-import React from "react"
+import { motion } from "framer-motion"
 import "./homeSection3.scss"
 
-export const HomeSection3 = () => {
+const HomeSection3 = () => {
   return (
     <section className="home__section3">
       <div className="wrapper">
-        <div className="home__about-description_content">
+        <motion.div
+          whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+          transition={{ duration: 0.3 }}
+          className="home__about-description_content"
+        >
           <h2>Reiwa</h2>
           <p>
             Мы предоставляем широкий спектр услуг, которые помогут вам стать
@@ -16,8 +20,10 @@ export const HomeSection3 = () => {
             Reiwa насчитывает 20-летний опыт работы в сфере консалтинга и
             недвижимости на Кипре.
           </p>
-        </div>
+        </motion.div>
       </div>
     </section>
   )
 }
+
+export default HomeSection3

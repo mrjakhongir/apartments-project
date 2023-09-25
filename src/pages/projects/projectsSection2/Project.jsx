@@ -1,11 +1,16 @@
 import { useState } from "react"
 import { Link } from "react-router-dom"
+import { motion } from "framer-motion"
 
 const Project = ({ project }) => {
   const [extendContent, setExtendContent] = useState(false)
 
   return (
-    <div className="projects-row flex">
+    <motion.div
+      whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+      transition={{ duration: 0.3 }}
+      className="projects-row flex"
+    >
       <div>
         <Link
           to={`${
@@ -74,7 +79,7 @@ const Project = ({ project }) => {
           </button>
         ) : null}
       </div>
-    </div>
+    </motion.div>
   )
 }
 

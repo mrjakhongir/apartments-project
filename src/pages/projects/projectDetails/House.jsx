@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { motion } from "framer-motion"
 import { svgs } from "../../../constants/images"
 
 const House = ({ project, index }) => {
@@ -7,7 +8,11 @@ const House = ({ project, index }) => {
     setShowDetails((prevState) => !prevState)
   }
   return (
-    <div className="house">
+    <motion.div
+      whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+      transition={{ duration: 0.3 }}
+      className="house"
+    >
       <div className="accordion-top flex">
         <div>
           <h2>{project.type}</h2>
@@ -61,7 +66,7 @@ const House = ({ project, index }) => {
         <h4>Заполните форму и мы отправим вам всю информацию</h4>
         <button className="btn">Заполнить</button>
       </div>
-    </div>
+    </motion.div>
   )
 }
 

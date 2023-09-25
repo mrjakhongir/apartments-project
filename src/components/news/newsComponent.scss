@@ -9,12 +9,12 @@
     text-align: center;
   }
   .news-list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 3rem;
     margin-bottom: 5rem;
 
     .news-card {
-      width: 33.333%;
       img {
         border-radius: 5px;
         margin-bottom: 1.5rem;
