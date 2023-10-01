@@ -17,15 +17,19 @@ function NewsComponent() {
         className="wrapper"
       >
         <h1>Новости</h1>
+
         <div className="news-list">
           {newsPost.map((newsItem) => (
-            <div key={newsItem.newsId} className="news-card">
-              <img src={newsItem.newsImage} alt="news" />
-              <h3>{newsItem.newsTitle}</h3>
-            </div>
+            <Link key={newsItem.newsId} to={`/news/${newsItem.newsId - 1}`}>
+              <div className="news-card">
+                <img src={newsItem.newsImage} alt="news" />
+                <h3>{newsItem.newsTitle}</h3>
+              </div>
+            </Link>
           ))}
         </div>
-        <Link to={`${location}`} className="btn">
+
+        <Link to={`${location}`} className="btn all-news-btn">
           Смотреть все
         </Link>
       </motion.div>

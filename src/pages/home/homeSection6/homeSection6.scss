@@ -39,4 +39,38 @@
       }
     }
   }
+
+  @media screen and (max-width: 375px) {
+    background-color: #0c1d3680;
+    background-blend-mode: multiply;
+
+    > div {
+      padding: 8rem 0;
+
+      h2 {
+        color: #fff;
+      }
+
+      p {
+        font-size: 1.6rem;
+        line-height: 2.179rem;
+        color: #fff;
+        max-width: 338px;
+      }
+
+      a {
+        font-size: 1.6rem;
+        line-height: 2.179rem;
+        font-weight: 600;
+        background: #3d6cbb;
+        border: none;
+
+        &:hover {
+          color: #fff;
+          background-color: #3d6cbb;
+          cursor: auto;
+        }
+      }
+    }
+  }
 }

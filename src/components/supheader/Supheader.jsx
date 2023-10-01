@@ -1,16 +1,13 @@
-import React, { useState } from "react"
 import "./supheader.scss"
 import { svgs } from "../../constants/images"
 
 function Supheader() {
-  const [currentLang, setCurrentLang] = useState("RU")
-
   return (
     <div className="supheader">
       <div className="wrapper">
         <div className="supheader__inner flex">
           <div className="supheader__contacts flex">
-            <a href="mailto: reiwa@gmail.com">reiwa@gmail.com</a>
+            <a href="mailto: infouz@reiwacy.com">infouz@reiwacy.com </a>
             <a href="tel: +998900398868">+998 90 039 8868</a>
           </div>
           <div className="supheader__right-col flex">

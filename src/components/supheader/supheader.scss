@@ -1,6 +1,10 @@
 .supheader {
   background-color: #0e2341;
   color: #fff;
+
+  @media screen and (max-width: 375px) {
+    display: none;
+  }
 }
 
 .supheader__inner {

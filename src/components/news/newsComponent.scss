@@ -28,7 +28,7 @@
       }
     }
   }
-  a {
+  .all-news-btn {
     border: 2px solid #0e2341;
     background-color: #fff;
     font-size: 1.6rem;
@@ -39,6 +39,36 @@
       background-color: #0e2341;
       border-color: #0e2341;
       color: #fff;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    padding: 0;
+    h1 {
+      font-size: 2.8rem;
+      line-height: 3.813rem;
+      margin-bottom: 3rem;
+    }
+    .news-list {
+      grid-template-columns: repeat(1, 1fr);
+      gap: 5rem;
+      margin-bottom: 5rem;
+    }
+    .all-news-btn {
+      display: block;
+      margin: 0 auto;
+      max-width: 180px;
+      border: none;
+      background-color: #0e2341;
+      color: #fff;
+      padding: 1.9rem 3.5rem;
+
+      &:hover {
+        background-color: #0e2341;
+        border-color: #0e2341;
+        color: #fff;
+        cursor: auto;
+      }
     }
   }
 }

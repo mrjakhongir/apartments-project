@@ -20,6 +20,7 @@ import caretFill from "../assets/svg/caret-fill.svg"
 import linkedinSquare from "../assets/svg/square-linkedin.svg"
 import telegramSquare from "../assets/svg/square-telegram.svg"
 import facebookSquare from "../assets/svg/square-facebook.svg"
+import instagramSquare from "../assets/svg/instagram-square.svg"
 import diplomat from "../assets/svg/diplomat.svg"
 import savings from "../assets/svg/savings.svg"
 import aboutWorld from "../assets/svg/about-world.svg"
@@ -34,6 +35,9 @@ import caretLeft from "../assets/svg/caret-left.svg"
 import caretRight from "../assets/svg/caret-right.svg"
 import logoDark from "../assets/svg/logo-dark.svg"
 import telegramIconOutlined from "../assets/svg/telegram-icon-outlined.svg"
+import exitIcon from "../assets/svg/exit-icon.svg"
+import linkIcon from "../assets/svg/link-icon.svg"
+import logoLight from "../assets/svg/logo-light.svg"
 
 // png images
 
@@ -99,6 +103,10 @@ export const svgs = {
   aboutCompass,
   logoDark,
   telegramIconOutlined,
+  exitIcon,
+  linkIcon,
+  instagramSquare,
+  logoLight,
 }
 
 export const pngs = {

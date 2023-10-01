@@ -1,8 +1,10 @@
 import { motion } from "framer-motion"
 import "./homeSection8.scss"
 import { svgs } from "../../../constants/images"
+import { useSelector } from "react-redux"
 
 export const HomeSection8 = () => {
+  const { size } = useSelector((state) => state.size)
   return (
     <section className="home__section8">
       <div className="wrapper">
@@ -11,13 +13,16 @@ export const HomeSection8 = () => {
           transition={{ duration: 0.3 }}
           className="home__contacts"
         >
-          <img src={svgs.logoDark} alt="reiwa logo" />
+          <img
+            src={`${size > 375 ? svgs.logoDark : svgs.logoLight}`}
+            alt="reiwa logo"
+          />
           <div>
             <h2>Оставьте заявку</h2>
             <p>И мы ответим на все вопросы</p>
             <button className="btn">Заполнить</button>
           </div>
-          <div className="contects-content">
+          <div className="contacts-content">
             <div className="flex">
               <img src={svgs.phoneIcon} alt="" />
               <span>+998 (90) 039 88 68</span>
@@ -28,7 +33,7 @@ export const HomeSection8 = () => {
             </div>
             <div className="flex">
               <img src={svgs.emailIcon} alt="" />
-              <span>reiwasmm@gmail.com</span>
+              <span>infouz@reiwacy.com </span>
             </div>
           </div>
           <div className="overlay"></div>

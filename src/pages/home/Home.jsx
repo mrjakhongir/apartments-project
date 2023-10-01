@@ -7,13 +7,15 @@ import { HomeSection5 } from "./homeSection5/HomeSection5"
 import { HomeSection6 } from "./homeSection6/HomeSection6"
 import { HomeSection7 } from "./homeSection7/HomeSection7"
 import { HomeSection8 } from "./homeSection8/HomeSection8"
+import { useSelector } from "react-redux"
 import NewsComponent from "../../components/news/NewsComponent"
 
 function Home() {
+  const { size } = useSelector((state) => state.size)
   return (
     <div>
       <HomeSection1 />
-      <HomeSection2 />
+      {size > 375 && <HomeSection2 />}
       <HomeSection3 />
       <HomeSection4 />
       <HomeSection5 />
