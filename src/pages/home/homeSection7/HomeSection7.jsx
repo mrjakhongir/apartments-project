@@ -35,7 +35,7 @@ export const HomeSection7 = () => {
             </button>
             <button
               className={`filter-btn ${
-                typeFilter === "коммерческие" ? "selected" : ""
+                typeFilter === "коммерческая" ? "selected" : ""
               }`}
               onClick={() => setSearchparams({ type: "коммерческая" })}
             >
@@ -43,13 +43,13 @@ export const HomeSection7 = () => {
             </button>
             <button
               className={`filter-btn ${
-                typeFilter === "инвестиционные" ? "selected" : ""
+                typeFilter === "инвестиционная" ? "selected" : ""
               }`}
               onClick={() => setSearchparams({ type: "инвестиционная" })}
             >
               Инвестиционные
             </button>
-            <Link to="/projects" className="filter-btn">
+            <Link to="/projects" className="filter-btn filter-all">
               Смотреть все проекты
             </Link>
           </div>
@@ -112,6 +112,9 @@ export const HomeSection7 = () => {
               </motion.div>
             )}
           </div>
+          <Link to="/projects" className="filter-btn filter-all--mobile ">
+            Смотреть все проекты
+          </Link>
         </motion.div>
       </div>
     </section>

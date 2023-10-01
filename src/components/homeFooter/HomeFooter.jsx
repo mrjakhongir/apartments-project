@@ -1,7 +1,7 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import { svgs } from '../../constants/images'
-import './homeFooter.scss'
+import React from "react"
+import { Link } from "react-router-dom"
+import { svgs } from "../../constants/images"
+import "./homeFooter.scss"
 
 function HomeFooter() {
   return (
@@ -40,9 +40,9 @@ function HomeFooter() {
             <h3 className="footer__title">Контакты</h3>
             <div className="flex-c">
               <a href="tel: +998 90 039 88 68">+998 90 039 88 68</a>
-              <a href="mailto: reiwamail@gmail.com">reiwamail@gmail.com</a>
+              <a href="mailto: infouz@reiwacy.com ">infouz@reiwacy.com </a>
               <a href="map">
-                Address: 59, Office 01,<br></br> Ellados Leoforos,<br></br>{' '}
+                Address: 59, Office 01,<br></br> Ellados Leoforos,<br></br>{" "}
                 Pafos, 8020
               </a>
             </div>
@@ -55,6 +55,17 @@ function HomeFooter() {
             <p>VAT 10437808U</p>
             <p>License: 1081/595</p>
           </div>
+        </div>
+        <div className="socials-mobile">
+          <a href="#facebook">
+            <img src={svgs.linkedinSquare} alt="" />
+          </a>
+          <a href="#linkedin">
+            <img src={svgs.telegramSquare} alt="" />
+          </a>
+          <a href="#instagram">
+            <img src={svgs.facebookSquare} alt="" />
+          </a>
         </div>
       </div>
     </div>

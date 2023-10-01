@@ -17,5 +17,20 @@
       color: #0e2341;
       margin-bottom: 2rem;
     }
+
+    @media screen and (max-width: 375px) {
+      padding: 0;
+      padding: 2.5rem 0;
+      h1 {
+        font-size: 2.8rem;
+        line-height: 3.813rem;
+        text-align: left;
+      }
+      p {
+        font-size: 1.6rem;
+        line-height: 2.179rem;
+        text-align: left;
+      }
+    }
   }
 }

@@ -11,7 +11,7 @@ export const HomeSection4 = () => {
           transition={{ duration: 0.3 }}
         >
           <h1 className="service__title">Наши услуги</h1>
-          <div className="flex-c">
+          <div>
             <div className="service-row1 flex">
               <img src={svgs.diplomat} alt="" />
               <img src={svgs.line} alt="" />
@@ -21,6 +21,7 @@ export const HomeSection4 = () => {
             </div>
             <div className="service-row2 flex">
               <div>
+                <img src={svgs.diplomat} alt="" />
                 <h3>Для бизнеса</h3>
                 <p>
                   Регистрация бизнеса Релокация компаний Оформление IP-box для
@@ -29,6 +30,7 @@ export const HomeSection4 = () => {
                 </p>
               </div>
               <div>
+                <img src={svgs.clinicalNotes} alt="" />
                 <h3>Вид на жительство</h3>
                 <p>
                   Выбор программы Юридическая поддержка Подбор объекта
@@ -36,6 +38,7 @@ export const HomeSection4 = () => {
                 </p>
               </div>
               <div>
+                <img src={svgs.savings} alt="" />
                 <h3>Инвестиционные проекты</h3>
                 <p>
                   Оценка недвижимости Управление проектами Земельные участки под

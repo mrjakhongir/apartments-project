@@ -8,21 +8,51 @@
         "images/project-1.png",
         "images/project-1.png"
       ],
-      "projectArea": "001 - Комплекс вилл в деревне Эпископи",
+      "projectArea": "044 современный жилой комплекс, расположенный в популярном районе Гермасойя, Лимассол",
       "projectStatus": "Завершен",
       "projectType": "Частная",
-      "projectNote": "Эпископи, Пафос",
-      "region": "Эпископи",
+      "projectNote": "1 парковочное место/общий бассейн/кладовка/1 этаж",
+      "region": "Лимассол",
       "projects": [
         {
-          "type": "Вилла TYPE B",
-          "bedroom": 3,
-          "area": 148.6,
-          "yard": 345.1,
-          "price": 450000,
-          "innerArea": 93,
+          "type": "101",
+          "bedroom": 2,
+          "area": 100,
+          "yard": 22,
+          "price": 350000,
+          "innerArea": 67,
           "veranda": 6,
-          "pricePerSquareMetre": 2348
+          "pricePerSquareMetre": 4185
+        },
+        {
+          "type": "102",
+          "bedroom": 2,
+          "area": 96,
+          "yard": 21,
+          "price": 350000,
+          "innerArea": 67,
+          "veranda": 6,
+          "pricePerSquareMetre": 4185
+        },
+        {
+          "type": "202",
+          "bedroom": 1,
+          "area": 64,
+          "yard": 14,
+          "price": 250000,
+          "innerArea": 67,
+          "veranda": 6,
+          "pricePerSquareMetre": 3906.25
+        },
+        {
+          "type": "203",
+          "bedroom": 1,
+          "area": 64,
+          "yard": 14,
+          "price": 250000,
+          "innerArea": 67,
+          "veranda": 6,
+          "pricePerSquareMetre": 3906.25
         }
       ]
     },
@@ -34,81 +64,51 @@
         "images/project-2.png",
         "images/project-2.png"
       ],
-      "projectArea": "002 - Комплекс вилл в деревне Эмба (Пафос)",
-      "projectStatus": "В процессе",
-      "projectType": "Инвестиционная",
-      "projectNote": "Между деревнями Эмпа и Тала",
+      "projectArea": "024 Комплекс таунхаусов и вилл, окруженных фруктовыми и ландшафтными садами",
+      "projectStatus": "Завершен",
+      "projectType": "Частная",
+      "projectNote": "Эпископи, Пафос",
       "region": "Пафос",
       "projects": [
         {
-          "type": "Вилла TYPE A(M)",
-          "bedroom": 3,
-          "area": 145.06,
-          "yard": 323,
-          "price": 450000,
-          "innerArea": 93,
-          "veranda": 6,
-          "pricePerSquareMetre": 2348
+          "type": "Townhouse South Block 1 #1.6",
+          "bedroom": 2,
+          "area": 89,
+          "yard": 86,
+          "price": 385000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
         },
         {
-          "type": "Вилла TYPE A",
-          "bedroom": 3,
-          "area": 145.06,
-          "yard": 272,
-          "price": 450000,
-          "innerArea": 93,
-          "veranda": 6,
-          "pricePerSquareMetre": 2348
+          "type": "Townhouse South Block 2 #2.10",
+          "bedroom": 2,
+          "area": 110,
+          "yard": 85,
+          "price": 355000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
         },
         {
-          "type": "Вилла TYPE C2",
-          "bedroom": 3,
-          "area": 142.72,
-          "yard": 315,
-          "price": 450000,
-          "innerArea": 93,
-          "veranda": 6,
-          "pricePerSquareMetre": 2348
+          "type": "Townhouse South Block 2 #2.11",
+          "bedroom": 2,
+          "area": 99,
+          "yard": 85,
+          "price": 370000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
         },
         {
-          "type": "Вилла TYPE B",
-          "bedroom": 3,
-          "area": 149.75,
-          "yard": 274,
-          "price": 400000,
-          "innerArea": 93,
-          "veranda": 6,
-          "pricePerSquareMetre": 2348
-        },
-        {
-          "type": "Вилла TYPE B (M)",
-          "bedroom": 3,
-          "area": 149.75,
-          "yard": 372.82,
-          "price": 400000,
-          "innerArea": 93,
-          "veranda": 6,
-          "pricePerSquareMetre": 2348
-        },
-        {
-          "type": "Вилла TYPE C",
-          "bedroom": 3,
-          "area": 142.72,
-          "yard": 280.36,
-          "price": 400000,
-          "innerArea": 93,
-          "veranda": 6,
-          "pricePerSquareMetre": 2348
-        },
-        {
-          "type": "Вилла TYPE C",
-          "bedroom": 3,
-          "area": 142.72,
-          "yard": 278.57,
-          "price": 400000,
-          "innerArea": 93,
-          "veranda": 6,
-          "pricePerSquareMetre": 2348
+          "type": "Townhouse South Block 2 #2.12",
+          "bedroom": 2,
+          "area": 96,
+          "yard": 85,
+          "price": 356000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
         }
       ]
     },
@@ -120,7 +120,7 @@
         "images/project-3.png",
         "images/project-3.png"
       ],
-      "projectArea": "003 5-звездочный комплекс закрытого типа/сообщество для пенсионеров (Пафос)",
+      "projectArea": "005 5-звездочный комплекс закрытого типа/сообщество для пенсионеров (Пафос)",
       "projectStatus": "2024 год завершения",
       "projectType": "Частная",
       "projectNote": "Эпископи, Пафос",
@@ -196,7 +196,7 @@
         "images/project-4.png",
         "images/project-4.png"
       ],
-      "projectArea": "004 Комплекс высококлассных вилл в округе Пафоса - деревне Хлорака",
+      "projectArea": "007 Комплекс высококлассных вилл в округе Пафоса - деревне Хлорака",
       "projectStatus": "В процессе",
       "projectType": "Частная",
       "projectNote": "Бассейн 3x7",
@@ -207,84 +207,120 @@
           "bedroom": 3,
           "area": 237.4,
           "yard": 340,
-          "price": 1050000
+          "price": 1050000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
         },
         {
           "type": "Вилла TYPE C",
           "bedroom": 3,
           "area": 157,
           "yard": 300,
-          "price": 997500
+          "price": 997500,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
         },
         {
           "type": "Вилла TYPE C",
           "bedroom": 3,
           "area": 157,
           "yard": 300,
-          "price": 997500
+          "price": 997500,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
         },
         {
           "type": "Вилла TYPE C",
           "bedroom": 3,
           "area": 169.6,
           "yard": 313,
-          "price": 997500
+          "price": 997500,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
         },
         {
           "type": "Вилла TYPE F",
           "bedroom": 3,
           "area": 229.5,
           "yard": 157,
-          "price": 903000
+          "price": 903000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
         },
         {
           "type": "Вилла TYPE F",
           "bedroom": 3,
           "area": 229.5,
           "yard": 286,
-          "price": 903000
+          "price": 903000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
         },
         {
           "type": "Вилла TYPE E",
           "bedroom": 3,
           "area": 208.25,
           "yard": 304,
-          "price": 903000
+          "price": 903000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
         },
         {
           "type": "Вилла TYPE H",
           "bedroom": 3,
           "area": 134,
           "yard": 250,
-          "price": 787500
+          "price": 787500,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
         },
         {
           "type": "Вилла TYPE F",
           "bedroom": 3,
           "area": 152.5,
           "yard": 320,
-          "price": 787500
+          "price": 787500,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
         },
         {
           "type": "Вилла TYPE E",
           "bedroom": 3,
           "area": 170.4,
           "yard": 320,
-          "price": 903000
+          "price": 903000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
         },
         {
           "type": "Вилла TYPE A",
           "bedroom": 3,
           "area": 237.4,
           "yard": 345,
-          "price": 1050000
+          "price": 1050000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
         },
         {
           "type": "Вилла TYPE E",
           "bedroom": 3,
           "area": 157.7,
           "yard": 340,
-          "price": 997500
+          "price": 997500,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
         }
       ]
     },
@@ -296,61 +332,1407 @@
         "images/project-5.png",
         "images/project-5.png"
       ],
-      "projectArea": "005 Уникальная 4-х этажная новостройка в райое Пафоса",
+      "projectArea": "019 Элитный жилой комплекс в Пафосе, вдоль береговой линии",
       "projectStatus": "Завершен",
       "projectType": "Частная",
       "projectNote": "Пафос",
       "region": "Пафос",
       "projects": [
         {
-          "type": "Квартира 301",
+          "type": "Apartment North West #A001",
           "bedroom": 2,
-          "area": 80,
-          "Бассейн": "Общий",
-          "price": 356400,
-          "innerArea": 93,
-          "veranda": 6,
-          "pricePerSquareMetre": 4455
+          "area": 166,
+          "yard": 0,
+          "price": 636000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
         },
         {
-          "type": "Квартира 302",
+          "type": "Apartment North West #A101",
           "bedroom": 2,
-          "area": 79,
-          "Бассейн": "Общий",
-          "price": 388800,
-          "innerArea": 93,
-          "veranda": 6,
-          "pricePerSquareMetre": 4921
+          "area": 128,
+          "yard": 0,
+          "price": 555000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
         },
         {
-          "type": "Квартира 303",
+          "type": "Apartment North West #A104",
           "bedroom": 2,
-          "area": 79,
-          "Бассейн": "Общий",
-          "price": 388800,
-          "innerArea": 93,
-          "veranda": 6,
-          "pricePerSquareMetre": 4921
+          "area": 116,
+          "yard": 0,
+          "price": 476000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
         },
         {
-          "type": "Квартира 304",
+          "type": "Apartment South West #A106",
           "bedroom": 1,
-          "area": 55,
-          "Бассейн": "Общий",
-          "price": 259200,
-          "innerArea": 93,
-          "veranda": 6,
-          "pricePerSquareMetre": 4712
+          "area": 82,
+          "yard": 0,
+          "price": 347000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
         },
         {
-          "type": "Квартира 305",
+          "type": "Apartment South West #A107",
           "bedroom": 1,
-          "area": 53,
-          "Бассейн": "Общий",
-          "price": 226800,
-          "innerArea": 93,
-          "veranda": 6,
-          "pricePerSquareMetre": 4279
+          "area": 86,
+          "yard": 0,
+          "price": 352000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Apartment South West #A108",
+          "bedroom": 2,
+          "area": 124,
+          "yard": 0,
+          "price": 512000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Studio North East #A109",
+          "bedroom": 1,
+          "area": 50,
+          "yard": 0,
+          "price": 213000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Apartment North West #A201",
+          "bedroom": 2,
+          "area": 129,
+          "yard": 0,
+          "price": 535000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Apartment North West #A202",
+          "bedroom": 1,
+          "area": 84,
+          "yard": 0,
+          "price": 378000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Apartment North West #A203",
+          "bedroom": 2,
+          "area": 120,
+          "yard": 0,
+          "price": 492000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Apartment South West #A204",
+          "bedroom": 2,
+          "area": 127,
+          "yard": 0,
+          "price": 549000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Apartment South West #A205",
+          "bedroom": 2,
+          "area": 139,
+          "yard": 0,
+          "price": 565000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Apartment South West #A206",
+          "bedroom": 2,
+          "area": 124,
+          "yard": 0,
+          "price": 516000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Studio North East #A207",
+          "bedroom": 1,
+          "area": 50,
+          "yard": 0,
+          "price": 227000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        }
+      ]
+    },
+    {
+      "projectId": 6,
+      "projectIndex": "006",
+      "projectImgUrl": [
+        "images/project-6.png",
+        "images/project-6.png",
+        "images/project-6.png"
+      ],
+      "projectArea": "015 Виллы и дома в эксклюзивном закрытом сообществе в престижном пригороде Пафоса",
+      "projectStatus": "24 месяца после подписания",
+      "projectType": "Частная",
+      "projectNote": "Бассейн",
+      "region": "Пафос",
+      "projects": [
+        {
+          "type": "Villa West #V1 ( TYPE C)",
+          "bedroom": 3,
+          "area": 182,
+          "yard": 390,
+          "price": 888000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Villa West #V2 ( TYPE A)",
+          "bedroom": 3,
+          "area": 151,
+          "yard": 320,
+          "price": 706000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Villa South East #V6 ( TYPE C)",
+          "bedroom": 3,
+          "area": 182.0,
+          "yard": 420.0,
+          "price": 899000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Villa South East #V7 (TYPE A)",
+          "bedroom": 3,
+          "area": 151.0,
+          "yard": 290.0,
+          "price": 706000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Villa South East #V8 ( TYPE A)",
+          "bedroom": 3,
+          "area": 151.0,
+          "yard": 295.0,
+          "price": 706000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Villa South East #V9 ( TYPE A)",
+          "bedroom": 3,
+          "area": 151.0,
+          "yard": 295.0,
+          "price": 706000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Villa South East #V10 ( TYPE A)",
+          "bedroom": 3,
+          "area": 151.0,
+          "yard": 300.0,
+          "price": 706000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Villa South East #V11 ( TYPE A)",
+          "bedroom": 3,
+          "area": 151.0,
+          "yard": 300.0,
+          "price": 706000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Villa South East #V12 ( TYPE A)",
+          "bedroom": 3,
+          "area": 151.0,
+          "yard": 325.0,
+          "price": 717000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Villa North East #V13 ( TYPE B)",
+          "bedroom": 3,
+          "area": 165.0,
+          "yard": 310.0,
+          "price": 770000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Villa North East #V14 ( TYPE B)",
+          "bedroom": 3,
+          "area": 165.0,
+          "yard": 295.0,
+          "price": 770000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Villa North East #V15 ( TYPE B) ",
+          "bedroom": 3,
+          "area": 165.0,
+          "yard": 295.0,
+          "price": 770000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Villa East #V16 ( TYPE B)",
+          "bedroom": 3,
+          "area": 165.0,
+          "yard": 295.0,
+          "price": 770000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Villa East #V17 ( TYPE C)",
+          "bedroom": 3,
+          "area": 182.0,
+          "yard": 385.0,
+          "price": 867000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        }
+      ]
+    },
+    {
+      "projectId": 7,
+      "projectIndex": "007",
+      "projectImgUrl": [
+        "images/project-7.png",
+        "images/project-7.png",
+        "images/project-7.png"
+      ],
+      "projectArea": "013 Стильный комплекс, состоящий из резиденций: просторных апартаментов и пентхаусов открытой планировки",
+      "projectStatus": "Завершен",
+      "projectType": "Частная",
+      "projectNote": "Пафос",
+      "region": "Пафос",
+      "projects": [
+        {
+          "type": "Apartment South East Block B #3",
+          "bedroom": 2,
+          "area": 110.0,
+          "yard": 0.0,
+          "price": 315000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Apartment North West Block B #104",
+          "bedroom": 2,
+          "area": 106.0,
+          "yard": 0.0,
+          "price": 280000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Townhouse East Block C #101",
+          "bedroom": 2,
+          "area": 118.0,
+          "yard": 0.0,
+          "price": 352000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Apartment North East Block D #201",
+          "bedroom": 3,
+          "area": 151.0,
+          "yard": 0.0,
+          "price": 522000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        }
+      ]
+    },
+    {
+      "projectId": 8,
+      "projectIndex": "008",
+      "projectImgUrl": [
+        "images/project-8.png",
+        "images/project-8.png",
+        "images/project-8.png"
+      ],
+      "projectArea": "004 Клубное комьюнити класса 'Люкс' (район Venus Beach, Пафос)",
+      "projectStatus": "В процессе",
+      "projectType": "Частная",
+      "projectNote": "Сад на крыше",
+      "region": "Пафос",
+      "projects": [
+        {
+          "type": "Вилла TYPE F",
+          "bedroom": "4+2",
+          "area": 407,
+          "yard": 827,
+          "price": 4600000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE B",
+          "bedroom": "4+2",
+          "area": 430,
+          "yard": 751,
+          "price": "RESERVED",
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE B",
+          "bedroom": "4+2",
+          "area": 430,
+          "yard": 629,
+          "price": 4600000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE B",
+          "bedroom": "4+2",
+          "area": 430,
+          "yard": 595,
+          "price": 4400000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE B",
+          "bedroom": "4+2",
+          "area": 430,
+          "yard": 588,
+          "price": 4300000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE B",
+          "bedroom": "4+2",
+          "area": 430,
+          "yard": 616,
+          "price": 4400000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE B",
+          "bedroom": "4+2",
+          "area": 430,
+          "yard": 597,
+          "price": 4400000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE B",
+          "bedroom": "4+2",
+          "area": 430,
+          "yard": 613,
+          "price": 4500000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE C",
+          "bedroom": "4+2",
+          "area": 406,
+          "yard": 592,
+          "price": 4400000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE C",
+          "bedroom": "4+2",
+          "area": 406,
+          "yard": 520,
+          "price": 4200000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE A",
+          "bedroom": "4+3",
+          "area": 436,
+          "yard": 632,
+          "price": 2700000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE D",
+          "bedroom": "4+3",
+          "area": 403,
+          "yard": 627,
+          "price": "RESERVED",
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE A",
+          "bedroom": "4+3",
+          "area": 436,
+          "yard": 542,
+          "price": 2500000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE C",
+          "bedroom": "4+2",
+          "area": 406,
+          "yard": 578,
+          "price": 2650000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE F",
+          "bedroom": "4+2",
+          "area": 407,
+          "yard": 730,
+          "price": 2850000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE D",
+          "bedroom": 4,
+          "area": 282,
+          "yard": 629,
+          "price": 2200000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE E",
+          "bedroom": "4+2",
+          "area": 456,
+          "yard": 611,
+          "price": 2900000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE C",
+          "bedroom": 4,
+          "area": 310,
+          "yard": 659,
+          "price": 2300000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE F",
+          "bedroom": "4+2",
+          "area": 407,
+          "yard": 619,
+          "price": 2500000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE D",
+          "bedroom": 4,
+          "area": 282,
+          "yard": 537,
+          "price": 2200000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE D",
+          "bedroom": 4,
+          "area": 282,
+          "yard": 667,
+          "price": 2200000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE D",
+          "bedroom": 4,
+          "area": 282,
+          "yard": 620,
+          "price": 2200000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE G",
+          "bedroom": 3,
+          "area": 164,
+          "yard": 250,
+          "price": 950000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE G",
+          "bedroom": 3,
+          "area": 164,
+          "yard": 225,
+          "price": 950000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        }
+      ]
+    },
+    {
+      "projectId": 9,
+      "projectIndex": "009",
+      "projectImgUrl": [
+        "images/project-9.png",
+        "images/project-9.png",
+        "images/project-9.png"
+      ],
+      "projectArea": "088 Комфортабельные современные резиденции в центре Пафоса",
+      "projectStatus": "В процессе",
+      "projectType": "Частная",
+      "projectNote": "Апартаменты",
+      "region": "Пафос",
+      "projects": [
+        {
+          "type": "Block B A001",
+          "bedroom": 2,
+          "area": 124.25,
+          "yard": 0,
+          "price": 240000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Block B A205",
+          "bedroom": 2,
+          "area": 124.25,
+          "yard": 0,
+          "price": 275000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        }
+      ]
+    },
+    {
+      "projectId": 10,
+      "projectIndex": "010",
+      "projectImgUrl": [
+        "images/project-10.png",
+        "images/project-10.png",
+        "images/project-10.png"
+      ],
+      "projectArea": "089 Потрясающий комплекс с двумя пятиэтажными блоками апартаментов в Пафосе",
+      "projectStatus": "В процессе",
+      "projectType": "Частная",
+      "projectNote": "Общий бассейн",
+      "region": "Пафос",
+      "projects": [
+        {
+          "type": "Блок В А202",
+          "bedroom": 3,
+          "area": 141.27,
+          "yard": 0,
+          "price": 340000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Блок Б А101",
+          "bedroom": 3,
+          "area": 161.64,
+          "yard": 0,
+          "price": 335000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Блок Б А201",
+          "bedroom": 3,
+          "area": 161.64,
+          "yard": 0,
+          "price": 350000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Блок Б А301",
+          "bedroom": 3,
+          "area": 161.64,
+          "yard": 0,
+          "price": 365000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Блок Б А302",
+          "bedroom": 3,
+          "area": 153.77,
+          "yard": 0,
+          "price": 350000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Блок Б А401",
+          "bedroom": 3,
+          "area": 161.64,
+          "yard": 0,
+          "price": 380000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Блок Б А501",
+          "bedroom": 3,
+          "area": 170.74,
+          "yard": 0,
+          "price": 395000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        }
+      ]
+    },
+    {
+      "projectId": 11,
+      "projectIndex": "011",
+      "projectImgUrl": [
+        "images/project-11.png",
+        "images/project-11.png",
+        "images/project-11.png"
+      ],
+      "projectArea": "090 Комплекс вилл С 2, 3, 4 спальнями на первой линии и таун-хаусами в Пафосе",
+      "projectStatus": "В процессе",
+      "projectType": "Частная",
+      "projectNote": "Виллы",
+      "region": "Пафос",
+      "projects": [
+        {
+          "type": "Таун хаус 09",
+          "bedroom": 3,
+          "area": 141.8,
+          "yard": 184.7,
+          "price": 315000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Таун хаус 10",
+          "bedroom": 3,
+          "area": 141.8,
+          "yard": 184.7,
+          "price": 315000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Таун хаус 11",
+          "bedroom": 3,
+          "area": 141.8,
+          "yard": 184.7,
+          "price": 315000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Таун хаус 12",
+          "bedroom": 3,
+          "area": 141.8,
+          "yard": 184.7,
+          "price": 315000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Таун хаус 13",
+          "bedroom": 3,
+          "area": 136.6,
+          "yard": 199.45,
+          "price": 315000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Таун хаус 14",
+          "bedroom": 3,
+          "area": 136.6,
+          "yard": 199.45,
+          "price": 315000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Таун хаус 15",
+          "bedroom": 3,
+          "area": 141.8,
+          "yard": 184.7,
+          "price": 315000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Таун хаус 16",
+          "bedroom": 3,
+          "area": 141.8,
+          "yard": 184.7,
+          "price": 315000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Таун хаус 17",
+          "bedroom": 3,
+          "area": 153.8,
+          "yard": 171.84,
+          "price": 330000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Таун хаус 18",
+          "bedroom": 3,
+          "area": 153.8,
+          "yard": 159.6,
+          "price": 320000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Таун хаус 19",
+          "bedroom": 3,
+          "area": 153.8,
+          "yard": 159.6,
+          "price": 320000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Таун хаус 20",
+          "bedroom": 3,
+          "area": 153.8,
+          "yard": 171.84,
+          "price": 330000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Таун хаус 21",
+          "bedroom": 3,
+          "area": 141.8,
+          "yard": 184.7,
+          "price": 315000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Таун хаус 22",
+          "bedroom": 3,
+          "area": 141.8,
+          "yard": 184.7,
+          "price": 315000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Таун хаус 33",
+          "bedroom": 3,
+          "area": 136.6,
+          "yard": 199.45,
+          "price": 315000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Таун хаус 34",
+          "bedroom": 3,
+          "area": 136.6,
+          "yard": 199.45,
+          "price": 315000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Таун хаус 36",
+          "bedroom": 2,
+          "area": 134.57,
+          "yard": 180.5,
+          "price": 300000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Таун хаус 37",
+          "bedroom": 3,
+          "area": 141.8,
+          "yard": 188.9,
+          "price": 320000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Таун хаус 38",
+          "bedroom": 3,
+          "area": 141.8,
+          "yard": 190.8,
+          "price": 320000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла V02",
+          "bedroom": 4,
+          "area": 175.77,
+          "yard": 368.94,
+          "price": 410000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла V24",
+          "bedroom": 3,
+          "area": 178.76,
+          "yard": 329.3,
+          "price": 370000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла V27",
+          "bedroom": 3,
+          "area": 173.05,
+          "yard": 329.5,
+          "price": 360000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла V28",
+          "bedroom": 3,
+          "area": 176.64,
+          "yard": 330,
+          "price": 360000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла V29",
+          "bedroom": 3,
+          "area": 176.64,
+          "yard": 330,
+          "price": 360000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла V30",
+          "bedroom": 3,
+          "area": 176.17,
+          "yard": 329.6,
+          "price": 360000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла V31",
+          "bedroom": 3,
+          "area": 173.05,
+          "yard": 329.5,
+          "price": 360000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла V32",
+          "bedroom": 3,
+          "area": 170.21,
+          "yard": 331.8,
+          "price": 360000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        }
+      ]
+    },
+    {
+      "projectId": 12,
+      "projectIndex": "012",
+      "projectImgUrl": [
+        "images/project-12.png",
+        "images/project-12.png",
+        "images/project-12.png"
+      ],
+      "projectArea": "001 Участок в деревне Акурдалия",
+      "projectStatus": "Земля",
+      "projectType": "Инвестиционная",
+      "projectNote": "Land/Plot",
+      "region": "Пафос",
+      "projects": [
+        {
+          "type": "Akourdalia 354,127,128,5,134 #128,127,134,5,354",
+          "bedroom": 0,
+          "area": 0,
+          "yard": 36416,
+          "price": 2000000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        }
+      ]
+    },
+    {
+      "projectId": 13,
+      "projectIndex": "013",
+      "projectImgUrl": [
+        "images/project-13.png",
+        "images/project-13.png",
+        "images/project-13.png"
+      ],
+      "projectArea": "002 Участок в деревне Аргака",
+      "projectStatus": "Земля",
+      "projectType": "Инвестиционная",
+      "projectNote": "Land/Plot",
+      "region": "Пафос",
+      "projects": [
+        {
+          "type": "Argaka597 #597",
+          "bedroom": 0,
+          "area": 0,
+          "yard": 16389,
+          "price": 1545000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Argaka 598 #598",
+          "bedroom": 0,
+          "area": 0,
+          "yard": 8027,
+          "price": 706000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        }
+      ]
+    },
+    {
+      "projectId": 14,
+      "projectIndex": "014",
+      "projectImgUrl": [
+        "images/project-14.png",
+        "images/project-14.png",
+        "images/project-14.png"
+      ],
+      "projectArea": "003 Участки и объекты в частном комплексе на вершине холма в деревне Тсада",
+      "projectStatus": "Земля",
+      "projectType": "Инвестиционная",
+      "projectNote": "Land/Plot",
+      "region": "Пафос",
+      "projects": [
+        {
+          "type": "Land/Plot #26 (Plot 851)",
+          "bedroom": 0,
+          "area": 680.0,
+          "yard": 0,
+          "price": 110000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Land/Plot #7 (Plot 875)",
+          "bedroom": 0,
+          "area": 290.0,
+          "yard": 692.0,
+          "price": 165000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Land/Plot #14 (Plot 868)",
+          "bedroom": 0,
+          "area": 751.0,
+          "yard": 0,
+          "price": 130000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Land/Plot #15 (Plot 867)",
+          "bedroom": 0,
+          "area": 628.0,
+          "yard": 0,
+          "price": 105000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Land/Plot #16 (Plot 866)",
+          "bedroom": 0,
+          "area": 673.0,
+          "yard": 280.0,
+          "price": 175000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Land/Plot #25 (Plot 852)",
+          "bedroom": 0,
+          "area": 711.0,
+          "yard": 0,
+          "price": 115000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Land/Plot #27 (Plot 850)",
+          "bedroom": 0,
+          "area": 631.0,
+          "yard": 0,
+          "price": 105000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Land/Plot #2 (Plot 879)",
+          "bedroom": 0,
+          "area": 1237.0,
+          "yard": 0,
+          "price": 124000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        }
+      ]
+    },
+    {
+      "projectId": 15,
+      "projectIndex": "015",
+      "projectImgUrl": [
+        "images/project-15.png",
+        "images/project-15.png",
+        "images/project-15.png"
+      ],
+      "projectArea": "036 Современное коммерческое здание в Пафосе",
+      "projectStatus": "Завершен",
+      "projectType": "Коммерческая",
+      "projectNote": "Пафос",
+      "region": "Пафос",
+      "projects": [
+        {
+          "type": "Basement",
+          "bedroom": 0,
+          "area": 159,
+          "yard": 0,
+          "price": 3100000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Ground Floor",
+          "bedroom": 0,
+          "area": 137,
+          "yard": 16,
+          "price": 3100000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Mezzanine",
+          "bedroom": 0,
+          "area": 66,
+          "yard": 0,
+          "price": 3100000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "First Floor",
+          "bedroom": 0,
+          "area": 109,
+          "yard": 19,
+          "price": 3100000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Second Floor",
+          "bedroom": 0,
+          "area": 96,
+          "yard": 6,
+          "price": 3100000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Third Floor",
+          "bedroom": 0,
+          "area": 103,
+          "yard": 13,
+          "price": 3100000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Roof Garden",
+          "bedroom": 0,
+          "area": 0,
+          "yard": 0,
+          "price": 3100000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Total Areas",
+          "bedroom": 0,
+          "area": 670,
+          "yard": 54,
+          "price": 3100000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Covered Parking",
+          "bedroom": 0,
+          "area": 74.88,
+          "yard": 0,
+          "price": 3100000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Uncovered Parking",
+          "bedroom": 0,
+          "area": 34.56,
+          "yard": 0,
+          "price": 3100000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Mechanical",
+          "bedroom": 0,
+          "area": 56,
+          "yard": 0,
+          "price": 3100000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Communal Area",
+          "bedroom": 0,
+          "area": 90,
+          "yard": 0,
+          "price": 3100000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        }
+      ]
+    },
+    {
+      "projectId": 16,
+      "projectIndex": "016",
+      "projectImgUrl": [
+        "images/project-16.png",
+        "images/project-16.png",
+        "images/project-16.png"
+      ],
+      "projectArea": "046 Превосходное современное коммерческое и жилое здание в Пафосе",
+      "projectStatus": "Завершен",
+      "projectType": "Коммерческая",
+      "projectNote": "Пафос",
+      "region": "Пафос",
+      "projects": [
+        {
+          "type": "Parking",
+          "bedroom": 0,
+          "area": 307,
+          "yard": 0,
+          "price": 4500000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Showroom 1",
+          "bedroom": 0,
+          "area": 250,
+          "yard": 0,
+          "price": 4500000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Showroom 2",
+          "bedroom": 0,
+          "area": 125,
+          "yard": 0,
+          "price": 4500000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Offices",
+          "bedroom": 0,
+          "area": 131,
+          "yard": 0,
+          "price": 4500000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Apartment 201",
+          "bedroom": 0,
+          "area": 133,
+          "yard": 0,
+          "price": 4500000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Apartment 301",
+          "bedroom": 0,
+          "area": 133,
+          "yard": 3,
+          "price": 4500000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Roof Garden",
+          "bedroom": 0,
+          "area": 119,
+          "yard": 0,
+          "price": 4500000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
         }
       ]
     }

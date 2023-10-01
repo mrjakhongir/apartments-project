@@ -128,11 +128,13 @@ const Filter = () => {
         </div>
         <div className="accordion-content">
           {regionOpen &&
-            ["Все регионы", "Пафос", "Эпископи"].map((item, index) => (
-              <p onClick={() => handleRegion(item)} key={index}>
-                {item}
-              </p>
-            ))}
+            ["Все регионы", "Никосия", "Лимассол", "Ларнака", "Пафос"].map(
+              (item, index) => (
+                <p onClick={() => handleRegion(item)} key={index}>
+                  {item}
+                </p>
+              )
+            )}
         </div>
       </div>
 

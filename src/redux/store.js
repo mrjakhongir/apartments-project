@@ -6,6 +6,7 @@ import roomToSlice from "./roomToSlice"
 import priceFromSlice from "./priceFromSlice"
 import priceToSlice from "./priceToSlice"
 import filteredDataSlice from "./filteredDateSlice"
+import resizeWindowSlice from "./resizeWindow"
 
 const store = configureStore({
   reducer: {
@@ -16,6 +17,7 @@ const store = configureStore({
     priceFrom: priceFromSlice,
     priceTo: priceToSlice,
     filterData: filteredDataSlice,
+    size: resizeWindowSlice,
   },
 })
 
