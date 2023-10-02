@@ -8,10 +8,6 @@
     line-height: 1.84rem;
     justify-content: space-between;
 
-    .socials-mobile {
-      display: none;
-    }
-
     .footer__social-medias {
       a {
         img {
@@ -41,7 +37,7 @@
 
     .footer__contacts {
       a {
-        margin-bottom: 15rem;
+        margin-bottom: rem;
         color: #0e2341;
         transition: all 200ms ease-in-out;
 
@@ -51,6 +47,10 @@
       }
     }
   }
+  .socials-mobile {
+    display: none;
+  }
+
   @media screen and (max-width: 375px) {
     .footer__inner {
       font-size: 1rem;
