@@ -1,18 +1,18 @@
-import Filter from "../../../components/filter/Filter"
-import { motion } from "framer-motion"
-import "./homeSection1.scss"
-import { useEffect } from "react"
-import { useSelector, useDispatch } from "react-redux"
-import { resize } from "../../../redux/resizeWindow"
+import Filter from "../../../components/filter/Filter";
+import { motion } from "framer-motion";
+import "./homeSection1.scss";
+import { useEffect } from "react";
+import { useSelector, useDispatch } from "react-redux";
+import { resize } from "../../../redux/resizeWindow";
 
 const HomeSection1 = () => {
-  const { size } = useSelector((state) => state.size)
-  const dispatch = useDispatch()
+  const { size } = useSelector((state) => state.size);
+  const dispatch = useDispatch();
   useEffect(() => {
     window.addEventListener("resize", () => {
-      dispatch(resize(window.innerWidth))
-    })
-  })
+      dispatch(resize(window.innerWidth));
+    });
+  });
   return (
     <section className="welcome">
       <div className="wrapper">
@@ -28,14 +28,14 @@ const HomeSection1 = () => {
           </p>
           <button className="btn welcome__btn">Оставить заявку</button>
         </motion.div>
-        {size > 375 && (
+        {size > 375 || size === 0 ? (
           <motion.div
             whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
             transition={{ duration: 0.5 }}
           >
             <Filter />
           </motion.div>
-        )}
+        ) : null}
         <div className="welcome-statistics">
           <div>
             <h2>20+</h2>
@@ -52,6 +52,6 @@ const HomeSection1 = () => {
         </div>
       </div>
     </section>
-  )
-}
-export default HomeSection1
+  );
+};
+export default HomeSection1;
