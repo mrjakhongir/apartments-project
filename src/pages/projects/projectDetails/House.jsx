@@ -1,11 +1,11 @@
-import React, { useState } from "react"
-import { motion } from "framer-motion"
-import { svgs } from "../../../constants/images"
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+import { svgs } from "../../../constants/images";
 
 const House = ({ project, index }) => {
-  const [showDetails, setShowDetails] = useState(false)
+  const [showDetails, setShowDetails] = useState(false);
   function showHouseDetails(index) {
-    setShowDetails((prevState) => !prevState)
+    setShowDetails((prevState) => !prevState);
   }
   return (
     <motion.div
@@ -61,13 +61,13 @@ const House = ({ project, index }) => {
             <p>Бассейн</p>
           </div>
         </div>
-      </div>
-      <div className="accordion-bottom">
-        <h4>Заполните форму и мы отправим вам всю информацию</h4>
-        <button className="btn">Заполнить</button>
+        <div className="accordion-bottom">
+          <h4>Заполните форму и мы отправим вам всю информацию</h4>
+          <button className="btn">Заполнить</button>
+        </div>
       </div>
     </motion.div>
-  )
-}
+  );
+};
 
-export default House
+export default House;
