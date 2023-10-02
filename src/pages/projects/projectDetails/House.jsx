@@ -36,7 +36,7 @@ const House = ({ project, index }) => {
       <div
         className={`accordion-middle ${showDetails ? "accordion-open" : ""}`}
       >
-        <div className="accordion-top flex">
+        {/* <div className="accordion-top flex">
           <div className="accordion-detail">
             <div>
               <p>Внутренняя площадь:</p>
@@ -60,7 +60,7 @@ const House = ({ project, index }) => {
             <img src={svgs.poolIcon} alt="" />
             <p>Бассейн</p>
           </div>
-        </div>
+        </div> */}
         <div className="accordion-bottom">
           <h4>Заполните форму и мы отправим вам всю информацию</h4>
           <button className="btn">Заполнить</button>
