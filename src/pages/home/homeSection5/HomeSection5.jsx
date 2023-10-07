@@ -1,10 +1,10 @@
-import { motion } from "framer-motion"
-import "./homeSection5.scss"
+import { motion } from 'framer-motion';
+import './homeSection5.scss';
 
 export const HomeSection5 = () => {
   return (
-    <section className="home__section5">
-      <div className="wrapper">
+    <section className='home__section5'>
+      <div className='wrapper'>
         <motion.div
           whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
           transition={{ duration: 0.3 }}
@@ -57,7 +57,6 @@ export const HomeSection5 = () => {
             </strong>
             <ul>
               <li>⁃ консультирование по части бронирования авиабилетов;</li>
-              <li>⁃ консультирование по части бронирования авиабилетов;</li>
               <li>
                 ⁃ организация трансфера и персональное сопровождение на Кипре;
               </li>
@@ -83,5 +82,5 @@ export const HomeSection5 = () => {
         </motion.div>
       </div>
     </section>
-  )
-}
+  );
+};

@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -44,7 +44,7 @@ img {
   padding: 1.9rem 3.6rem;
   cursor: pointer;
   transition: all 200ms ease-in-out;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
 }
 
 ul {
@@ -52,15 +52,15 @@ ul {
 }
 
 .arrow-up {
-  width: 55px;
-  height: 55px;
+  width: 45px;
+  height: 45px;
   background-color: #756558;
   border: 1px solid #756558;
   border: none;
   border-radius: 50%;
 
   position: fixed;
-  top: 70%;
+  top: 82%;
   right: 1%;
   cursor: pointer;
 

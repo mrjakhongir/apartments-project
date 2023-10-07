@@ -1,22 +1,25 @@
-import React, { useState } from "react";
-import { motion } from "framer-motion";
-import { svgs } from "../../../constants/images";
+import React, { useState } from 'react';
+
+
+import { motion } from 'framer-motion';
 
 const House = ({ project, index }) => {
+
   const [showDetails, setShowDetails] = useState(false);
   function showHouseDetails(index) {
     setShowDetails((prevState) => !prevState);
   }
+
   return (
     <motion.div
       whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
       transition={{ duration: 0.3 }}
-      className="house"
+      className='house'
     >
-      <div className="accordion-top flex">
+      <div className='accordion-top flex'>
         <div>
           <h2>{project.type}</h2>
-          <div className="house-description flex">
+          <div className='house-description flex'>
             <p>
               Спальни: <span> {project.bedroom}</span>
             </p>
@@ -28,13 +31,13 @@ const House = ({ project, index }) => {
             </p>
           </div>
         </div>
-        <button onClick={() => showHouseDetails(index)} className="btn">
-          {showDetails ? "Свернуть" : "Подробнее"}
+        <button onClick={() => showHouseDetails(index)} className='btn'>
+          {showDetails ? 'Свернуть' : 'Подробнее'}
         </button>
       </div>
 
       <div
-        className={`accordion-middle ${showDetails ? "accordion-open" : ""}`}
+        className={`accordion-middle ${showDetails ? 'accordion-open' : ''}`}
       >
         {/* <div className="accordion-top flex">
           <div className="accordion-detail">
@@ -61,9 +64,9 @@ const House = ({ project, index }) => {
             <p>Бассейн</p>
           </div>
         </div> */}
-        <div className="accordion-bottom">
+        <div className='accordion-bottom'>
           <h4>Заполните форму и мы отправим вам всю информацию</h4>
-          <button className="btn">Заполнить</button>
+          <button className='btn'>Заполнить</button>
         </div>
       </div>
     </motion.div>
