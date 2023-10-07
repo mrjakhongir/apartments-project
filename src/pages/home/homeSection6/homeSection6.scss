@@ -1,5 +1,5 @@
 .home__section6 {
-  background-image: url("../../../assets/png/home-bg3.png");
+  background-image: url('../../../assets/png/home-bg3.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -8,20 +8,22 @@
     padding: 8.8rem 0 10rem;
 
     h2 {
-      font-size: 2.2rem;
+      font-size: 3.3rem;
       line-height: 2.996rem;
       font-weight: 600;
       color: #0e2341;
-      margin-bottom: 1.3rem;
+      margin-bottom: 2rem;
     }
 
     p {
-      font-size: 1.5rem;
-      line-height: 2.043rem;
+      font-size: 2.2rem;
+      line-height: 2.7rem;
       font-weight: 400;
       color: #0e2341;
       margin-bottom: 3rem;
-      max-width: 348px;
+      max-width: 450px;
+
+      text-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
     }
 
     a {
