@@ -1,5 +1,6 @@
 import React from "react"
-import Footer from "../../components/footer/Footer"
+// import Footer from "../../components/footer/Footer"
+import HomeFooter from "../../components/homeFooter/HomeFooter"
 import "./purchase.scss"
 import PurchaseSection1 from "./purchaseSection1/PuchaseSection1"
 import PurchaseSection2 from "./purchaseSection2/PurchaseSection2"
@@ -13,7 +14,7 @@ function Purchase() {
       <PurchaseSection2 />
       <PurchaseSection3 />
       <PurchaseSection4 />
-      <Footer bgColor="#3D6CBB1A" />
+      <HomeFooter bgColor="#3D6CBB1A" />
     </div>
   )
 }

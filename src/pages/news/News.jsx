@@ -3,6 +3,7 @@ import New from "./new/New.jsx"
 
 import "./news.scss"
 import { news } from "../../constants/news"
+import HomeFooter from "../../components/homeFooter/HomeFooter"
 
 
 const newsData = news
@@ -21,7 +22,7 @@ function News() {
           ))}
         </div>
       </div>
-      <Footer bgColor="#3D6CBB1A" />
+      <HomeFooter />
     </div>
   )
 }

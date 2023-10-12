@@ -4,6 +4,7 @@ import Footer from "../../../components/footer/Footer"
 import NewsComponent from "../../../components/news/NewsComponent"
 import "./newsDetails.scss"
 import { motion } from "framer-motion"
+import HomeFooter from "../../../components/homeFooter/HomeFooter"
 
 const NewsDetails = () => {
   const { id } = useParams()
@@ -49,7 +50,7 @@ const NewsDetails = () => {
         </div>
       </motion.div>
       <NewsComponent/>
-      <Footer bgColor="#3D6CBB1A" />
+      <HomeFooter bgColor="#3D6CBB1A" />
     </div>
   )
 }

@@ -55,7 +55,7 @@
     .footer__inner {
       font-size: 1rem;
       line-height: 1.15rem;
-
+      flex-direction: row-reverse;
       div:first-child {
         display: none;
       }
@@ -66,20 +66,39 @@
 
       .footer__contacts {
         > div > a {
-          margin: 0;
+          margin-bottom: 5px;
         }
-        margin-bottom: 1.5rem;
+        &_map{
+          margin-top: 28px;
+        }
+        margin-bottom: -4.5rem;
       }
       .footer__title {
-        font-size: 1.4rem;
-        line-height: 1.907rem;
-        margin-bottom: 0;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 5px;
+      }
+      .footer__licence{
+        width: 176px;
+        p {
+          font-family: Open Sans;
+          font-size: 10px;
+          font-weight: 400;
+          line-height: 11px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
       }
     }
     .socials-mobile {
       display: flex;
       gap: 1.4rem;
       padding-bottom: 1.5rem;
+      width: 124px;
     }
   }
 }

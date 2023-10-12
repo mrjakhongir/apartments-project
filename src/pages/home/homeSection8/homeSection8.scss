@@ -105,6 +105,10 @@
   @media screen and (max-width: 375px) {
     background-image: none;
 
+    > div {
+      padding: 1rem 0 10rem;
+    }
+  
     .home__contacts {
       max-width: 331px;
       background-image: url("../../../assets//png/home-contact-bg-small.png");

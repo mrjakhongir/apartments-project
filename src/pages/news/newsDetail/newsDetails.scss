@@ -62,3 +62,104 @@
     }
   }
 }
+
+.all_news_btn{
+    border: 2px solid #0e2341;
+    background-color: #fff;
+    font-size: 1.6rem;
+    color: #0e2341;
+    font-weight: 600;
+
+    &:hover {
+      background-color: #0e2341;
+      border-color: #0e2341;
+      color: #fff;
+    }
+}
+
+@media only screen and (max-width:375px){
+  .news-details {
+    .news-detials-banner {
+      background-image: url("../../../assets/png/news-bg.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 100px;
+    }
+    .news-details-date {
+      background-color: inherit;
+      padding: 0;
+  
+      > div {
+        color: #fff;
+        font-size: 2rem;
+        line-height: 2.724rem;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p {
+          position: absolute;
+          top: 122px;
+          font-family: Open Sans;
+          font-size: 24px;
+          font-weight: 600;
+          line-height: 33px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+      }
+    }
+  
+    .news-details-title {
+      background-color: #3d6cbb1a;
+      padding: 3rem 3rem;
+  
+      > div > h1 {
+        font-family: Open Sans;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: left;
+        width: 308px;
+      }
+    }
+  
+    .news-details-img {
+      padding: 3rem 0;
+
+      img {
+        border-radius: 5px;
+      }
+    }
+  
+    .news-details-paragraphs {
+      background-color: #3d6cbb1a;
+      padding: 3rem;
+  
+      .news-details-para {
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+
+  
+        &:last-child() {
+          margin-bottom: 0;
+        }
+      }
+  
+      h1 {
+        font-size: 3.4rem;
+        line-height: 4.63rem;
+        font-weight: 600;
+        color: #0e2341;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}

@@ -42,8 +42,26 @@
     }
   }
 
+  .show{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    &__btn{
+        border: none;
+        background-color: inherit;
+        font-family: 'Gilroy';
+        font-size: 15px;
+        line-height: 18px;
+        color: #4E72CA;
+        &.out{
+            display: none;
+        }
+    }
+}
+
   @media screen and (max-width: 375px) {
     padding: 0;
+    margin-bottom: 60px;
     h1 {
       font-size: 2.8rem;
       line-height: 3.813rem;

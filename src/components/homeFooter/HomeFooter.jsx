@@ -41,7 +41,7 @@ function HomeFooter() {
             <div>
               <a href="tel: +998 90 039 88 68">+998 90 039 88 68</a>
               <a href="mailto: infouz@reiwacy.com ">infouz@reiwacy.com </a>
-              <a href="map">
+              <a href="map" className="footer__contacts_map">
                 Address: 59, Office 01,<br></br> Ellados Leoforos,<br></br>{" "}
                 Pafos, 8020
               </a>
