@@ -1,12 +1,9 @@
-import React, { useState } from 'react';
-
-
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 
-const House = ({ project, index }) => {
-
+const House = ({ project }) => {
   const [showDetails, setShowDetails] = useState(false);
-  function showHouseDetails(index) {
+  function showHouseDetails() {
     setShowDetails((prevState) => !prevState);
   }
 
@@ -16,58 +13,64 @@ const House = ({ project, index }) => {
       transition={{ duration: 0.3 }}
       className='house'
     >
-      <div className='accordion-top flex'>
-        <div>
-          <h2>{project.type}</h2>
-          <div className='house-description flex'>
-            <p>
-              Спальни: <span> {project.bedroom}</span>
-            </p>
-            <p>
-              Жилая площадь: <span> {project.area} m2</span>
-            </p>
-            <p>
-              Участок: <span> {project.yard} m2</span>
-            </p>
-          </div>
-        </div>
-        <button onClick={() => showHouseDetails(index)} className='btn'>
-          {showDetails ? 'Свернуть' : 'Подробнее'}
-        </button>
-      </div>
-
-      <div
-        className={`accordion-middle ${showDetails ? 'accordion-open' : ''}`}
-      >
-        {/* <div className="accordion-top flex">
-          <div className="accordion-detail">
-            <div>
-              <p>Внутренняя площадь:</p>
-              <p>{project.area} m2</p>
-            </div>
-            <div>
-              <p>Крытая веранда:</p>
-              <p>{project.veranda} m2</p>
-            </div>
-            <div>
-              <p>Цена за кв.м:</p>
-              <p className="house-price">
-                €
-                {project.pricePerSquareMetre
-                  .toString()
-                  .replace(/\B(?=(\d{3})+(?!\d))/g, " ")}
+      <div className='house-desktop'>
+        <div className='accordion-top flex'>
+          <div>
+            <h2>{project.type}</h2>
+            <div className='house-description flex'>
+              <p>
+                Спальни: <span> {project.bedroom}</span>
+              </p>
+              <p>
+                Жилая площадь: <span> {project.area} m2</span>
+              </p>
+              <p>
+                Участок: <span> {project.yard} m2</span>
               </p>
             </div>
           </div>
-          <div className="house-note">
-            <img src={svgs.poolIcon} alt="" />
-            <p>Бассейн</p>
-          </div>
-        </div> */}
-        <div className='accordion-bottom'>
-          <h4>Заполните форму и мы отправим вам всю информацию</h4>
-          <button className='btn'>Заполнить</button>
+          <button onClick={() => showHouseDetails()} className='btn'>
+            {showDetails ? 'Свернуть' : 'Подробнее'}
+          </button>
         </div>
+        <div
+          className={`accordion-bottom ${
+            showDetails ? 'accordion-bottom-open' : ''
+          }`}
+        >
+          <div>
+            <p>Заполните форму и мы отправим вам всю информацию</p>
+            <a
+              href='https://docs.google.com/forms/d/e/1FAIpQLSekfPQqRMG4Gc91fBNs_r6Pex3x2ZBOnCwXBJgqO9WcEQ0Jwg/viewform?pli=1'
+              target={'blank'}
+              className='btn'
+            >
+              Заполнить
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className='house-mobile'>
+        <table>
+          <tbody>
+            <tr>
+              <th>Тип</th>
+              <td>{project.type}</td>
+            </tr>
+            <tr>
+              <th>Спальни</th>
+              <td>{project.bedroom}</td>
+            </tr>
+            <tr>
+              <th>Площадь</th>
+              <td>{project.area} m2</td>
+            </tr>
+            <tr>
+              <th className='yard'>Участок</th>
+              <td>{project.yard} m2</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </motion.div>
   );

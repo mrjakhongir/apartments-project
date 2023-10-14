@@ -1,6 +1,6 @@
 .about-section3 {
   .about-section3_banner {
-    background-image: url("../../../assets/png/about-bg3.png");
+    background-image: url('../../../assets/png/about-bg3.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -34,6 +34,58 @@
           font-weight: 400;
           color: #0e2341;
           margin-left: 3rem;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 1080px) {
+    .about-section3_banner {
+      padding: 5rem 2rem;
+
+      h2 {
+        border-left: 4px solid #fff;
+        padding-left: 2.5rem;
+      }
+    }
+    .about-section3_description {
+      background-color: rgba(61, 108, 187, 0.1);
+      > div {
+        padding: 4rem 2rem 4rem;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .about-section3_banner {
+      padding: 2rem 0rem 2rem 2rem;
+
+      h2 {
+        border-width: 3px;
+        padding-left: 1.5rem;
+        margin-left: 1.4rem;
+      }
+    }
+    .about-section3_description {
+      > div {
+        padding: 2rem 3rem 5rem;
+        .about-subheader {
+          font-size: 1.8rem;
+          line-height: 2.451rem;
+        }
+        p {
+          font-size: 1.6rem;
+          line-height: 2.179rem;
+
+          &:nth-child(2) {
+            margin-bottom: 0;
+          }
+        }
+
+        ul {
+          li {
+            font-size: 1.6rem;
+            line-height: 2.179rem;
+            margin-left: 2.5rem;
+          }
         }
       }
     }

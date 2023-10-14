@@ -1,6 +1,6 @@
 .about-section7 {
   .about-section7_banner {
-    background-image: url("../../../assets/png/about-bg7.png");
+    background-image: url('../../../assets/png/about-bg7.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -33,6 +33,49 @@
         font-weight: 400;
         color: #0e2341;
         margin-left: 3rem;
+      }
+    }
+  }
+  @media screen and (max-width: 1080px) {
+    .about-section7_banner {
+      padding: 5rem 2rem;
+
+      h2 {
+        border-width: 4px;
+        padding: 2.5rem 0;
+        padding-left: 2.5rem;
+      }
+    }
+
+    .about-section7_description {
+      padding: 4rem 2rem;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .about-section7_banner {
+      padding: 2rem 0rem 2rem 2rem;
+
+      h2 {
+        border-width: 3px;
+        padding: 1.6rem 0;
+        padding-left: 1.5rem;
+        margin-left: 1.4rem;
+      }
+    }
+
+    .about-section7_description {
+      padding: 2rem 3rem 5rem;
+      .wrapper {
+        p {
+          font-size: 1.6rem;
+          line-height: 2.179rem;
+        }
+        ul {
+          li {
+            font-size: 1.6rem;
+            line-height: 2.179rem;
+          }
+        }
       }
     }
   }

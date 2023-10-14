@@ -24,6 +24,30 @@
       img:nth-of-type(even) {
         width: 270px;
       }
+
+      @media screen and (max-width: 980px) {
+        img:nth-of-type(odd) {
+          width: 60px;
+        }
+        img:nth-of-type(even) {
+          width: 250px;
+        }
+      }
+      @media screen and (max-width: 940px) {
+        img:nth-of-type(even) {
+          width: 230px;
+        }
+      }
+      @media screen and (max-width: 880px) {
+        img:nth-of-type(even) {
+          width: 220px;
+        }
+      }
+      @media screen and (max-width: 860px) {
+        img:nth-of-type(even) {
+          width: 200px;
+        }
+      }
     }
 
     .service-row2 {
@@ -52,10 +76,43 @@
         }
       }
     }
+    @media screen and (max-width: 1080px) {
+      padding: 4rem 2rem;
 
-    @media screen and (max-width: 375px) {
-      padding: 0;
-      padding: 8rem 3.3rem;
+      .service__title {
+        font-size: 3.7rem;
+        line-height: 4.5rem;
+      }
+
+      .service-row2 {
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10rem;
+        div {
+          text-align: center;
+          img {
+            display: none;
+          }
+
+          h3 {
+            font-size: 2.2rem;
+            line-height: 2.996rem;
+            color: #0e2341;
+            font-weight: 600;
+            margin-bottom: 0.7rem;
+          }
+          p {
+            font-size: 1.5rem;
+            line-height: 2.043rem;
+            font-weight: 400;
+            color: #0e2341;
+            text-align: center;
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 768px) {
+      padding: 8rem 3rem;
 
       .service__title {
         font-size: 2.8rem;
@@ -69,6 +126,8 @@
 
       .service-row2 {
         width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
         flex-direction: column;
         gap: 4rem;
         div {

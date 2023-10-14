@@ -1,6 +1,6 @@
 .about-section1 {
   .about-section1_banner {
-    background-image: url("../../../assets/png/about-bg1.png");
+    background-image: url('../../../assets/png/about-bg1.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -24,6 +24,51 @@
       font-weight: 400;
       color: #0e2341;
       margin-bottom: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 1080px) {
+    .about-section1_banner {
+      padding: 0 2rem;
+      h1 {
+        font-size: 5rem;
+        line-height: 6rem;
+        font-weight: 700;
+        color: #fff;
+        padding: 5rem 0;
+      }
+    }
+
+    .about-section1_description {
+      background-color: rgba(61, 108, 187, 0.1);
+      padding: 4rem 2rem 4rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .about-section1_banner {
+      h1 {
+        font-size: 2.8rem;
+        line-height: 3.22rem;
+        font-weight: 700;
+        padding: 3.4rem 0;
+        text-align: center;
+      }
+    }
+    .about-section1_description {
+      padding: 2rem 3rem 5rem;
+      .wrapper {
+        .about-subheader {
+          font-size: 2.4rem;
+          line-height: 3.268rem;
+        }
+
+        p {
+          font-size: 1.6rem;
+          line-height: 2.179rem;
+          font-weight: 400;
+        }
+      }
     }
   }
 }

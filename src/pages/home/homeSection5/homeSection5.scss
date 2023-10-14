@@ -1,6 +1,6 @@
 .home__section5 {
   div {
-    padding: 5rem 0;
+    padding: 5rem 2rem;
 
     h1 {
       font-size: 3.4rem;
@@ -17,10 +17,19 @@
       color: #0e2341;
       margin-bottom: 2rem;
     }
-
-    @media screen and (max-width: 375px) {
-      padding: 0;
-      padding: 2.5rem 0;
+    @media screen and (max-width: 1080px) {
+      padding: 3rem 1rem 1rem;
+      h1 {
+        font-size: 3rem;
+        line-height: 4rem;
+      }
+      p {
+        font-size: 1.7rem;
+        line-height: 2.2rem;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      padding: 2.5rem 2rem;
       h1 {
         font-size: 2.8rem;
         line-height: 3.813rem;

@@ -1,48 +1,41 @@
-// HomeSection1
-
 .welcome {
-  padding: 9rem 7.3rem;
-  background-image: url("../../../assets/png/home-bg1.png");
+  padding: 5rem 2rem;
+  background-image: url('../../../assets/png/home-bg1.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-color: #0c1d3680;
   background-blend-mode: multiply;
+  object-fit: cover;
 
   .welcome__title {
-    font-size: 6.2rem;
-    line-height: 7.13rem;
+    font-size: 3rem;
+    line-height: 3.45rem;
     font-weight: 700;
     color: #fff;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   .welcome__subtitle {
-    font-size: 2.8rem;
-    line-height: 3.5rem;
+    font-size: 1.8rem;
+    line-height: 2.25rem;
     font-weight: 400;
     color: #fff;
-    margin-bottom: 3rem;
-    max-width: 550px;
+    margin-bottom: 4rem;
+    max-width: 500px;
   }
 
   .welcome__btn {
-    background-color: transparent;
-    border: 1px solid #fff;
+    background-color: #3d6cbb;
+    border: 1px solid #3d6cbb;
     font-size: 1.6rem;
+    line-height: 2.179rem;
     color: #fff;
-    margin-bottom: 8.5rem;
-
-    &:hover {
-      background-color: #3d6cbb;
-      color: #fff;
-      border-color: #3d6cbb;
-      box-shadow: 0px 0px 15px #3d6cbb;
-    }
+    font-weight: 600;
+    margin-bottom: 5rem;
+    cursor: auto;
   }
   .welcome-statistics {
-    display: none;
-
     > div {
       margin-bottom: 3rem;
       &:last-child {
@@ -65,35 +58,62 @@
       }
     }
   }
+  .filter {
+    display: none;
+  }
 
-  @media screen and (max-width: 375px) {
-    padding: 5rem 2rem 7.3rem;
+  @media (min-width: 768px) {
+    padding: 6rem 3rem;
+
     .welcome__title {
-      font-size: 3rem;
-      line-height: 3.45rem;
-      margin-bottom: 2rem;
+      font-size: 4rem;
+      line-height: 4.7rem;
     }
+
     .welcome__subtitle {
-      font-size: 1.8rem;
-      line-height: 2.25rem;
-      margin-bottom: 4rem;
+      font-size: 2rem;
+      line-height: 2.55rem;
     }
 
     .welcome__btn {
-      background-color: #3d6cbb;
-      color: #fff;
-      border: none;
       margin-bottom: 5rem;
-      border-radius: 0px;
+      cursor: auto;
+    }
+    .welcome-statistics {
+      display: none;
+    }
+    .filter {
+      display: block;
+    }
+  }
+
+  @media (min-width: 1080px) {
+    .welcome__title {
+      font-size: 6.2rem;
+      line-height: 7.13rem;
+      margin-bottom: 1rem;
+    }
+
+    .welcome__subtitle {
+      font-size: 2.8rem;
+      line-height: 3.5rem;
+      margin-bottom: 3rem;
+      max-width: 550px;
+    }
+
+    .welcome__btn {
+      background-color: transparent;
+      border: 1px solid #fff;
+      font-size: 1.6rem;
+      color: #fff;
+      margin-bottom: 8.5rem;
+
       &:hover {
         background-color: #3d6cbb;
         color: #fff;
-        border-color: none;
-        box-shadow: none;
+        border-color: #3d6cbb;
+        box-shadow: 0px 0px 15px #3d6cbb;
       }
-    }
-    .welcome-statistics {
-      display: block;
     }
   }
 }
