@@ -104,3 +104,108 @@
     z-index: 1;
   }
 }
+
+
+@media only screen and (max-width:375px){
+  .news-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10rem;
+
+    .news-item-img {
+      width: 100%;
+      min-width: 339px;
+      max-width: 339px;
+      // border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+  
+      img {
+        width: 100%;
+        border-radius: 5px;
+      }
+  
+      .news-subtitle {
+        display: none;
+      }
+    }
+  
+    .news-item-description {
+      padding: 0;
+      border-radius: 5px;
+      box-shadow: none;
+      margin-left: 0;
+      background-color: #fff;
+      min-height: inherit;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      width: 339px;
+  
+      h1 {
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: 1.5rem;
+        margin-top: 2rem;
+      }
+  
+      > div {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+  
+        span {
+          font-size: 20px;
+          font-weight: 600;
+          line-height: 27px;
+          letter-spacing: 0em;
+          text-align: left;
+        }
+  
+        a {
+          margin-right: 4.8rem;
+          padding: 1.6rem 2.4rem;
+          border: 1px solid #0e2341;
+          border-radius: 3px;
+          background-color: #fff;
+  
+          font-size: 1.4rem;
+          line-height: 1.907rem;
+          font-weight: 600;
+          color: #0e2341;
+          transition: all 200ms linear;
+  
+          &:hover {
+            background-color: #0e2341;
+            border-color: #0e2341;
+            color: #fff;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  
+    &:first-child {
+      margin-bottom: 0px;
+    }
+  }
+  
+  .news-item.reverse {
+    flex-direction: column;
+  
+    .news-item-description {
+      margin: 0;
+      margin-right: 0;
+    }
+  
+    .news-item-description.index {
+      z-index: 1;
+    }
+  }
+  
+}

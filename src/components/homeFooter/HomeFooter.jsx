@@ -39,10 +39,12 @@ function HomeFooter({ bgColor }) {
           <div className='footer__contacts'>
             <h3 className='footer__title'>Контакты</h3>
             <div>
+
               <a href='tel: +998 90 039 88 68'>+998 90 039 88 68</a>
               <a href='mailto: infouz@reiwacy.com '>infouz@reiwacy.com </a>
               <a href='map'>
                 Address: 59, Office 01,<br></br> Ellados Leoforos,<br></br>{' '}
+
                 Pafos, 8020
               </a>
             </div>

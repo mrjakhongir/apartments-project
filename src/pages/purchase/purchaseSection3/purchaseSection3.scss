@@ -46,3 +46,55 @@
     
   }
   
+
+  @media only screen and (max-width:375px){
+    .purchase-section3 {
+      margin-top: 100px;
+      .purchase-section3_banner {
+        height: 100px;
+        padding: 2rem 0 2rem 0rem;
+        h2 {
+          font-family: Open Sans;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 28px;
+          letter-spacing: 0em;
+          text-align: left;
+          padding-left: 1rem;
+          margin-left: 45px;
+        }
+      }
+      
+      .purchase-section3_description {
+          display: flex;
+          margin-top: 70px;
+          &_body{
+            display: flex;
+            flex-direction: column;
+            &_text{
+              font-family: Open Sans;
+              font-size: 24px;
+              font-weight: 600;
+              line-height: 33px;
+              letter-spacing: 0em;
+              text-align: left;              
+                margin-bottom: 20px;
+            }
+            &_desc{
+              font-family: Open Sans;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 19px;
+              letter-spacing: 0em;
+              text-align: left;              
+            }
+          }
+          &_body2{
+            display: flex;
+            flex-direction: column;
+            margin-top: 70px;
+          }
+        }
+      
+    }
+  }
