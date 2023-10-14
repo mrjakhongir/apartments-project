@@ -5,9 +5,8 @@ export const ProjectsSection1 = () => {
     <div className='projects-section1'>
       <div className='wrapper'>
         <h1>Каталог недвижимости</h1>
-        <div className='filter'>
-          <Filter />
-        </div>
+
+        <Filter />
       </div>
     </div>
   );

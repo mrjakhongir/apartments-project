@@ -49,7 +49,13 @@ function Footer({ bgColor }) {
           </div>
           <div className='footer__consult'>
             <h3 className='footer__title'>Бесплатная консультация</h3>
-            <button className='btn'>Оставить заявку</button>
+            <a
+              target='blank'
+              href='https://docs.google.com/forms/d/e/1FAIpQLSekfPQqRMG4Gc91fBNs_r6Pex3x2ZBOnCwXBJgqO9WcEQ0Jwg/viewform?pli=1'
+              className='btn'
+            >
+              Оставить заявку
+            </a>
           </div>
         </div>
       </div>

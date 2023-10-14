@@ -16,13 +16,18 @@ const HomeSection1 = () => {
           <p className='welcome__subtitle'>
             Лучшие решения по недвижимости и возможности получения ПМЖ на Кипре
           </p>
-          <button className='btn welcome__btn'>Оставить заявку</button>
+          <a
+            target='blank'
+            href='https://docs.google.com/forms/d/e/1FAIpQLSekfPQqRMG4Gc91fBNs_r6Pex3x2ZBOnCwXBJgqO9WcEQ0Jwg/viewform?pli=1'
+            className='btn welcome__btn'
+          >
+            Оставить заявку
+          </a>
         </motion.div>
 
         <motion.div
           whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
           transition={{ duration: 0.5 }}
-          className='filter'
         >
           <Filter />
         </motion.div>

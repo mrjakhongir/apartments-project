@@ -16,7 +16,13 @@ export const HomeSection8 = () => {
           <div>
             <h2>Оставьте заявку</h2>
             <p>И мы ответим на все вопросы</p>
-            <button className='btn'>Заполнить</button>
+            <a
+              target='blank'
+              href='https://docs.google.com/forms/d/e/1FAIpQLSekfPQqRMG4Gc91fBNs_r6Pex3x2ZBOnCwXBJgqO9WcEQ0Jwg/viewform?pli=1'
+              className='btn'
+            >
+              Заполнить
+            </a>
           </div>
           <div className='contacts-content'>
             <div className='flex'>

@@ -91,179 +91,366 @@ const Filter = () => {
   }
 
   return (
-    <div className='filter'>
-      <div className='projects__filters'>
-        <div className='accordion'>
-          <div
-            onClick={() => setTypeOpen((prevState) => !prevState)}
-            className='filter-btn flex'
-          >
-            <div>
-              <h4>Тип</h4>
-              <p>{type}</p>
-            </div>
-            <img src={svgs.caret} alt='' />
-          </div>
-          <div className='accordion-content'>
-            {typeOpen &&
-              ['Все типы', 'Частная', 'Инвестиционная', 'Коммерческая'].map(
-                (item, index) => (
-                  <p onClick={() => handleType(item)} key={index}>
-                    {item}
-                  </p>
-                )
-              )}
-          </div>
-        </div>
-
-        <div className='accordion'>
-          <div
-            onClick={() => setRegionOpen((prevState) => !prevState)}
-            className='filter-btn flex'
-          >
-            <div>
-              <h4>Регион</h4>
-              <p>{region}</p>
-            </div>
-            <img src={svgs.caret} alt='caret' />
-          </div>
-          <div className='accordion-content'>
-            {regionOpen &&
-              ['Все регионы', 'Никосия', 'Лимассол', 'Ларнака', 'Пафос'].map(
-                (item, index) => (
-                  <p onClick={() => handleRegion(item)} key={index}>
-                    {item}
-                  </p>
-                )
-              )}
-          </div>
-        </div>
-
-        <div className='double-type__filter flex'>
+    <>
+      <div className='filters'>
+        <div className='filters-desktop'>
           <div className='accordion'>
             <div
-              onClick={() => setRoomFromOpen((prevState) => !prevState)}
+              onClick={() => setTypeOpen((prevState) => !prevState)}
               className='filter-btn flex'
             >
               <div>
-                <h4>Комнат от</h4>
-                <p>{roomFrom} </p>
-              </div>
-              <img src={svgs.caret} alt='caret' />
-            </div>
-            <div className='accordion-content'>
-              {roomFromOpen &&
-                ['Все', 1, 2, 3, 4, 5, 6].map((item, index) => (
-                  <p onClick={() => handleRoomFrom(item)} key={index}>
-                    {item}
-                  </p>
-                ))}
-            </div>
-          </div>
-          <div className='accordion'>
-            <div
-              onClick={() => setRoomToOpen((prevState) => !prevState)}
-              className='filter-btn flex'
-            >
-              <div>
-                <h4>До</h4>
-                <p>{roomTo} </p>
-              </div>
-              <img src={svgs.caret} alt='caret' />
-            </div>
-            <div className='accordion-content'>
-              {roomToOpen &&
-                ['Все', 1, 2, 3, 4, 5, 6].map((item, index) => (
-                  <p onClick={() => handleRoomTo(item)} key={index}>
-                    {item}
-                  </p>
-                ))}
-            </div>
-          </div>
-        </div>
-
-        <div className='double-type__filter flex'>
-          <div className='accordion'>
-            <div
-              onClick={() => setPriceFromOpen((prevState) => !prevState)}
-              className='filter-btn flex'
-            >
-              <div>
-                <h4>Цена от</h4>
-                <p>{priceFrom} </p>
+                <h4>Тип</h4>
+                <p>{type}</p>
               </div>
               <img src={svgs.caret} alt='' />
             </div>
             <div className='accordion-content'>
-              {priceFromOpen &&
-                [
-                  'Все',
-                  100000,
-                  200000,
-                  300000,
-                  400000,
-                  500000,
-                  600000,
-                  700000,
-                  800000,
-                  900000,
-                  1000000,
-                ].map((item, index) => (
-                  <p onClick={() => handlePriceFrom(item)} key={index}>
-                    {typeof item === 'string'
-                      ? item.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ')
-                      : `€ ${item
-                          .toString()
-                          .replace(/\B(?=(\d{3})+(?!\d))/g, ' ')}`}
-                  </p>
-                ))}
+              {typeOpen &&
+                ['Все типы', 'Частная', 'Инвестиционная', 'Коммерческая'].map(
+                  (item, index) => (
+                    <p onClick={() => handleType(item)} key={index}>
+                      {item}
+                    </p>
+                  )
+                )}
             </div>
           </div>
 
           <div className='accordion'>
             <div
-              onClick={() => setPriceToOpen((prevState) => !prevState)}
+              onClick={() => setRegionOpen((prevState) => !prevState)}
               className='filter-btn flex'
             >
               <div>
-                <h4>До</h4>
-                <p>{priceTo} </p>
+                <h4>Регион</h4>
+                <p>{region}</p>
               </div>
-              <img src={svgs.caret} alt='' />
+              <img src={svgs.caret} alt='caret' />
             </div>
             <div className='accordion-content'>
-              {priceToOpen &&
-                [
-                  'Все',
-                  100000,
-                  200000,
-                  300000,
-                  400000,
-                  500000,
-                  600000,
-                  700000,
-                  800000,
-                  900000,
-                  1000000,
-                ].map((item, index) => (
-                  <p onClick={() => handlePriceTo(item)} key={index}>
-                    {typeof item === 'string'
-                      ? item.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ')
-                      : `€ ${item
-                          .toString()
-                          .replace(/\B(?=(\d{3})+(?!\d))/g, ' ')}`}
-                  </p>
-                ))}
+              {regionOpen &&
+                ['Все регионы', 'Никосия', 'Лимассол', 'Ларнака', 'Пафос'].map(
+                  (item, index) => (
+                    <p onClick={() => handleRegion(item)} key={index}>
+                      {item}
+                    </p>
+                  )
+                )}
             </div>
           </div>
-        </div>
 
-        <button onClick={filterProjects} className='search-btn'>
-          <img src={svgs.search} alt='search' />
-          <span>Поиск</span>
-        </button>
+          <div className='double-type__filter flex'>
+            <div className='accordion'>
+              <div
+                onClick={() => setRoomFromOpen((prevState) => !prevState)}
+                className='filter-btn flex'
+              >
+                <div>
+                  <h4>Комнат от</h4>
+                  <p>{roomFrom} </p>
+                </div>
+                <img src={svgs.caret} alt='caret' />
+              </div>
+              <div className='accordion-content'>
+                {roomFromOpen &&
+                  ['Все', 1, 2, 3, 4, 5, 6].map((item, index) => (
+                    <p onClick={() => handleRoomFrom(item)} key={index}>
+                      {item}
+                    </p>
+                  ))}
+              </div>
+            </div>
+            <div className='accordion'>
+              <div
+                onClick={() => setRoomToOpen((prevState) => !prevState)}
+                className='filter-btn flex'
+              >
+                <div>
+                  <h4>До</h4>
+                  <p>{roomTo} </p>
+                </div>
+                <img src={svgs.caret} alt='caret' />
+              </div>
+              <div className='accordion-content'>
+                {roomToOpen &&
+                  ['Все', 1, 2, 3, 4, 5, 6].map((item, index) => (
+                    <p onClick={() => handleRoomTo(item)} key={index}>
+                      {item}
+                    </p>
+                  ))}
+              </div>
+            </div>
+          </div>
+
+          <div className='double-type__filter flex'>
+            <div className='accordion'>
+              <div
+                onClick={() => setPriceFromOpen((prevState) => !prevState)}
+                className='filter-btn flex'
+              >
+                <div>
+                  <h4>Цена от</h4>
+                  <p>{priceFrom} </p>
+                </div>
+                <img src={svgs.caret} alt='' />
+              </div>
+              <div className='accordion-content'>
+                {priceFromOpen &&
+                  [
+                    'Все',
+                    100000,
+                    200000,
+                    300000,
+                    400000,
+                    500000,
+                    600000,
+                    700000,
+                    800000,
+                    900000,
+                    1000000,
+                  ].map((item, index) => (
+                    <p onClick={() => handlePriceFrom(item)} key={index}>
+                      {typeof item === 'string'
+                        ? item.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ')
+                        : `€ ${item
+                            .toString()
+                            .replace(/\B(?=(\d{3})+(?!\d))/g, ' ')}`}
+                    </p>
+                  ))}
+              </div>
+            </div>
+
+            <div className='accordion'>
+              <div
+                onClick={() => setPriceToOpen((prevState) => !prevState)}
+                className='filter-btn flex'
+              >
+                <div>
+                  <h4>До</h4>
+                  <p>{priceTo} </p>
+                </div>
+                <img src={svgs.caret} alt='' />
+              </div>
+              <div className='accordion-content'>
+                {priceToOpen &&
+                  [
+                    'Все',
+                    100000,
+                    200000,
+                    300000,
+                    400000,
+                    500000,
+                    600000,
+                    700000,
+                    800000,
+                    900000,
+                    1000000,
+                  ].map((item, index) => (
+                    <p onClick={() => handlePriceTo(item)} key={index}>
+                      {typeof item === 'string'
+                        ? item.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ')
+                        : `€ ${item
+                            .toString()
+                            .replace(/\B(?=(\d{3})+(?!\d))/g, ' ')}`}
+                    </p>
+                  ))}
+              </div>
+            </div>
+          </div>
+
+          <button onClick={filterProjects} className='search-btn'>
+            <img src={svgs.search} alt='search' />
+            <span>Поиск</span>
+          </button>
+        </div>
+        <div className='filters-tablet'>
+          <div>
+            <div className='double-type__filter'>
+              <div className='accordion'>
+                <div
+                  onClick={() => setTypeOpen((prevState) => !prevState)}
+                  className='filter-btn flex'
+                >
+                  <div>
+                    <h4>Тип</h4>
+                    <p>{type}</p>
+                  </div>
+                  <img src={svgs.caret} alt='' />
+                </div>
+                <div className='accordion-content'>
+                  {typeOpen &&
+                    [
+                      'Все типы',
+                      'Частная',
+                      'Инвестиционная',
+                      'Коммерческая',
+                    ].map((item, index) => (
+                      <p onClick={() => handleType(item)} key={index}>
+                        {item}
+                      </p>
+                    ))}
+                </div>
+              </div>
+
+              <div className='accordion'>
+                <div
+                  onClick={() => setRegionOpen((prevState) => !prevState)}
+                  className='filter-btn flex'
+                >
+                  <div>
+                    <h4>Регион</h4>
+                    <p>{region}</p>
+                  </div>
+                  <img src={svgs.caret} alt='caret' />
+                </div>
+                <div className='accordion-content'>
+                  {regionOpen &&
+                    [
+                      'Все регионы',
+                      'Никосия',
+                      'Лимассол',
+                      'Ларнака',
+                      'Пафос',
+                    ].map((item, index) => (
+                      <p onClick={() => handleRegion(item)} key={index}>
+                        {item}
+                      </p>
+                    ))}
+                </div>
+              </div>
+            </div>
+            <div className='double-type__filter'>
+              <div className='accordion'>
+                <div
+                  onClick={() => setRoomFromOpen((prevState) => !prevState)}
+                  className='filter-btn flex'
+                >
+                  <div>
+                    <h4>Комнат от</h4>
+                    <p>{roomFrom} </p>
+                  </div>
+                  <img src={svgs.caret} alt='caret' />
+                </div>
+                <div className='accordion-content'>
+                  {roomFromOpen &&
+                    ['Все', 1, 2, 3, 4, 5, 6].map((item, index) => (
+                      <p onClick={() => handleRoomFrom(item)} key={index}>
+                        {item}
+                      </p>
+                    ))}
+                </div>
+              </div>
+              <div className='accordion'>
+                <div
+                  onClick={() => setRoomToOpen((prevState) => !prevState)}
+                  className='filter-btn flex'
+                >
+                  <div>
+                    <h4>До</h4>
+                    <p>{roomTo} </p>
+                  </div>
+                  <img src={svgs.caret} alt='caret' />
+                </div>
+                <div className='accordion-content'>
+                  {roomToOpen &&
+                    ['Все', 1, 2, 3, 4, 5, 6].map((item, index) => (
+                      <p onClick={() => handleRoomTo(item)} key={index}>
+                        {item}
+                      </p>
+                    ))}
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div className='double-type__filter'>
+              <div className='accordion'>
+                <div
+                  onClick={() => setPriceFromOpen((prevState) => !prevState)}
+                  className='filter-btn flex'
+                >
+                  <div>
+                    <h4>Цена от</h4>
+                    <p>{priceFrom} </p>
+                  </div>
+                  <img src={svgs.caret} alt='' />
+                </div>
+                <div className='accordion-content'>
+                  {priceFromOpen &&
+                    [
+                      'Все',
+                      100000,
+                      200000,
+                      300000,
+                      400000,
+                      500000,
+                      600000,
+                      700000,
+                      800000,
+                      900000,
+                      1000000,
+                    ].map((item, index) => (
+                      <p onClick={() => handlePriceFrom(item)} key={index}>
+                        {typeof item === 'string'
+                          ? item
+                              .toString()
+                              .replace(/\B(?=(\d{3})+(?!\d))/g, ' ')
+                          : `€ ${item
+                              .toString()
+                              .replace(/\B(?=(\d{3})+(?!\d))/g, ' ')}`}
+                      </p>
+                    ))}
+                </div>
+              </div>
+
+              <div className='accordion'>
+                <div
+                  onClick={() => setPriceToOpen((prevState) => !prevState)}
+                  className='filter-btn flex'
+                >
+                  <div>
+                    <h4>До</h4>
+                    <p>{priceTo} </p>
+                  </div>
+                  <img src={svgs.caret} alt='' />
+                </div>
+                <div className='accordion-content'>
+                  {priceToOpen &&
+                    [
+                      'Все',
+                      100000,
+                      200000,
+                      300000,
+                      400000,
+                      500000,
+                      600000,
+                      700000,
+                      800000,
+                      900000,
+                      1000000,
+                    ].map((item, index) => (
+                      <p onClick={() => handlePriceTo(item)} key={index}>
+                        {typeof item === 'string'
+                          ? item
+                              .toString()
+                              .replace(/\B(?=(\d{3})+(?!\d))/g, ' ')
+                          : `€ ${item
+                              .toString()
+                              .replace(/\B(?=(\d{3})+(?!\d))/g, ' ')}`}
+                      </p>
+                    ))}
+                </div>
+              </div>
+            </div>
+            <button onClick={filterProjects} className='search-btn'>
+              <img src={svgs.search} alt='search' />
+              <span>Поиск</span>
+            </button>
+          </div>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

@@ -7,9 +7,7 @@
 
   > div {
     padding: 3.4rem 0;
-    .filter {
-      display: none;
-    }
+
     h1 {
       font-family: 'Open Sans';
       font-size: 2.8rem;
@@ -23,14 +21,13 @@
   @media (min-width: 768px) {
     > div {
       padding: 5rem 2rem;
-      .filter {
-        display: none;
-      }
+
       h1 {
         font-size: 3.2rem;
         line-height: 3.9rem;
         font-weight: 700;
         text-align: left;
+        margin-bottom: 3rem;
       }
     }
   }
@@ -38,14 +35,13 @@
   @media (min-width: 1080px) {
     > div {
       padding: 5rem 0rem;
-      .filter {
-        display: none;
-      }
+
       h1 {
         font-family: 'Open Sans';
         font-size: 5.8rem;
         line-height: 6.67rem;
         font-weight: 700;
+        margin-bottom: 4rem;
       }
     }
   }

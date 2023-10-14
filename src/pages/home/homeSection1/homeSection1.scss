@@ -26,6 +26,7 @@
   }
 
   .welcome__btn {
+    display: inline-block;
     background-color: #3d6cbb;
     border: 1px solid #3d6cbb;
     font-size: 1.6rem;
@@ -58,9 +59,6 @@
       }
     }
   }
-  .filter {
-    display: none;
-  }
 
   @media (min-width: 768px) {
     padding: 6rem 3rem;
@@ -81,9 +79,6 @@
     }
     .welcome-statistics {
       display: none;
-    }
-    .filter {
-      display: block;
     }
   }
 
@@ -109,6 +104,7 @@
       margin-bottom: 8.5rem;
 
       &:hover {
+        cursor: pointer;
         background-color: #3d6cbb;
         color: #fff;
         border-color: #3d6cbb;

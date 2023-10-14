@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 const Project = ({ project }) => {
   const [extendContent, setExtendContent] = useState(false);
   const [numOfProjects, setnumOfProjects] = useState(2);
+  const [numOfProjectsDesk, setNumOfProjectsDesk] = useState(4);
 
   function handleExtendClick() {
     setExtendContent((prevState) => !prevState);
@@ -12,6 +13,15 @@ const Project = ({ project }) => {
       setnumOfProjects(project.projects.length);
     } else {
       setnumOfProjects(2);
+    }
+  }
+
+  function handleExtendClickDesktop() {
+    setExtendContent((prevState) => !prevState);
+    if (numOfProjectsDesk === 4) {
+      setNumOfProjectsDesk(project.projects.length);
+    } else {
+      setNumOfProjectsDesk(4);
     }
   }
 
@@ -91,33 +101,38 @@ const Project = ({ project }) => {
         </div>
         <div className='projects-content-bottom'>
           <div className={`table-content`}>
-            <table className='table-desktop'>
-              <thead>
-                <tr>
-                  <th>Тип</th>
-                  <th>Спальни</th>
-                  <th>Плошадь</th>
-                  <th>Участок</th>
-                  <th>Цена</th>
-                </tr>
-              </thead>
-              <tbody>
-                {project.projects.map((item, index) => (
-                  <tr key={index}>
-                    <td>{item.type}</td>
-                    <td>{item.bedroom}</td>
-                    <td>{item.area} m2</td>
-                    <td>{item.yard} m2</td>
-                    <td>
-                      €
-                      {item.price
-                        .toString()
-                        .replace(/\B(?=(\d{3})+(?!\d))/g, ' ')}
-                    </td>
+            <div className='table-desktop'>
+              <table>
+                <thead>
+                  <tr>
+                    <th>Тип</th>
+                    <th>Спальни</th>
+                    <th>Плошадь</th>
+                    <th>Участок</th>
+                    <th>Цена</th>
                   </tr>
-                ))}
-              </tbody>
-            </table>
+                </thead>
+                <tbody>
+                  {project.projects
+                    .slice(0, numOfProjectsDesk)
+                    .map((item, index) => (
+                      <tr key={index}>
+                        <td>{item.type}</td>
+                        <td>{item.bedroom}</td>
+                        <td>{item.area} m2</td>
+                        <td>{item.yard} m2</td>
+                        <td>
+                          €
+                          {item.price
+                            .toString()
+                            .replace(/\B(?=(\d{3})+(?!\d))/g, ' ')}
+                        </td>
+                      </tr>
+                    ))}
+                </tbody>
+              </table>
+            </div>
+
             <div className='table-mobile'>
               {project.projects.slice(0, numOfProjects).map((item, index) => (
                 <motion.div
@@ -158,11 +173,24 @@ const Project = ({ project }) => {
               ))}
             </div>
           </div>
-          {project.projects.length >= numOfProjects && (
-            <button onClick={handleExtendClick} className='btn extend-btn'>
-              {extendContent ? 'Завернуть' : 'Развернуть'}
-            </button>
-          )}
+          <div className='project-btns'>
+            {project.projects.length >= numOfProjects && (
+              <button
+                onClick={handleExtendClick}
+                className='btn extend-btn extend-btn-mobile'
+              >
+                {extendContent ? 'Завернуть' : 'Развернуть'}
+              </button>
+            )}
+            {project.projects.length > 4 && (
+              <button
+                onClick={handleExtendClickDesktop}
+                className='btn extend-btn extend-btn-desktop'
+              >
+                {extendContent ? 'Завернуть' : 'Развернуть'}
+              </button>
+            )}
+          </div>
         </div>
       </div>
     </motion.div>

@@ -1,54 +1,46 @@
-import { Link, useLocation } from "react-router-dom"
-import { useState } from "react"
-import { motion } from "framer-motion"
-import "./newsComponent.scss"
-import { news } from "../../constants/news"
+import { Link, useLocation } from 'react-router-dom';
+import { useState } from 'react';
+import { motion } from 'framer-motion';
+import './newsComponent.scss';
+import { news } from '../../constants/news';
 
 function NewsComponent() {
-
-  const newsPost = news
+  const newsPost = news;
   let location = useLocation.pathname
     ? useLocation.pathname
-    : (useLocation.pathname = "/news")
+    : (useLocation.pathname = '/news');
 
-    const [visible, setVisible] = useState(3)
-    const ShowMore = () => {
-      setVisible((prevValue) => prevValue + 3)
-  }
-
+  const [visible, setVisible] = useState(3);
+  const ShowMore = () => {
+    setVisible((prevValue) => prevValue + 3);
+  };
 
   return (
-    <div className="news-component">
+    <div className='news-component'>
       <motion.div
         whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
         transition={{ duration: 0.3 }}
-        className="wrapper"
+        className='wrapper'
       >
         <h1>Новости</h1>
 
-        <div className="news-list">
-          {newsPost.slice(0 , visible).map((newsItem) => (
+        <div className='news-list'>
+          {newsPost.slice(0, visible).map((newsItem) => (
             <Link key={newsItem.newsId} to={`/news/${newsItem.newsId - 1}`}>
-              <div className="news-card">
-                <img src={newsItem.newsImage} alt="news" />
+              <div className='news-card'>
+                <img src={newsItem.newsImage} alt='news' />
                 <h3>{newsItem.newsTitle}</h3>
               </div>
             </Link>
           ))}
         </div>
 
-        <Link to={`${location}`} className="btn all-news-btn">
+        <Link to={`${location}`} className='btn all-news-btn'>
           Смотреть все
         </Link>
-
-        <div  className="show">
-             <button onClick={ShowMore} className={`show__btn ${ visible === newsPost.length ? 'out' : ''}`}>
-                    Показать ещё 
-             </button>
-        </div>
       </motion.div>
     </div>
-  )
+  );
 }
 
-export default NewsComponent
+export default NewsComponent;

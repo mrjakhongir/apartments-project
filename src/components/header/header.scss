@@ -159,14 +159,14 @@
 
     .header-mobile-right {
       transform: translateX(100%);
-      transition: transform 200ms linear;
-      position: absolute;
+      position: fixed;
       background-color: #fff;
       height: 100vh;
-      width: 65.5vw;
+      width: 58vw;
       top: 0;
       right: 0;
 
+      transition: transform 200ms linear;
       .filter-top {
         display: flex;
         align-items: center;
