@@ -1,0 +1,93 @@
+.news-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+.news-item .news-item-img {
+  width: 100%;
+  min-width: 755px;
+  max-width: 755px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.news-item .news-item-img img {
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.news-item .news-item-img .news-subtitle {
+  background-color: #0e2341;
+  padding: 2.7rem 0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.news-item .news-item-img .news-subtitle h1 {
+  font-size: 3rem;
+  line-height: 4.63rem;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+.news-item .news-item-description {
+  padding: 3rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.1);
+  margin-left: -18rem;
+  background-color: #fff;
+  min-height: 425px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.news-item .news-item-description h1 {
+  font-size: 3.4rem;
+  line-height: 4.63rem;
+  font-weight: 600;
+  color: #0e2341;
+  margin-bottom: 5.4rem;
+}
+.news-item .news-item-description > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.news-item .news-item-description > div span {
+  font-size: 2rem;
+  line-height: 2.724rem;
+  font-weight: 600;
+  color: #0e2341;
+}
+.news-item .news-item-description > div a {
+  margin-right: 4.8rem;
+  padding: 1.6rem 2.4rem;
+  border: 1px solid #0e2341;
+  border-radius: 3px;
+  background-color: #fff;
+  font-size: 1.4rem;
+  line-height: 1.907rem;
+  font-weight: 600;
+  color: #0e2341;
+  transition: all 200ms linear;
+}
+.news-item .news-item-description > div a:hover {
+  background-color: #0e2341;
+  border-color: #0e2341;
+  color: #fff;
+  cursor: pointer;
+}
+.news-item:first-child {
+  margin-bottom: 0px;
+}
+
+.news-item.reverse {
+  flex-direction: row-reverse;
+}
+.news-item.reverse .news-item-description {
+  margin: 0;
+  margin-right: -18rem;
+}
+.news-item.reverse .news-item-description.index {
+  z-index: 1;
+}/*# sourceMappingURL=new.css.map */

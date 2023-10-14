@@ -1,5 +1,8 @@
 .home-footer {
   background-color: #3d6cbb1a;
+  .footer-mobile {
+    display: none;
+  }
   .footer__inner {
     align-items: flex-start;
     font-size: 1.6rem;
@@ -47,59 +50,71 @@
       }
     }
   }
-  .socials-mobile {
-    display: none;
+
+  @media screen and (max-width: 920px) {
+    padding: 0 2rem;
+    .footer__navigation {
+      display: none;
+    }
   }
-
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 768px) {
+    background-color: #3d6cbb1a;
     .footer__inner {
-      font-size: 1rem;
-      line-height: 1.15rem;
-      flex-direction: row-reverse;
-      div:first-child {
-        display: none;
-      }
 
-      .footer__navigation {
-        display: none;
-      }
-
-      .footer__contacts {
-        > div > a {
-          margin-bottom: 5px;
-        }
-        &_map{
-          margin-top: 28px;
-        }
-        margin-bottom: -4.5rem;
-      }
-      .footer__title {
-        font-family: Open Sans;
-        font-size: 14px;
-        font-weight: 600;
-        line-height: 19px;
-        letter-spacing: 0em;
-        text-align: left;
-        margin-bottom: 5px;
-      }
-      .footer__licence{
-        width: 176px;
-        p {
-          font-family: Open Sans;
-          font-size: 10px;
-          font-weight: 400;
-          line-height: 11px;
-          letter-spacing: 0em;
-          text-align: left;
-        }
-      }
+      display: none;
     }
-    .socials-mobile {
+    .footer-mobile {
+      padding: 1.5rem 2rem;
       display: flex;
-      gap: 1.4rem;
-      padding-bottom: 1.5rem;
-      width: 124px;
+      justify-content: space-around;
+      gap: 4rem;
+
+      > div {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 1rem;
+        .footer__licence {
+          color: #0e2341;
+        }
+
+
+        .footer__contacts {
+          a,
+          p {
+            font-size: 1rem;
+            line-height: 1.15rem;
+            color: #0e2341;
+            margin: 0;
+          }
+          div {
+            display: flex;
+            flex-direction: column;
+
+            a {
+              margin-bottom: 5px;
+            }
+          }
+        }
+
+        .socials-mobile {
+          display: flex;
+          gap: 1.55rem;
+          img {
+            width: 31px;
+            height: 31px;
+          }
+        }
+        .footer-address {
+          width: 70%;
+          a {
+            color: #0e2341;
+          }
+        }
+      }
     }
+
   }
 }
 
@@ -109,4 +124,10 @@
   margin-bottom: 1.5rem;
   font-weight: 600;
   line-height: 2.296rem;
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.4rem;
+    line-height: 1.907rem;
+    margin-bottom: 5px;
+  }
 }

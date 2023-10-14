@@ -1,11 +1,12 @@
 .projects__filters {
+  display: inline-flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+
   padding: 2rem;
-  background-color: #fff;
   border-radius: 5px;
   background-color: #ffffff4d;
-  justify-content: space-between;
-  gap: 2.5rem;
-  width: 100%;
 
   .accordion {
     background-color: #fff;
@@ -92,5 +93,8 @@
       border-top-left-radius: 0px;
       border-bottom-left-radius: 0px;
     }
+  }
+  @media screen and (max-width: 1200px) {
+    justify-content: flex-start;
   }
 }

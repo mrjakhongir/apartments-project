@@ -1,8 +1,8 @@
-.sectio3-top {
+.sectin3-top {
   display: none;
   padding: 3rem 0;
   h2 {
-    font-family: "Open Sans";
+    font-family: 'Open Sans';
     font-size: 2.8rem;
     line-height: 3.813rem;
     font-weight: 600;
@@ -10,63 +10,86 @@
     text-align: center;
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 768px) {
     display: block;
   }
 }
 .home__section3 {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   width: 100%;
-  background-image: url("../../../assets/png/home-bg2.png");
+  background-image: url('../../../assets/png/home-bg2.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
   > div {
-    padding: 8rem;
+    padding: 5rem 2.5rem;
   }
 
   .home__about-description_content {
-    width: 50%;
-    padding: 3rem 3rem 4rem 3rem;
-    background: #ffffffe5;
+    background-color: #ffffffe5;
+    width: 100%;
+    min-width: 325px;
+    max-width: 470px;
+    padding: 1.5rem;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px rgb(194, 193, 193);
-
+    box-shadow: 0px 0px 10px 3px rgba(255, 255, 255, 1);
+    font-family: 'Open Sans';
     h2 {
-      font-size: 3.4rem;
-      line-height: 4.63rem;
-      font-weight: 600;
+      font-size: 2.4rem;
+      line-height: 3.2668rem;
       color: #0e2341;
-      margin-bottom: 0.7rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
     }
 
     p {
-      font-size: 1.8rem;
-      line-height: 2.451rem;
+      font-size: 1.4rem;
+      line-height: 1.907rem;
       font-weight: 300;
-      color: #0e2341;
+      margin-bottom: 2rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 
-  @media screen and (max-width: 375px) {
+  // @media screen and (max-width: 1080px) {
+  //   > div {
+  //     padding: 5rem 3rem;
+  //   }
+
+  //   .home__about-description_content {
+  //     width: 70%;
+  //   }
+  // }
+
+  @media (min-width: 1080px) {
     > div {
-      padding: 5rem 0rem;
+      padding: 8rem 4rem;
     }
 
     .home__about-description_content {
-      width: 100%;
-      padding: 1.5rem;
+      width: 50%;
+      padding: 3rem 3rem 4rem 3rem;
+      background: #ffffffe5;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgb(194, 193, 193);
 
       h2 {
-        font-size: 2.4rem;
-        line-height: 3.2668rem;
-        margin-bottom: 0.5rem;
+        font-size: 3.4rem;
+        line-height: 4.63rem;
+        font-weight: 600;
+        color: #0e2341;
+        margin-bottom: 0.7rem;
       }
 
       p {
-        font-size: 1.4rem;
-        line-height: 1.907rem;
+        font-size: 1.8rem;
+        line-height: 2.451rem;
+        font-weight: 300;
+        color: #0e2341;
       }
     }
   }

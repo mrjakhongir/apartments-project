@@ -22,24 +22,29 @@
     }
   }
 
-  .navigation {
-    align-items: flex-start;
-    justify-content: flex-start;
-    gap: 4rem;
+  .footer__navigation {
+    .navigation {
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: 4rem;
 
-    div {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      a {
-        margin-bottom: 1.5rem;
-        color: #0e2341;
-        transition: all 200ms ease-in-out;
+      div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        a {
+          margin-bottom: 1.5rem;
+          color: #0e2341;
+          transition: all 200ms ease-in-out;
 
-        &:hover {
-          color: #3d6cbb;
+          &:hover {
+            color: #3d6cbb;
+          }
         }
       }
+    }
+    @media screen and (max-width: 950px) {
+      display: none;
     }
   }
 
@@ -76,6 +81,10 @@
         color: #0e2341;
       }
     }
+  }
+
+  @media screen and (max-width: 1080px) {
+    padding: 2rem 2rem 0.5rem 2rem;
   }
 }
 

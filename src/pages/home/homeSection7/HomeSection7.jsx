@@ -55,7 +55,7 @@ export const HomeSection7 = () => {
           </div>
           <div className="home__section7-projects">
             {filteredData.length ? (
-              filteredData.map((house, index) => (
+              filteredData.slice(0,4).map((house, index) => (
                 <motion.div
                   whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
                   transition={{ duration: 0.3 }}

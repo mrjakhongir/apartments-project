@@ -1,29 +1,36 @@
-import { useState } from "react"
-import { useParams } from "react-router-dom"
-import allProjects from "../../../assets/data.json"
-import "./projectDetails.scss"
+import { useState } from 'react';
+import { useParams } from 'react-router-dom';
+import allProjects from '../../../assets/data.json';
+import './projectDetails.scss';
 
-// import { ImageSlider } from "../../../components/slider/ImageSlider"
-import Footer from "../../../components/footer/Footer"
-import House from "./House"
-import Slider from "../../../components/slider2/Slider"
+import Footer from '../../../components/footer/Footer';
+import House from './House';
+import Slider from '../../../components/slider2/Slider';
 
 function ProjectDetails() {
-  const { id } = useParams()
-  const [showDetails, setShowDetails] = useState(false)
+  const { id } = useParams();
+  const [showDetails, setShowDetails] = useState(false);
+  const [numOfDetails, setNumOfDetails] = useState(3);
 
   const filteredData = allProjects.projects.filter(
     (project) => project.projectId === parseInt(id)
-  )
-  const data = filteredData[0]
-
+  );
+  const data = filteredData[0];
+  function handleClick() {
+    setShowDetails((prevState) => !prevState);
+    if (numOfDetails === 3) {
+      setNumOfDetails(data.projects.length);
+    } else {
+      setNumOfDetails(3);
+    }
+  }
   return (
-    <section className="project-details">
-      <Slider />
-      <div className="wrapper">
-        <div className="project-details_inner">
+    <section className='project-details'>
+      {/* <Slider /> */}
+      <div className='wrapper'>
+        <div className='project-details_inner'>
           <h2>{data.projectArea}</h2>
-          <div className="project-overview">
+          <div className='project-overview'>
             <p>
               Статус: <span> {data.projectStatus}</span>
             </p>
@@ -34,7 +41,7 @@ function ProjectDetails() {
               Примечание: <span> {data.projectNote}</span>
             </p>
           </div>
-          <p>
+          <p className='project-description'>
             Современный жилой комплекс, состоящий из 10 вилл с тремя спальнями и
             потрясающим видом на горы и море. Все резиденции располагают
             просторными открытыми площадками и крытыми верандами в спокойной
@@ -42,7 +49,7 @@ function ProjectDetails() {
             спокойных летних каникул.
           </p>
           {showDetails && (
-            <div className="project-description">
+            <div className='project-description'>
               <p>
                 Проект окружен прекрасными пейзажами в одном из самых зеленых
                 районов Пафоса и находится всего в 10 минутах езды от центра
@@ -70,24 +77,28 @@ function ProjectDetails() {
           )}
           <button
             onClick={() => setShowDetails((prevState) => !prevState)}
-            className="btn"
+            className='btn'
           >
-            {showDetails ? "Свернут" : "Подробнее"}
+            {showDetails ? 'Свернут' : 'Подробнее'}
           </button>
         </div>
       </div>
-      <div className="house-details">
-        <div className="wrapper">
+      <div className='house-details'>
+        <div className='wrapper'>
           <h2>Площади и цены</h2>
-
-          {data.projects.map((project, index) => (
-            <House key={index} project={project} />
-          ))}
+          <div className='houses-container'>
+            {data.projects.slice(0, numOfDetails).map((project, index) => (
+              <House key={index} project={project} />
+            ))}
+          </div>
+          <button onClick={handleClick} className='btn house-details--btn'>
+            {showDetails ? 'Завернут' : 'Развернуть'}
+          </button>
         </div>
       </div>
-      <Footer bgColor="#fff" />
+      <Footer bgColor='#fff' />
     </section>
-  )
+  );
 }
 
-export default ProjectDetails
+export default ProjectDetails;

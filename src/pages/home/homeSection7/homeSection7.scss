@@ -1,6 +1,6 @@
 .home__section7 {
   > div {
-    padding: 10rem 0;
+    padding: 10rem 0rem;
 
     .filter-all--mobile {
       display: none;
@@ -57,20 +57,19 @@
     }
 
     .home__section7-projects {
-      display: flex;
-      flex-flow: wrap;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(255px, 255px));
       gap: 3rem;
+      justify-content: center;
 
       .house-card {
         background-color: #fff;
         padding: 2rem;
         border-radius: 5px;
         border: 1px solid #cbcbcb;
-        max-width: 255px;
-        min-height: 325px;
+        height: 345px;
         display: flex;
         flex-direction: column;
-        width: 33.33%;
 
         .card-header {
           position: relative;
@@ -170,22 +169,181 @@
         }
       }
     }
+    @media screen and (max-width: 1080px) {
+      padding: 4rem 2rem;
 
-    @media screen and (max-width: 375px) {
-      padding: 0;
-      padding: 5rem 4rem;
+      .filter-all--mobile {
+        display: none;
+      }
 
       h1 {
-        font-size: 2.8rem;
+        font-size: 3rem;
+        line-height: 4rem;
+        margin-bottom: 2.2rem;
+        text-align: center;
+      }
+
+      .section7-navigation {
+        margin-bottom: 3rem;
+        flex-flow: wrap;
+        gap: 1rem;
+        justify-content: flex-start;
+        .filter-btn {
+          font-size: 2rem;
+          line-height: 2.724rem;
+
+          cursor: auto;
+
+          &:hover {
+            color: #3d6cbb;
+            text-decoration: underline;
+          }
+        }
+        .filter-all {
+          display: inline-block;
+          margin: 0;
+
+          &:hover {
+            background-color: #0e2341;
+            text-decoration: none;
+            color: #fff;
+          }
+        }
+        .selected {
+          color: #3d6cbb;
+          text-decoration: underline;
+        }
+      }
+
+      .home__section7-projects {
+        .house-card {
+          background-color: #fff;
+          padding: 2rem;
+          border-radius: 5px;
+          border: 1px solid #cbcbcb;
+          max-width: 255px;
+          min-height: 325px;
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+
+          .card-header {
+            position: relative;
+            margin-bottom: 1rem;
+            z-index: 1;
+            .house-index {
+              position: absolute;
+              top: 1rem;
+              left: 1px;
+              font-size: 1.6rem;
+              line-height: 2rem;
+              font-weight: 600;
+              color: #756558;
+              background-color: #fff;
+              padding: 2px 2px 2px 8px;
+              border-radius: 5px;
+              box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.12);
+            }
+          }
+
+          .card-content {
+            h3 {
+              font-size: 1.6rem;
+              line-height: 2rem;
+              font-weight: 600;
+              color: #0e2341;
+              margin-bottom: 6px;
+            }
+
+            > div {
+              display: flex;
+              justify-content: flex-start;
+              align-items: center;
+              gap: 1rem;
+              margin-bottom: 1rem;
+
+              > div {
+                display: flex;
+                align-items: center;
+                gap: 3px;
+
+                span {
+                  font-size: 1.3rem;
+                  line-height: 2rem;
+                  letter-spacing: -5%;
+                  color: #51627b;
+                }
+              }
+            }
+          }
+
+          .card-footer {
+            display: flex;
+            align-items: center;
+            margin-top: auto;
+
+            a {
+              font-size: 1.2rem;
+              line-height: 1.634rem;
+              font-weight: 400;
+              color: #fff;
+              padding: 1rem 2.2rem;
+              border: none;
+              background-color: #3d6cbb;
+              border: 1px solid #3d6cbb;
+              border-radius: 3px;
+              cursor: pointer;
+              margin-right: 2rem;
+              transition: all 200ms linear;
+
+              &:hover {
+                background-color: transparent;
+                color: #3d6cbb;
+              }
+            }
+
+            span {
+              font-size: 1.6rem;
+              line-height: 2rem;
+              font-weight: 600;
+              color: #d7bb83;
+            }
+          }
+        }
+
+        .card-not-found {
+          margin: 0 auto;
+          min-height: 325px;
+          h2 {
+            text-align: center;
+            font-size: 2rem;
+            color: #cbcbcb;
+            margin-bottom: 4rem;
+          }
+          img {
+            width: 255px;
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 768px) {
+      padding: 5rem 6rem;
+
+      h1 {
+        text-align: center;
+        font-size: 3rem;
         line-height: 3.813rem;
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
       }
 
       .section7-navigation {
         margin-bottom: 3rem;
         flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
         .filter-btn {
           margin-bottom: 0.7rem;
+          align-self: center;
           cursor: auto;
           &:hover {
             color: #b7b7b7;
@@ -198,12 +356,6 @@
         .selected {
           color: #3d6cbb;
           text-decoration: underline;
-        }
-      }
-      .home__section7-projects {
-        flex-direction: column;
-        .house-card {
-          width: 100%;
         }
       }
       .filter-all--mobile {

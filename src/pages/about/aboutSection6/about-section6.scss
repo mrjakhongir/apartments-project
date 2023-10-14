@@ -1,6 +1,6 @@
 .about-section6 {
   .about-section6_banner {
-    background-image: url("../../../assets/png/about-bg6.png");
+    background-image: url('../../../assets/png/about-bg6.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -25,6 +25,45 @@
     }
     p {
       margin-bottom: 2rem;
+    }
+  }
+  @media screen and (max-width: 1080px) {
+    .about-section6_banner {
+      padding: 5rem 2rem;
+
+      h2 {
+        border-width: 4px;
+        padding: 2.5rem 0;
+        padding-left: 2.5rem;
+      }
+    }
+
+    .about-section6_description {
+      padding: 4rem 2rem;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .about-section6_banner {
+      padding: 2rem 0rem 2rem 2rem;
+
+      h2 {
+        border-width: 3px;
+        padding: 1.6rem 0;
+        padding-left: 1.5rem;
+        margin-left: 1.4rem;
+      }
+    }
+
+    .about-section6_description {
+      padding: 2rem 3rem 5rem;
+
+      .wrapper {
+        p,
+        span {
+          font-size: 1.6rem;
+          line-height: 2.179rem;
+        }
+      }
     }
   }
 }

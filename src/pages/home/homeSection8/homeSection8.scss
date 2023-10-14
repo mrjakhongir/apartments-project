@@ -1,5 +1,5 @@
 .home__section8 {
-  background-image: url("../../../assets/png/home-contacts-bg.png");
+  background-image: url('../../../assets/png/home-contacts-bg.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -12,7 +12,7 @@
 
   .home__contacts {
     width: 360px;
-    background-image: url("../../../assets//png/home-contact-bg-small.png");
+    background-image: url('../../../assets//png/home-contact-bg-small.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -102,17 +102,62 @@
     }
   }
 
-  @media screen and (max-width: 375px) {
-    background-image: none;
+  @media screen and (max-width: 1080px) {
+    > div {
+      padding: 4rem 2rem;
+    }
 
     > div {
       padding: 1rem 0 10rem;
     }
   
     .home__contacts {
-      max-width: 331px;
-      background-image: url("../../../assets//png/home-contact-bg-small.png");
+      .logo-dark {
+        display: block;
+      }
+      .logo-light {
+        display: none;
+      }
+      h2 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+        margin-bottom: 2rem;
+      }
 
+      button {
+        cursor: auto;
+        &:hover {
+          background-color: #756558;
+          color: #fff;
+        }
+      }
+
+      .contacts-content {
+        div {
+          margin-bottom: 5px;
+        }
+        span {
+          font-size: 1.2rem;
+          line-height: 1.7rem;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    background-image: none;
+    > div {
+      padding: 8rem 0rem;
+    }
+    .home__contacts {
+      min-width: 331px;
+      background-image: url('../../../assets//png/home-contact-bg-small.png');
+      .logo-dark {
+        display: none;
+      }
+      .logo-light {
+        display: block;
+      }
       h2 {
         color: #fff;
       }

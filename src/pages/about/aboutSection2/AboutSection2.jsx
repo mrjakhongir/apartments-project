@@ -1,23 +1,23 @@
-import { motion } from "framer-motion"
-import "./about-section2.scss"
+import { motion } from 'framer-motion';
+import './about-section2.scss';
 
 export default function AboutSection2() {
   return (
-    <section className="about-section2">
-      <div className="about-section2_banner">
-        <div className="wrapper">
+    <section className='about-section2'>
+      <div className='about-section2_banner'>
+        <div className='wrapper'>
           <motion.div
             whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
             transition={{ duration: 0.3 }}
           >
-            <h2 className="about-header">
+            <h2 className='about-header'>
               Необходимые документы для получения визы
             </h2>
           </motion.div>
         </div>
       </div>
-      <div className="about-section2_description">
-        <div className="wrapper">
+      <div className='about-section2_description'>
+        <div className='wrapper'>
           <p>
             <b>Лица, постоянно проживающие в Узбекистане,</b> желающие получить
             въездную туристическую визу на Кипр, не превышающую 90 дней, должны
@@ -51,10 +51,8 @@ export default function AboutSection2() {
                 <li>- трудовая книжка и копия трудовой книжки.</li>
               </ul>
               <p>
-                <b>
-                  Для независимых работников (владельцев компаний, а так же лиц,
-                  занимающихся частной профессиональной деятельностью):
-                </b>
+                <b>Для независимых работников</b> (владельцев компаний, а так же
+                лиц, занимающихся частной профессиональной деятельностью):
               </p>
               <ul>
                 <li>
@@ -127,5 +125,5 @@ export default function AboutSection2() {
         </div>
       </div>
     </section>
-  )
+  );
 }

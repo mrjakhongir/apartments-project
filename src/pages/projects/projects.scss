@@ -1,0 +1,14 @@
+.projects-footer {
+  .projects-footer--desktop {
+    display: none;
+  }
+
+  @media (min-width: 768px) {
+    .projects-footer--desktop {
+      display: block;
+    }
+    .projects-footer--mobile {
+      display: none;
+    }
+  }
+}

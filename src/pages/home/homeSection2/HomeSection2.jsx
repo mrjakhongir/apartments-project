@@ -1,14 +1,14 @@
-import React from "react"
-import "./homeSection2.scss"
-import { motion } from "framer-motion"
+import React from 'react';
+import './homeSection2.scss';
+import { motion } from 'framer-motion';
 
 const HomeSection2 = () => {
   return (
-    <section className="home__section2">
+    <section className='home__section2'>
       <motion.div
         whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
         transition={{ duration: 0.3 }}
-        className="flex"
+        className='flex'
       >
         <div>
           <h1>20+</h1>
@@ -27,12 +27,12 @@ const HomeSection2 = () => {
           <p>Личных проектов</p>
         </div>
         <div>
-          <h1 className="red__title">50+</h1>
+          <h1 className='red__title'>50+</h1>
           <p>Партнеров</p>
         </div>
       </motion.div>
     </section>
-  )
-}
+  );
+};
 
-export default HomeSection2
+export default HomeSection2;
