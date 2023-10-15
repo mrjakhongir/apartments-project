@@ -1,22 +1,22 @@
-import { motion } from "framer-motion"
-import "./about-section8.scss"
+import { motion } from 'framer-motion';
+import './about-section8.scss';
 
 export default function AboutSection8() {
   return (
-    <section className="about-section8">
-      <div className="about-section8_banner">
-        <div className="wrapper">
+    <section className='about-section8'>
+      <div className='about-section8_banner'>
+        <div className='wrapper'>
           <motion.div
             whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
             transition={{ duration: 0.3 }}
           >
-            <h2 className="about-header">Развлечения</h2>
+            <h2 className='about-header'>Развлечения</h2>
           </motion.div>
         </div>
       </div>
-      <div className="about-section8_description">
-        <div className="wrapper">
-          <h2 className="about-subheader">
+      <div className='about-section8_description'>
+        <div className='wrapper'>
+          <h2 className='about-subheader'>
             Список идей для незабываемого времяпровождения на Кипре:
           </h2>
           <p>
@@ -25,7 +25,7 @@ export default function AboutSection8() {
             путешествия и великолепные пляжи с изумрудной водой – Кипр
             предлагает бесконечные возможности для увлекательного отдыха!
           </p>
-          <span>Казино</span>
+          <strong>Казино</strong>
           <p>
             10 июля на Кипре открылся первый в Европе интегрированный
             казино-курорт City of Dreams Mediterranean.
@@ -37,7 +37,7 @@ export default function AboutSection8() {
             номерах есть отдельные балконы с видом на соленое озеро Акротири,
             горный хребет Троодос и пляж Ледис-Майл.
           </p>
-          <span>Пляжи</span>
+          <strong>Пляжи</strong>
           <p>
             Кипр славится своими песчаными пляжами. Их главная особенность –
             чистейшая вода и золотистый нежный песок. Все они идеально подходят
@@ -49,7 +49,7 @@ export default function AboutSection8() {
             Примечательно, что все пляжи Кипра являются муниципальными, а
             следовательно – <strong>бесплатными для посещения.</strong>
           </p>
-          <span>Аквапарки</span>
+          <strong>Аквапарки</strong>
           <p>
             Посещение аквапарка — одна из самых любимых активностей во время
             летнего отдыха.
@@ -65,7 +65,7 @@ export default function AboutSection8() {
             <li>Аквапарк Anastasia Aquamania;</li>
             <li>Аквапарк отеля Aqua Sol Water Park</li>
           </ul>
-          <span>Дайвинг</span>
+          <strong>Дайвинг</strong>
           <p>
             Кипр – удивительная страна, ежегодно привлекающая внимание тысяч
             туристов.
@@ -86,7 +86,7 @@ export default function AboutSection8() {
             На дне можно встретить занимательных представителей морского мира:
             морену, морских звезд, а также множество видов тропических рыб.
           </p>
-          <span>Ночные клубы</span>
+          <strong>Ночные клубы</strong>
           <p>
             Кипр раскрывает перед своими гостями большой выбор возможностей для
             незабываемого отдыха: белоснежные пляжи, теплые воды моря,
@@ -99,20 +99,20 @@ export default function AboutSection8() {
             караоке. Это настоящий рай для тех, кто любит шумные веселые тусовки
             и танцы.
           </p>
-          <span>Гольф</span>
+          <strong>Гольф</strong>
           <p>
             На Кипре существует несколько гольф клубов, которые помимо
             качественной игры, инвентаря и спецоборудования, предоставляют
             разнообразные программы обучения, доступных для всех уровней
             гольфистов, включая новичков.
           </p>
-          <span>Яхтинг</span>
+          <strong>Яхтинг</strong>
           <p>
             Если вы всегда мечтали попробовать себя в яхтинге, любите море и
             волны, уже имеете опыт или только хотите попробовать походить под
             парусом – Кипр станет лучшим местом для реализации вашей мечты.
           </p>
-          <span>Горнолыжный спорт</span>
+          <strong>Горнолыжный спорт</strong>
           <p>
             Если вы считаете, что провести отдых с пользой и интересом на
             острове можно только в летнее время, то вы сильно заблуждаетесь.
@@ -129,5 +129,5 @@ export default function AboutSection8() {
         </div>
       </div>
     </section>
-  )
+  );
 }

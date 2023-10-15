@@ -58,9 +58,7 @@ const Project = ({ project }) => {
             <p>
               Тип: <span>{project.projectType}</span>
             </p>
-            <p>
-              Примечание: <span>{project.projectNote}</span>
-            </p>
+            <p>Примечание.</p>
           </div>
         </div>
       </div>
@@ -84,9 +82,7 @@ const Project = ({ project }) => {
             <p>
               Тип: <span>{project.projectType}</span>
             </p>
-            <p>
-              Примечание: <span>{project.projectNote}</span>
-            </p>
+            <p>Примечание.</p>
           </div>
           <Link
             to={`${

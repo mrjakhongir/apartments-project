@@ -12,6 +12,14 @@
     border: 1px solid #b7b7b7;
     color: #0e2341;
     transition: all 100ms linear;
+
+    @media (min-width: 1080px) {
+      &:hover {
+        background-color: #756558;
+        color: #fff;
+        cursor: pointer;
+      }
+    }
   }
   .pagination-btn:active {
     background-color: #756558;

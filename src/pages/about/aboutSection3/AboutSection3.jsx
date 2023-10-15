@@ -1,24 +1,24 @@
-import { motion } from "framer-motion"
-import "./about-section3.scss"
+import { motion } from 'framer-motion';
+import './about-section3.scss';
 
 export default function AboutSection3() {
   return (
-    <section className="about-section3">
-      <div className="about-section3_banner">
-        <div className="wrapper">
+    <section className='about-section3'>
+      <div className='about-section3_banner'>
+        <div className='wrapper'>
           <motion.div
             whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
             transition={{ duration: 0.3 }}
           >
-            <h2 className="about-header">
+            <h2 className='about-header'>
               Программа получения ПМЖ за инвестиции
             </h2>
           </motion.div>
         </div>
       </div>
-      <div className="about-section3_description">
-        <div className="wrapper">
-          <h2 className="about-subheader">
+      <div className='about-section3_description'>
+        <div className='wrapper'>
+          <h2 className='about-subheader'>
             На Кипре действует ускоренная процедура получения ПМЖ<br></br> 6-8
             месяцев
           </h2>
@@ -27,15 +27,21 @@ export default function AboutSection3() {
             у застройщика.
           </p>
           <ul>
-            <li>Сумма инвестиций - от 300 000€ за покупку недвижимости.</li>
             <li>
-              Вид на жительство имеет неограниченный срок действия (выдается
-              пожизненно).
+              Сумма инвестиций - <span>от €300 000</span> за покупку
+              недвижимости.
             </li>
             <li>
-              Вид на жительство предоставляется супруге/супругу заявителя, их
-              несовершеннолетним детям, а также финансово зависимым
-              совершеннолетним детям до 25 лет (если они не состоят в браке).
+              Вид на жительство имеет <span>неограниченный срок</span> действия
+              (выдается пожизненно).
+            </li>
+            <li>
+              Вид на жительство предоставляется{' '}
+              <span>супруге/супругу заявителя,</span> их
+              <span> несовершеннолетним детям,</span> а также
+              <span> финансово зависимым</span>
+              <span>совершеннолетним детям до 25 лет</span> (если они не состоят
+              в браке).
             </li>
             <li>
               Необходимо чтобы деньги поступили из-за границы со счета заявителя
@@ -62,7 +68,7 @@ export default function AboutSection3() {
             <li>Выполнение инвестиционного условия.</li>
             <li>
               Подача документов в Департамент регистрации актов гражданского
-              состояния и миграции (CRMD).Рассмотрение документов — 6—8 месяца.
+              состояния и миграции (CRMD). Рассмотрение документов — 6—8 месяца.
             </li>
             <li>
               Получение письма с одобрением заявления от государственного органа
@@ -76,5 +82,5 @@ export default function AboutSection3() {
         </div>
       </div>
     </section>
-  )
+  );
 }

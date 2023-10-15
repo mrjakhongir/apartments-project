@@ -12,7 +12,6 @@
       "projectArea": "044 современный жилой комплекс, расположенный в популярном районе Гермасойя, Лимассол",
       "projectStatus": "Завершен",
       "projectType": "Частная",
-      "projectNote": "1 парковочное место/общий бассейн/кладовка/1 этаж",
       "region": "Лимассол",
       "projectDescription": [
         {
@@ -104,7 +103,6 @@
       "projectArea": "024 Комплекс таунхаусов и вилл, окруженных фруктовыми и ландшафтными садами",
       "projectStatus": "Завершен",
       "projectType": "Частная",
-      "projectNote": "Эпископи, Пафос",
       "region": "Пафос",
       "projectDescription": [
         {
@@ -197,10 +195,9 @@
         "images/project3-6.jpg",
         "images/project3-7.jpg"
       ],
-      "projectArea": "005 5-звездочный комплекс закрытого типа/сообщество для пенсионеров (Пафос)",
+      "projectArea": "005 5-звездочный комплекс закрытого типа/сообщество для людей 60+",
       "projectStatus": "2024 год завершения",
       "projectType": "Частная",
-      "projectNote": "Эпископи, Пафос",
       "region": "Пафос",
       "projectDescription": [
         {
@@ -343,7 +340,6 @@
       "projectArea": "007 Комплекс высококлассных вилл в округе Пафоса - деревне Хлорака",
       "projectStatus": "В процессе",
       "projectType": "Частная",
-      "projectNote": "Бассейн 3x7",
       "region": "Пафос",
       "projectDescription": [
         {
@@ -499,7 +495,6 @@
       "projectArea": "019 Элитный жилой комплекс в Пафосе, вдоль береговой линии",
       "projectStatus": "Завершен",
       "projectType": "Частная",
-      "projectNote": "Пафос",
       "region": "Пафос",
       "projectDescription": [
         {
@@ -696,7 +691,6 @@
       "projectArea": "015 Виллы и дома в эксклюзивном закрытом сообществе в престижном пригороде Пафоса",
       "projectStatus": "24 месяца после подписания",
       "projectType": "Частная",
-      "projectNote": "Бассейн",
       "region": "Пафос",
       "projectDescription": [
         {
@@ -890,7 +884,6 @@
       "projectArea": "013 Стильный комплекс, состоящий из резиденций: просторных апартаментов и пентхаусов открытой планировки",
       "projectStatus": "Завершен",
       "projectType": "Частная",
-      "projectNote": "Пафос",
       "region": "Пафос",
       "projectDescription": [
         {
@@ -966,7 +959,6 @@
       "projectArea": "004 Клубное комьюнити класса 'Люкс' (район Venus Beach, Пафос)",
       "projectStatus": "В процессе",
       "projectType": "Частная",
-      "projectNote": "Сад на крыше",
       "region": "Пафос",
       "projectDescription": [
         {
@@ -1264,7 +1256,6 @@
       "projectArea": "088 Комфортабельные современные резиденции в центре Пафоса",
       "projectStatus": "В процессе",
       "projectType": "Частная",
-      "projectNote": "Апартаменты",
       "region": "Пафос",
       "projects": [
         {
@@ -1305,7 +1296,6 @@
       "projectArea": "089 Потрясающий комплекс с двумя пятиэтажными блоками апартаментов в Пафосе",
       "projectStatus": "В процессе",
       "projectType": "Частная",
-      "projectNote": "Общий бассейн",
       "region": "Пафос",
       "projects": [
         {
@@ -1395,7 +1385,6 @@
       "projectArea": "090 Комплекс вилл С 2, 3, 4 спальнями на первой линии и таун-хаусами в Пафосе",
       "projectStatus": "В процессе",
       "projectType": "Частная",
-      "projectNote": "Виллы",
       "region": "Пафос",
       "projects": [
         {
@@ -1681,7 +1670,6 @@
       "projectArea": "001 Участок в деревне Акурдалия",
       "projectStatus": "Земля",
       "projectType": "Инвестиционная",
-      "projectNote": "Land/Plot",
       "region": "Пафос",
       "projects": [
         {
@@ -1707,7 +1695,6 @@
       "projectArea": "002 Участок в деревне Аргака",
       "projectStatus": "Земля",
       "projectType": "Инвестиционная",
-      "projectNote": "Land/Plot",
       "region": "Пафос",
       "projects": [
         {
@@ -1743,7 +1730,6 @@
       "projectArea": "003 Участки и объекты в частном комплексе на вершине холма в деревне Тсада",
       "projectStatus": "Земля",
       "projectType": "Инвестиционная",
-      "projectNote": "Land/Plot",
       "region": "Пафос",
       "projects": [
         {
@@ -1843,7 +1829,6 @@
       "projectArea": "036 Современное коммерческое здание в Пафосе",
       "projectStatus": "Завершен",
       "projectType": "Коммерческая",
-      "projectNote": "Пафос",
       "region": "Пафос",
       "projectDescription": [
         {
@@ -2036,7 +2021,6 @@
       "projectArea": "046 Превосходное современное коммерческое и жилое здание в Пафосе",
       "projectStatus": "Завершен",
       "projectType": "Коммерческая",
-      "projectNote": "Пафос",
       "region": "Пафос",
       "projectDescription": [
         {
@@ -2174,7 +2158,6 @@
       "projectArea": "091 Роскошная вилла в деревне Пейя (Пафос)",
       "projectStatus": "Завершен",
       "projectType": "Частная",
-      "projectNote": "Бассейн",
       "region": "Пафос",
       "projectDescription": [
         {
