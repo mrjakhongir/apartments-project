@@ -34,7 +34,7 @@ const HomeSection1 = () => {
 
         <div className='welcome-statistics'>
           <div>
-            <h2>20+</h2>
+            <h2>25+</h2>
             <p>Лет опыта</p>
           </div>
           <div>
