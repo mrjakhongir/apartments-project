@@ -11,7 +11,7 @@ function Footer({ bgColor }) {
           <div>
             <h3 className='footer__title'>Наши соц. сети</h3>
             <div className='footer__social-medias flex'>
-              <a href='#linkedin'>
+              <a href='https://www.instagram.com/reiwagroup_cy/'>
                 <img src={svgs.linkedinSquare} alt='' />
               </a>
               <a href='https://t.me/reiwagroup_cy'>

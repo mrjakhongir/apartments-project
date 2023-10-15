@@ -11,13 +11,13 @@ function HomeFooter({ bgColor }) {
           <div>
             <h3 className='footer__title'>Наши соц. сети</h3>
             <div className='footer__social-medias flex'>
-              <a href='https://www.facebook.com/profile.php?id=61551789941776'>
+              <a href='https://www.instagram.com/reiwagroup_cy/'>
                 <img src={svgs.linkedinSquare} alt='' />
               </a>
               <a href='https://t.me/reiwagroup_cy'>
                 <img src={svgs.telegramSquare} alt='' />
               </a>
-              <a href='https://www.instagram.com/reiwagroup_cy/'>
+              <a href='https://www.facebook.com/profile.php?id=61551789941776'>
                 <img src={svgs.facebookSquare} alt='' />
               </a>
             </div>
@@ -76,13 +76,13 @@ function HomeFooter({ bgColor }) {
               <p>License: 1081/595</p>
             </div>
             <div className='socials-mobile'>
-              <a href='#facebook'>
+              <a href='https://www.instagram.com/reiwagroup_cy/'>
                 <img src={svgs.linkedinSquare} alt='' />
               </a>
-              <a href='#linkedin'>
+              <a href='https://t.me/reiwagroup_cy'>
                 <img src={svgs.telegramSquare} alt='' />
               </a>
-              <a href='#instagram'>
+              <a href='https://www.facebook.com/profile.php?id=61551789941776'>
                 <img src={svgs.facebookSquare} alt='' />
               </a>
             </div>
@@ -104,13 +104,13 @@ function HomeFooter({ bgColor }) {
               <p>License: 1081/595</p>
             </div>
             <div className='socials-mobile'>
-              <a href='#facebook'>
+              <a href='https://www.instagram.com/reiwagroup_cy/'>
                 <img src={svgs.linkedinSquare} alt='' />
               </a>
-              <a href='#linkedin'>
+              <a href='https://t.me/reiwagroup_cy'>
                 <img src={svgs.telegramSquare} alt='' />
               </a>
-              <a href='#instagram'>
+              <a href='https://www.facebook.com/profile.php?id=61551789941776'>
                 <img src={svgs.facebookSquare} alt='' />
               </a>
             </div>
