@@ -107,6 +107,37 @@
       cursor: auto;
     }
   }
+  .appliaction {
+    padding: 5rem 0 7rem;
+    text-align: center;
+
+    h2 {
+      font-size: 2.4rem;
+      line-height: 2.76rem;
+      color: #0e2341;
+      font-weight: 600;
+      margin-bottom: 2rem;
+    }
+
+    a {
+      display: inline-block;
+      font-size: 1.5rem;
+      line-height: 2.043rem;
+      color: #fff;
+      font-weight: 600;
+
+      padding: 1.4rem 5.1rem;
+      background-color: #0e2341;
+      border: 1px solid #fff;
+      outline: 3px solid #0e2341;
+      cursor: auto;
+      transition: all 200ms linear;
+
+      &:active {
+        background-color: #fff;
+      }
+    }
+  }
 
   @media (min-width: 600px) {
     .house-details {
@@ -161,6 +192,12 @@
           }
         }
       }
+    }
+  }
+
+  @media (min-width: 768px) {
+    .appliaction {
+      display: none;
     }
   }
 

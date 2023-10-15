@@ -241,7 +241,102 @@
           display: none;
         }
       }
+
+      .project-content {
+        width: 59%;
+
+        display: flex;
+        flex-direction: column;
+        .project-content-top {
+          margin-bottom: 2.4rem;
+          .project-title,
+          .project-description {
+            display: block;
+          }
+          .project-title h2 {
+            font-family: 'Open Sans';
+            font-size: 3.2rem;
+            line-height: 3.68rem;
+            color: #0e2341;
+            font-weight: 600;
+            margin-bottom: 2rem;
+          }
+          .project-description {
+            margin-bottom: 0rem;
+          }
+        }
+
+        .projects-content-bottom {
+          display: flex;
+          flex-direction: column;
+
+          .table-content {
+            width: 100%;
+
+            .table-desktop {
+              display: block;
+              table {
+                border-collapse: collapse;
+                width: 100%;
+                thead {
+                  background-color: #d7bb83;
+                }
+
+                tbody {
+                  td {
+                    &:last-child {
+                      color: #d7bb83;
+                    }
+                  }
+                }
+                th,
+                td {
+                  font-size: 1.4rem;
+                  line-height: 1.907rem;
+                  color: #0e2341;
+                  font-weight: 400;
+                  padding: 1.5rem;
+                  border-bottom: 1px solid #d7bb83;
+                  text-align: center;
+
+                  &:first-child {
+                    text-align: left;
+                  }
+
+                  &:last-child {
+                    text-align: right;
+                  }
+                }
+              }
+            }
+            .table-mobile {
+              display: none;
+            }
+          }
+          .project-btns {
+            align-self: flex-end;
+            .extend-btn-mobile {
+              display: none;
+            }
+            .extend-btn-desktop {
+              display: block;
+            }
+            .extend-btn {
+              min-width: 145px;
+              margin-top: 5px;
+              border-radius: 5px;
+              background-color: #d7bb83;
+              border-color: #d7bb83;
+              &:hover {
+                background-color: #fff;
+                color: #d7bb83;
+              }
+            }
+          }
+        }
+      }
     }
+
     .projects-pagination-desktop {
       .caret {
         transition: all 200ms linear;

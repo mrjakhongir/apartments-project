@@ -98,12 +98,21 @@ function ProjectDetails() {
           </button>
         </div>
       </div>
+      <div className='appliaction'>
+        <h2>Оставьте заявку</h2>
+        <a
+          target='blank'
+          href='https://docs.google.com/forms/d/e/1FAIpQLSekfPQqRMG4Gc91fBNs_r6Pex3x2ZBOnCwXBJgqO9WcEQ0Jwg/viewform?pli=1'
+        >
+          Заполнить
+        </a>
+      </div>
       <div className='projects-footer'>
         <div className='projects-footer--desktop'>
           <Footer bgColor='#fff' />
         </div>
         <div className='projects-footer--mobile'>
-          <HomeFooter bgColor='#fff' />
+          <HomeFooter bgColor='#3D6CBB1A' />
         </div>
       </div>
     </section>
