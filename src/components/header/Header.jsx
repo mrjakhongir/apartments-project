@@ -190,7 +190,7 @@ function Header() {
             <div className='left-bottom'>
               <div>
                 <img src={svgs.telegramIcon} alt='' />
-                <a href='https://t.me/reiwa_uzb'>@reiwa_uzb</a>
+                <a href='https://t.me/reiwagroup_cy'>@reiwa_uzb</a>
               </div>
               <div>
                 <img src={svgs.phoneIcon} alt='' />
@@ -198,17 +198,19 @@ function Header() {
               </div>
               <div>
                 <img src={svgs.emailIcon} alt='' />
-                <a href='mailto: reiwa@gmail.com'>reiwa@gmail.com</a>
+                <a href='mailto: infouz@reiwa-invest.com'>
+                  infouz@reiwa-invest.com hozir
+                </a>
               </div>
             </div>
             <div className='social-icons'>
-              <a href='#instagram'>
+              <a href='https://www.instagram.com/reiwagroup_cy/'>
                 <img src={svgs.instagramSquare} alt='instagram' />
               </a>
-              <a href='#telegram'>
+              <a href='https://t.me/reiwagroup_cy'>
                 <img src={svgs.telegramSquare} alt='telegram' />
               </a>
-              <a href='#facebook'>
+              <a href='https://www.facebook.com/profile.php?id=61551789941776'>
                 <img src={svgs.facebookSquare} alt='facebook' />
               </a>
             </div>

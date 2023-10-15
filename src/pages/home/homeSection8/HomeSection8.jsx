@@ -31,11 +31,11 @@ export const HomeSection8 = () => {
             </div>
             <div className='flex'>
               <img src={svgs.telegramIcon} alt='' />
-              <span>@reiwa_uzb </span>
+              <span>https://t.me/reiwagroup_cy</span>
             </div>
             <div className='flex'>
               <img src={svgs.emailIcon} alt='' />
-              <span>infouz@reiwacy.com </span>
+              <span>infouz@reiwa-invest.com</span>
             </div>
           </div>
           <div className='overlay'></div>

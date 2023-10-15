@@ -11,13 +11,13 @@ function Footer({ bgColor }) {
           <div>
             <h3 className='footer__title'>Наши соц. сети</h3>
             <div className='footer__social-medias flex'>
-              <a href='#facebook'>
+              <a href='#linkedin'>
                 <img src={svgs.linkedinSquare} alt='' />
               </a>
-              <a href='#linkedin'>
+              <a href='https://t.me/reiwagroup_cy'>
                 <img src={svgs.telegramSquare} alt='' />
               </a>
-              <a href='#instagram'>
+              <a href='https://www.facebook.com/profile.php?id=61551789941776'>
                 <img src={svgs.facebookSquare} alt='' />
               </a>
             </div>
@@ -40,7 +40,9 @@ function Footer({ bgColor }) {
             <h3 className='footer__title'>Контакты</h3>
             <div>
               <a href='tel: +998 90 039 88 68'>+998 90 039 88 68</a>
-              <a href='mailto: infouz@reiwacy.com'>infouz@reiwacy.com</a>
+              <a href='mailto: infouz@reiwa-invest.com'>
+                infouz@reiwa-invest.com
+              </a>
               <a href='map'>
                 Address: 59, Office 01,<br></br> Ellados Leoforos,<br></br>{' '}
                 Pafos, 8020
