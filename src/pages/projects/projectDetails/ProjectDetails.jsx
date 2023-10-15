@@ -6,6 +6,7 @@ import './projectDetails.scss';
 import Footer from '../../../components/footer/Footer';
 import House from './House';
 import Slider from '../../../components/slider2/Slider';
+import HomeFooter from '../../../components/homeFooter/HomeFooter';
 
 function ProjectDetails() {
   const { id } = useParams();
@@ -42,37 +43,38 @@ function ProjectDetails() {
             </p>
           </div>
           <p className='project-description'>
-            Современный жилой комплекс, состоящий из 10 вилл с тремя спальнями и
-            потрясающим видом на горы и море. Все резиденции располагают
-            просторными открытыми площадками и крытыми верандами в спокойной
-            обстановке, идеально подходящей для воспитания семьи и проведения
-            спокойных летних каникул.
+            {data.projectDescription[0].textContent}
           </p>
           {showDetails && (
             <div className='project-description'>
-              <p>
-                Проект окружен прекрасными пейзажами в одном из самых зеленых
-                районов Пафоса и находится всего в 10 минутах езды от центра
-                Пафоса и в 2 минутах от одного из лучших полей для гольфа на
-                Кипре.
-              </p>
-              <ul>
-                <p>Особенности</p>
-                <li>· Система охлаждения по технологии VRV</li>
-                <li>· Аварийная система</li>
-                <li>· Внешняя теплоизоляция</li>
-                <li>· Высококачественные</li>
-                <li>· столешницы и отделка</li>
-                <li>· Полы с подогревом</li>
-                <li>· Частное парковочное место</li>
-                <li>· Два этажа</li>
-                <li>· Энергосберегающее спроектированное свойство</li>
-                <li>· Система напора воды</li>
-                <li>· Ламинатные полы в спальнях</li>
-                <li>· Энергоэффективный, устойчивый дизайн</li>
-                <li>· Частная благоустроенная территория</li>
-                <li>· Высококачественная фурнитура по всему периметру</li>
-              </ul>
+              {data.projectDescription?.map((item) =>
+                item.textType === 'paragraph' ? (
+                  <p style={{ marginBottom: '1rem' }}>{item.textContent}</p>
+                ) : item.textType === 'paragraphBold' ? (
+                  <p>
+                    <b>{item.textContent}</b>
+                  </p>
+                ) : item.textType === 'list' ? (
+                  <ul style={{ listStyle: 'disc' }}>
+                    {item.textContent.map((li) => (
+                      <li style={{ margin: '0 0 0.2rem 3rem' }}>{li}</li>
+                    ))}
+                  </ul>
+                ) : item.textType === 'link' ? (
+                  <a
+                    style={{
+                      display: 'inline-block',
+                      marginTop: '1rem',
+                      color: '#3d6cbb',
+                    }}
+                    href={item.textContent}
+                  >
+                    Подробное
+                  </a>
+                ) : (
+                  ''
+                )
+              )}
             </div>
           )}
           <button
@@ -96,7 +98,14 @@ function ProjectDetails() {
           </button>
         </div>
       </div>
-      <Footer bgColor='#fff' />
+      <div className='projects-footer'>
+        <div className='projects-footer--desktop'>
+          <Footer bgColor='#fff' />
+        </div>
+        <div className='projects-footer--mobile'>
+          <HomeFooter bgColor='#fff' />
+        </div>
+      </div>
     </section>
   );
 }

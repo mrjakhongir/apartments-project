@@ -4,72 +4,33 @@
   margin: 0 auto;
   padding: 2.5rem 2rem;
 
-  > div {
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
     > div {
-      padding: 1.5rem 5rem 1.5rem 2rem;
       border-right: 2px solid #3d6cbb;
-      display: flex;
-      flex-direction: column;
-
-      &:last-child {
-        border: none;
-        padding-right: 0;
-      }
+      padding-right: 2rem;
+      padding-left: 2rem;
       &:first-child {
-        padding-left: 0;
+        padding-left: 0rem;
       }
-      h1 {
+      &:last-child {
+        padding-right: 0rem;
+        border-right: none;
+      }
+      h2 {
         font-size: 3.2rem;
         line-height: 4rem;
         color: #3d6cbb;
         font-weight: 600;
+        font-family: 'Open Sans';
         margin-bottom: 0.5rem;
       }
-      p {
+      P {
         font-size: 2rem;
         line-height: 2.5rem;
         color: #b7b7b7;
         font-weight: 400;
-      }
-    }
-  }
-
-  @media (max-width: 1180px) {
-    padding: 2rem 1rem;
-
-    > div {
-      justify-content: space-between;
-
-      > div {
-        padding-right: 0.5rem;
-        h1 {
-          font-size: 2.7rem;
-          line-height: 3.3rem;
-        }
-        p {
-          font-size: 1.7rem;
-          line-height: 2rem;
-        }
-      }
-    }
-  }
-  @media (max-width: 851px) {
-    padding: 1rem 0.5rem;
-
-    > div {
-      justify-content: space-between;
-      > div {
-        border-right: 1px solid #3d6cbb;
-        padding-right: 0.5rem;
-        padding-left: 0;
-        h1 {
-          font-size: 2.7rem;
-          line-height: 3.3rem;
-        }
-        p {
-          font-size: 1.7rem;
-          line-height: 2rem;
-        }
       }
     }
   }
