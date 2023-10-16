@@ -46,7 +46,17 @@
     
   }
   
-
+  @media only screen and (max-width:920px)and (min-width:375px){
+    .purchase-section3 {
+      .purchase-section3_banner {
+        padding: 10rem 0 10rem 2rem;
+      }
+      
+      .purchase-section3_description {
+          padding: 0 2rem;
+    }
+  }
+  }
   @media only screen and (max-width:375px){
     .purchase-section3 {
       margin-top: 100px;
@@ -71,6 +81,7 @@
           &_body{
             display: flex;
             flex-direction: column;
+            padding: 0 2rem;
             &_text{
               font-family: Open Sans;
               font-size: 24px;

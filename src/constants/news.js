@@ -38,7 +38,7 @@ export const news = [
     newsId: 2,
     newsTitle:
       "Кипр подключился к Шенгенской информационной системе. Что это значит для туристов",
-    newsSubtitle: "ШЕНГЕНСКОЙ ИНФОРМАЦИОННОЙ СИСТЕМЕ",
+    newsSubtitle: "ШЕНГЕНСКАЯ СИСТЕМА",
     newsImage: news2,
     newsDate: "28.07.2023",
     newsBody: [

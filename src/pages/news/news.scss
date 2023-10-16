@@ -24,6 +24,21 @@
   }
 }
 
+@media only screen and (max-width:920px)and (min-width:375px){
+  .news-banner {
+    padding: 6.5rem 2rem;
+  }
+  
+  .newspaper {
+    padding: 10rem 2rem;
+  
+    > div {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+}
+
 @media only screen and (max-width:375px){
   .news-banner {
     height: 100px;

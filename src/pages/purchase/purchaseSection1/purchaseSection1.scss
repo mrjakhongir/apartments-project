@@ -336,7 +336,7 @@ p {
 }
 }
 
-@media only screen and (max-width: 649px) and (min-width:375px){
+@media only screen and (max-width: 649px) and (min-width:420px){
   .purchase-section1 {
     .purchase-section1_banner {
   
@@ -426,6 +426,107 @@ p {
 }
 }
 
+@media only screen and (max-width: 420px) and (min-width:375px){
+  .purchase-section1 {
+    .purchase-section1_banner {
+  
+      h1 {
+        font-size: 38px;
+      }
+    }
+  
+  }
+
+.card{
+  display: flex;
+  flex-direction: column;
+  &_name{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+&_text{
+    font-size: 20px;
+}
+p {
+    font-size: 15px;
+}
+
+}
+
+.card1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  // align-items: flex-start;
+  position: relative;
+  margin-bottom: 30px;
+  &::after{
+      transform: rotate(90deg);
+      width: 40px;
+      left: 45%;
+      top: 67px;
+  }
+}
+.card2{
+  display: flex;
+ flex-direction: column;
+ align-items: center;
+  position: relative;
+  &::before{
+      width: 106px;
+      top: 32px;
+      left: 37%;
+      transform: rotate(-90deg);
+  }
+}
+.card3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  &::after{
+    content: " ";
+    position: absolute;
+    border: 2px dotted #756558;
+    width: 276px;
+    transform: rotate(-90deg);
+}
+}
+.card4{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  position: relative;
+  &::after{
+      width: 276px;
+      right: 50%;
+      top: 0;
+      transform: rotate(-90deg);
+  }
+}
+.card3_4{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+}
+
+@media only screen and (max-width: 920px) and (min-width:375px){
+  .purchase-section1 {
+    .purchase-section1_banner {
+      padding: 0 2rem;
+      h1 {
+        font-size: 38px;
+      }
+    }
+  
+  }
+}
 @media only screen and (max-width:375px){
   .purchase-section1 {
     .purchase-section1_banner {
@@ -441,6 +542,11 @@ p {
         text-align: center;
       }
     }
+    .purchase-section1_description {
+      //   background-color: rgba(61, 108, 187, 0.1);
+        padding: 5rem 2rem;
+    
+      }
   
   }
 
