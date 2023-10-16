@@ -20,11 +20,19 @@
 }
 
 @media only screen and (max-width: 920px) and (min-width:375px){
+  .purchase-header {
+    font-family: Open Sans;
+          font-size: 24px;
+          font-weight: 700;
+          line-height: 28px;
+          letter-spacing: 0em;
+          text-align: left;
+  }
   .purchase-subheader {
     padding: 0 2rem;
   }
 }
-@media only screen and (max-width:375px){
+@media only screen and (max-width:500px){
   .purchase-subheader {
     font-family: Open Sans;
     font-size: 24px;
