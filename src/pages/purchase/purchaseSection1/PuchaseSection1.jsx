@@ -19,6 +19,7 @@ export default function PurchaseSection1() {
             Этапы покупки недвижимости на Кипре
           </h2>
           <div className="card">
+            <div className="card1_2">
             <div className="card1">
               <h2 className="card_name">1</h2>
               <div className="card_body">
@@ -40,6 +41,7 @@ export default function PurchaseSection1() {
                   собственности <br /> Подготовка пакета документов
                 </p>
               </div>
+            </div>
             </div>
             <div className="card3_4">
               <div className="card4">

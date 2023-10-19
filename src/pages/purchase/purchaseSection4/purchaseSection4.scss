@@ -85,17 +85,184 @@
     }
   }
 
+  @media only screen and (max-width:920px)and (min-width:500px){
+    .purchase-section4 {
+      .purchase-section4_banner {
+        padding: 10rem 1rem 10rem 1rem;
+        height: 575px;
+      }
+      &_card{
+          width: 475px;
+          height: inherit;
+          border-radius: 5px;
+          background: #FFFFFF;
+          display: flex;
+          flex-direction: column;
+          padding: 30px 20px 30px 20px;
+          float: right;
+          &_text{
+              font-size: 22px;
+              font-weight: 600;
+              line-height: 29px;
+              letter-spacing: 0em;
+              text-align: left;
+              margin-bottom: 20px;
+          }
+          &_desc{
+              display: flex;
+              align-items: flex-start;
+              h6 {
+                  display: flex;
+                  &::before{
+                      content: '';
+                      width: .5em;
+                      height: .5em;
+                      border-radius: 1em;
+                      background-color: #0E2341;
+                      margin-right: .5em;
+                      margin-top: 8px;
+                  }
+              }
+              p {
+                  font-size: 14px;
+                  font-weight: 400;
+                  line-height: 19px;
+                  letter-spacing: 0em;
+                  text-align: left;
+              }
+  
+          }
+          
+      }
+    
+      .purchase-section4_description {
+        display: flex;
+        margin-top: 70px;
+        padding: 0 2rem;
+        &_body{
+          display: flex;
+          flex-direction: column;
+          &_text{
+              font-size: 34px;
+              font-weight: 600;
+              line-height: 46px;
+              letter-spacing: 0em;
+              text-align: left;
+              color: #3D6CBB;
+              margin-bottom: 20px;
+          }
+          &_desc{
+              font-size: 20px;
+              font-weight: 400;
+              line-height: 24px;
+              letter-spacing: 0em;
+              text-align: left;
+              color: #0E2341;
+          }
+        }
+        &_body2{
+          display: flex;
+          flex-direction: column;
+          margin-top: 70px;
+        }
+      }
+    }
+  }
 
+  @media only screen and (max-width:500px)and (min-width:375px){
+    .purchase-section4 {
+      .purchase-section4_banner {
+        padding: 10rem 1rem 10rem 1rem;
+        height: inherit;
+      }
+      &_card{
+          width: 100%;
+          height: inherit;
+          border-radius: 5px;
+          background: #FFFFFFD9;
+          display: flex;
+          flex-direction: column;
+          padding: 30px 20px 30px 20px;
+          float: none;
+          &_text{
+            font-size: 21px;
+            font-weight: 600;
+            line-height: 29px;
+            letter-spacing: 0em;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+          &_desc{
+              display: flex;
+              align-items: flex-start;
+              h6 {
+                  display: flex;
+                  &::before{
+                      content: '';
+                      width: .5em;
+                      height: .5em;
+                      border-radius: 1em;
+                      background-color: #0E2341;
+                      margin-right: .5em;
+                      margin-top: 8px;
+                  }
+              }
+              p {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 19.07px;
+                letter-spacing: 0em;
+                text-align: left;
+            }
+  
+          }
+          
+      }
+    
+      .purchase-section4_description {
+        display: flex;
+        margin-top: 70px;
+        padding: 0 2rem;
+        &_body{
+          display: flex;
+          flex-direction: column;
+          &_text{
+            font-family: Open Sans;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 33px;
+            letter-spacing: 0em;
+            text-align: left;            
+            margin-bottom: 20px;
+          }
+          &_desc{
+            font-family: Open Sans;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            letter-spacing: 0em;
+            text-align: left;            
+          }
+        }
+        &_body2{
+          display: flex;
+          flex-direction: column;
+          margin-top: 70px;
+        }
+      }
+    }
+
+  }
   @media only screen and (max-width:375px){
     .purchase-section4 {
       margin-top: 70px;
       margin-bottom: 65px;
       .purchase-section4_banner {
-        height: 578px;
-        padding: 3rem 0 2rem 0rem;
+        height: inherit;
+        padding: 3rem 2rem 2rem 1rem;
       }
       &_card{
-          width: 338px;
+          width: 100%;
           height: inherit;
           border-radius: 5px;
           background: #FFFFFFD9;
@@ -141,6 +308,7 @@
       .purchase-section4_description {
         display: flex;
         margin-top: 70px;
+        padding: 0 2rem;
         &_body{
           display: flex;
           flex-direction: column;
