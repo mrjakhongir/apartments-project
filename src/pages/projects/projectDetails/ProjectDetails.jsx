@@ -27,7 +27,7 @@ function ProjectDetails() {
   }
   return (
     <section className='project-details'>
-      {/* <Slider /> */}
+      <Slider />
       <div className='wrapper'>
         <div className='project-details_inner'>
           <h2>{data.projectArea}</h2>

@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 
 const ArrowLeft = ({ clickFunction, glyph }) => (
   <div
-    style={{ fontSize: '24px' }}
     // className={`slide-arrow ${direction}`}
     onClick={clickFunction}
     className="carousel_prev wrapper"

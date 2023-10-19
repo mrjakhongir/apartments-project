@@ -1,20 +1,12 @@
 import React from 'react'
+import './imageSlide.scss'
 
 const ImageSlide = ({ url }) => {
   const styles = {
     backgroundImage: `url(${url})`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    zIndex: '2',
-    marginTop: '35px',
-    width: '1900px',
-    height: '500px',
-    borderRadius: '3px',
-    transform: 'translate3d(-3%, 0,-50px)',
-    transition: '900ms ease-in-out 0s'
   }
 
-  return <div className="image-slide" style={styles} />
+  return <div className="image_slide" style={styles} />
 }
 
 export default ImageSlide
