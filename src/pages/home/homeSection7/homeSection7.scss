@@ -27,7 +27,8 @@
         cursor: pointer;
         transition: all 200ms linear;
 
-        &:hover {
+        &:hover,
+        &:active {
           color: #3d6cbb;
           text-decoration: underline;
         }
@@ -347,17 +348,9 @@
           align-self: center;
           margin-right: 0;
           cursor: auto;
-          &:hover {
-            color: #b7b7b7;
-            text-decoration: none;
-          }
           &:last-child {
             display: none;
           }
-        }
-        .selected {
-          color: #3d6cbb;
-          text-decoration: underline;
         }
       }
       .filter-all--mobile {
