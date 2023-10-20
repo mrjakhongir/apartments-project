@@ -27,7 +27,7 @@ function ProjectDetails() {
   }
   return (
     <section className='project-details'>
-      <Slider />
+      <Slider imgs={data.projectImgUrl} />
       <div className='wrapper'>
         <div className='project-details_inner'>
           <h2>{data.projectArea}</h2>
@@ -38,12 +38,10 @@ function ProjectDetails() {
             <p>
               Тип: <span> {data.projectType}</span>
             </p>
-            <p>
-              Примечание: <span> {data.projectNote}</span>
-            </p>
+            <p>Примечание.</p>
           </div>
           <p className='project-description'>
-            {data.projectDescription[0].textContent}
+            {data.projectDescription[0]?.textContent}
           </p>
           {showDetails && (
             <div className='project-description'>

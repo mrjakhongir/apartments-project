@@ -34,7 +34,7 @@ const Project = ({ project }) => {
       <div className='project-image'>
         <Link
           to={`${
-            project.projectId === 4
+            project.projectId === 17
               ? 'https://www.fayno-reiwa.com/'
               : `/projects/${project.projectId}`
           }`}

@@ -333,157 +333,6 @@
     },
     {
       "projectId": 4,
-      "projectIndex": "004",
-      "projectImgUrl": [
-        "https://uploads-ssl.webflow.com/64322999b89d662550666b2e/6475df749642f5302b6b8a35_First.webp"
-      ],
-      "projectArea": "007 Комплекс высококлассных вилл в округе Пафоса - деревне Хлорака",
-      "projectStatus": "В процессе",
-      "projectType": "Частная",
-      "region": "Пафос",
-      "projectDescription": [
-        {
-          "textType": "paragraphFirt",
-          "textContent": "Все 23 виллы высокого класса расположены на холмах Меланос в Хлораке, предоставляя жителям фантастический вид на море. "
-        },
-        {
-          "textType": "paragraph",
-          "textContent": "Расположенный недалеко от всех удобств, которые может предложить Пафос, комплекс в то же время окружен жилыми домами, без шума туристических зон. Вариативный дизайн интерьера - это нечто новое для кипрского рынка, и он может удовлетворить любые предпочтения наших жителей."
-        },
-        {
-          "textType": "paragraph",
-          "textContent": "Чувствуйте себя в безопасности, так как Fayno - это закрытое сообщество."
-        },
-        {
-          "textType": "paragraph",
-          "textContent": "Системы VRV, бытовая техника и система \"Умный дом\" установлены в каждом доме."
-        }
-      ],
-      "projects": [
-        {
-          "type": "Вилла TYPE A",
-          "bedroom": 3,
-          "area": 237.4,
-          "yard": 340,
-          "price": 1050000,
-          "innerArea": 0,
-          "veranda": 0,
-          "pricePerSquareMetre": 0
-        },
-        {
-          "type": "Вилла TYPE C",
-          "bedroom": 3,
-          "area": 157,
-          "yard": 300,
-          "price": 997500,
-          "innerArea": 0,
-          "veranda": 0,
-          "pricePerSquareMetre": 0
-        },
-        {
-          "type": "Вилла TYPE C",
-          "bedroom": 3,
-          "area": 157,
-          "yard": 300,
-          "price": 997500,
-          "innerArea": 0,
-          "veranda": 0,
-          "pricePerSquareMetre": 0
-        },
-        {
-          "type": "Вилла TYPE C",
-          "bedroom": 3,
-          "area": 169.6,
-          "yard": 313,
-          "price": 997500,
-          "innerArea": 0,
-          "veranda": 0,
-          "pricePerSquareMetre": 0
-        },
-        {
-          "type": "Вилла TYPE F",
-          "bedroom": 3,
-          "area": 229.5,
-          "yard": 157,
-          "price": 903000,
-          "innerArea": 0,
-          "veranda": 0,
-          "pricePerSquareMetre": 0
-        },
-        {
-          "type": "Вилла TYPE F",
-          "bedroom": 3,
-          "area": 229.5,
-          "yard": 286,
-          "price": 903000,
-          "innerArea": 0,
-          "veranda": 0,
-          "pricePerSquareMetre": 0
-        },
-        {
-          "type": "Вилла TYPE E",
-          "bedroom": 3,
-          "area": 208.25,
-          "yard": 304,
-          "price": 903000,
-          "innerArea": 0,
-          "veranda": 0,
-          "pricePerSquareMetre": 0
-        },
-        {
-          "type": "Вилла TYPE H",
-          "bedroom": 3,
-          "area": 134,
-          "yard": 250,
-          "price": 787500,
-          "innerArea": 0,
-          "veranda": 0,
-          "pricePerSquareMetre": 0
-        },
-        {
-          "type": "Вилла TYPE F",
-          "bedroom": 3,
-          "area": 152.5,
-          "yard": 320,
-          "price": 787500,
-          "innerArea": 0,
-          "veranda": 0,
-          "pricePerSquareMetre": 0
-        },
-        {
-          "type": "Вилла TYPE E",
-          "bedroom": 3,
-          "area": 170.4,
-          "yard": 320,
-          "price": 903000,
-          "innerArea": 0,
-          "veranda": 0,
-          "pricePerSquareMetre": 0
-        },
-        {
-          "type": "Вилла TYPE A",
-          "bedroom": 3,
-          "area": 237.4,
-          "yard": 345,
-          "price": 1050000,
-          "innerArea": 0,
-          "veranda": 0,
-          "pricePerSquareMetre": 0
-        },
-        {
-          "type": "Вилла TYPE E",
-          "bedroom": 3,
-          "area": 157.7,
-          "yard": 340,
-          "price": 997500,
-          "innerArea": 0,
-          "veranda": 0,
-          "pricePerSquareMetre": 0
-        }
-      ]
-    },
-    {
-      "projectId": 5,
       "projectIndex": "005",
       "projectImgUrl": [
         "images/project5-1.jpg",
@@ -679,7 +528,7 @@
       ]
     },
     {
-      "projectId": 6,
+      "projectId": 5,
       "projectIndex": "006",
       "projectImgUrl": [
         "images/project6-1.jpg",
@@ -870,7 +719,7 @@
       ]
     },
     {
-      "projectId": 7,
+      "projectId": 6,
       "projectIndex": "007",
       "projectImgUrl": [
         "images/project7-1.jpg",
@@ -947,7 +796,7 @@
       ]
     },
     {
-      "projectId": 8,
+      "projectId": 7,
       "projectIndex": "008",
       "projectImgUrl": [
         "images/project8-1.jpg",
@@ -1238,7 +1087,7 @@
       ]
     },
     {
-      "projectId": 9,
+      "projectId": 8,
       "projectIndex": "009",
       "projectImgUrl": [
         "images/project9-1.jpg",
@@ -1257,6 +1106,7 @@
       "projectStatus": "В процессе",
       "projectType": "Частная",
       "region": "Пафос",
+      "projectDescription": "",
       "projects": [
         {
           "type": "Block B A001",
@@ -1281,7 +1131,7 @@
       ]
     },
     {
-      "projectId": 10,
+      "projectId": 9,
       "projectIndex": "010",
       "projectImgUrl": [
         "images/project10-1.jpg",
@@ -1297,6 +1147,7 @@
       "projectStatus": "В процессе",
       "projectType": "Частная",
       "region": "Пафос",
+      "projectDescription": "",
       "projects": [
         {
           "type": "Блок В А202",
@@ -1371,7 +1222,7 @@
       ]
     },
     {
-      "projectId": 11,
+      "projectId": 10,
       "projectIndex": "011",
       "projectImgUrl": [
         "images/project11-1.jpg",
@@ -1386,6 +1237,7 @@
       "projectStatus": "В процессе",
       "projectType": "Частная",
       "region": "Пафос",
+      "projectDescription": "",
       "projects": [
         {
           "type": "Таун хаус 09",
@@ -1660,7 +1512,7 @@
       ]
     },
     {
-      "projectId": 12,
+      "projectId": 11,
       "projectIndex": "012",
       "projectImgUrl": [
         "images/project12.jpg",
@@ -1671,6 +1523,7 @@
       "projectStatus": "Земля",
       "projectType": "Инвестиционная",
       "region": "Пафос",
+      "projectDescription": "",
       "projects": [
         {
           "type": "Akourdalia 354,127,128,5,134 #128,127,134,5,354",
@@ -1685,7 +1538,7 @@
       ]
     },
     {
-      "projectId": 13,
+      "projectId": 12,
       "projectIndex": "013",
       "projectImgUrl": [
         "images/project13.jpg",
@@ -1696,6 +1549,7 @@
       "projectStatus": "Земля",
       "projectType": "Инвестиционная",
       "region": "Пафос",
+      "projectDescription": "",
       "projects": [
         {
           "type": "Argaka597 #597",
@@ -1720,7 +1574,7 @@
       ]
     },
     {
-      "projectId": 14,
+      "projectId": 13,
       "projectIndex": "014",
       "projectImgUrl": [
         "images/project14.jpg",
@@ -1731,6 +1585,7 @@
       "projectStatus": "Земля",
       "projectType": "Инвестиционная",
       "region": "Пафос",
+      "projectDescription": "",
       "projects": [
         {
           "type": "Land/Plot #26 (Plot 851)",
@@ -1815,7 +1670,7 @@
       ]
     },
     {
-      "projectId": 15,
+      "projectId": 14,
       "projectIndex": "015",
       "projectImgUrl": [
         "images/project15-1.jpg",
@@ -2011,7 +1866,7 @@
       ]
     },
     {
-      "projectId": 16,
+      "projectId": 15,
       "projectIndex": "016",
       "projectImgUrl": [
         "images/project16-1.jpg",
@@ -2135,7 +1990,7 @@
       ]
     },
     {
-      "projectId": 17,
+      "projectId": 16,
       "projectIndex": "016",
       "projectImgUrl": [
         "images/project17-1.jpg",
@@ -2201,6 +2056,157 @@
           "area": 330,
           "yard": 1450,
           "price": 4500000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        }
+      ]
+    },
+    {
+      "projectId": 17,
+      "projectIndex": "004",
+      "projectImgUrl": [
+        "https://uploads-ssl.webflow.com/64322999b89d662550666b2e/6475df749642f5302b6b8a35_First.webp"
+      ],
+      "projectArea": "007 Комплекс высококлассных вилл в округе Пафоса - деревне Хлорака",
+      "projectStatus": "В процессе",
+      "projectType": "Частная",
+      "region": "Пафос",
+      "projectDescription": [
+        {
+          "textType": "paragraphFirt",
+          "textContent": "Все 23 виллы высокого класса расположены на холмах Меланос в Хлораке, предоставляя жителям фантастический вид на море. "
+        },
+        {
+          "textType": "paragraph",
+          "textContent": "Расположенный недалеко от всех удобств, которые может предложить Пафос, комплекс в то же время окружен жилыми домами, без шума туристических зон. Вариативный дизайн интерьера - это нечто новое для кипрского рынка, и он может удовлетворить любые предпочтения наших жителей."
+        },
+        {
+          "textType": "paragraph",
+          "textContent": "Чувствуйте себя в безопасности, так как Fayno - это закрытое сообщество."
+        },
+        {
+          "textType": "paragraph",
+          "textContent": "Системы VRV, бытовая техника и система \"Умный дом\" установлены в каждом доме."
+        }
+      ],
+      "projects": [
+        {
+          "type": "Вилла TYPE A",
+          "bedroom": 3,
+          "area": 237.4,
+          "yard": 340,
+          "price": 1050000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE C",
+          "bedroom": 3,
+          "area": 157,
+          "yard": 300,
+          "price": 997500,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE C",
+          "bedroom": 3,
+          "area": 157,
+          "yard": 300,
+          "price": 997500,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE C",
+          "bedroom": 3,
+          "area": 169.6,
+          "yard": 313,
+          "price": 997500,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE F",
+          "bedroom": 3,
+          "area": 229.5,
+          "yard": 157,
+          "price": 903000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE F",
+          "bedroom": 3,
+          "area": 229.5,
+          "yard": 286,
+          "price": 903000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE E",
+          "bedroom": 3,
+          "area": 208.25,
+          "yard": 304,
+          "price": 903000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE H",
+          "bedroom": 3,
+          "area": 134,
+          "yard": 250,
+          "price": 787500,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE F",
+          "bedroom": 3,
+          "area": 152.5,
+          "yard": 320,
+          "price": 787500,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE E",
+          "bedroom": 3,
+          "area": 170.4,
+          "yard": 320,
+          "price": 903000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE A",
+          "bedroom": 3,
+          "area": 237.4,
+          "yard": 345,
+          "price": 1050000,
+          "innerArea": 0,
+          "veranda": 0,
+          "pricePerSquareMetre": 0
+        },
+        {
+          "type": "Вилла TYPE E",
+          "bedroom": 3,
+          "area": 157.7,
+          "yard": 340,
+          "price": 997500,
           "innerArea": 0,
           "veranda": 0,
           "pricePerSquareMetre": 0

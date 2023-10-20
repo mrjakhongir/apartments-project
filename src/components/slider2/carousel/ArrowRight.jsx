@@ -12,7 +12,7 @@ const ArrowRight = ({ clickFunction, glyph }) => (
 )
 
 ArrowRight.propTypes = {
-  direction: PropTypes.string.isRequired,
+  // direction: PropTypes.string.isRequired,
   clickFunction: PropTypes.func.isRequired,
   glyph: PropTypes.string.isRequired
 }

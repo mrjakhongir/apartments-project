@@ -1,12 +1,11 @@
-import React from 'react'
-import './imageSlide.scss'
+import './imageSlide.scss';
 
 const ImageSlide = ({ url }) => {
   const styles = {
     backgroundImage: `url(${url})`,
-  }
+  };
 
-  return <div className="image_slide" style={styles} />
-}
+  return <div className='image_slide' style={styles} />;
+};
 
-export default ImageSlide
+export default ImageSlide;

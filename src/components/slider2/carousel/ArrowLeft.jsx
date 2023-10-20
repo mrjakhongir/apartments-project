@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 
 const ArrowLeft = ({ clickFunction, glyph }) => (
   <div
-    // className={`slide-arrow ${direction}`}
     onClick={clickFunction}
     className="carousel_prev wrapper"
   >
@@ -12,7 +11,7 @@ const ArrowLeft = ({ clickFunction, glyph }) => (
 )
 
 ArrowLeft.propTypes = {
-  direction: PropTypes.string.isRequired,
+  // direction: PropTypes.string.isRequired,
   clickFunction: PropTypes.func.isRequired,
   glyph: PropTypes.string.isRequired
 }

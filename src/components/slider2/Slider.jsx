@@ -1,17 +1,14 @@
-import React from 'react'
-import './slider.scss'
-import Carousel from './carousel/Carousel'
-import { pngs } from '../../constants/images'
-
-
-const imgUrls = [ pngs.home1, pngs.home2, pngs.home3, pngs.home4, pngs.home5]
+import { useParams } from 'react-router-dom';
+import Carousel from './carousel/Carousel';
+import { imgs } from '../../assets/data';
 
 function Slider() {
+  const { id } = useParams();
   return (
     <div>
-      <Carousel images={imgUrls} />
+      <Carousel images={imgs[id - 1]} />
     </div>
-  )
+  );
 }
 
 export default Slider;
