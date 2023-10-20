@@ -12,10 +12,7 @@
 
   .home__contacts {
     width: 360px;
-    background-image: url('../../../assets//png/home-contact-bg-small.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-color: #0e2341;
     border-radius: 5px;
     padding: 3rem 2rem;
     position: relative;
@@ -25,10 +22,10 @@
     flex-direction: column;
     align-items: center;
     .logo-dark {
-      display: block;
+      display: none;
     }
     .logo-light {
-      display: none;
+      display: block;
     }
     > img {
       width: 130px;
@@ -39,7 +36,7 @@
       font-size: 3.2rem;
       line-height: 4.358rem;
       font-weight: 600;
-      color: #0e2341;
+      color: #fff;
       margin-bottom: 2px;
       text-align: center;
     }
@@ -48,7 +45,7 @@
       font-size: 1.8rem;
       line-height: 2.07rem;
       font-weight: 400;
-      color: #0e2341;
+      color: #fff;
       margin-bottom: 1.7rem;
       text-align: center;
     }
@@ -61,50 +58,44 @@
       font-size: 1.6rem;
       line-height: 1.84rem;
       color: #fff;
-      background-color: #756558;
+      font-weight: 600;
+
+      background-color: #3d6cbb;
       padding: 1.6rem 6.1rem;
       margin-bottom: 4.8rem;
-      border: 1px solid #756558;
+      border: 1px solid #3d6cbb;
 
       &:hover {
         background-color: #fff;
-        color: #756558;
+        color: #0e2341;
       }
     }
 
     .contacts-content {
-      align-self: flex-start;
+      align-self: stretch;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      column-gap: 1.8rem;
+      row-gap: 1rem;
+      flex-wrap: wrap;
+      font-size: 1.4rem;
+      line-height: 1.907rem;
+      font-weight: 400;
       color: #fff;
-      margin: 0;
-
       div {
-        justify-content: flex-start;
         gap: 5px;
-        margin-bottom: 7px;
+        justify-content: flex-start;
 
-        &:last-child {
-          margin-bottom: 5px;
+        &:nth-child(2) {
+          order: -1;
         }
       }
       img {
         width: 15px;
-        height: 15px;
+        height: 13px;
       }
-      span {
-        font-size: 1.4rem;
-        line-height: 1.907rem;
-        font-weight: 600;
-      }
-    }
-    .overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      background-color: #ffffff66;
-      width: 100%;
-      height: 100%;
-      z-index: -1;
-      border-radius: 5px;
     }
   }
 
@@ -119,10 +110,10 @@
 
     .home__contacts {
       .logo-dark {
-        display: block;
+        display: none;
       }
       .logo-light {
-        display: none;
+        display: block;
       }
       h2 {
         font-size: 3rem;
@@ -148,6 +139,29 @@
           font-weight: 400;
         }
       }
+      .contacts-content {
+        align-self: stretch;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 1.8rem;
+        row-gap: 1rem;
+        flex-wrap: wrap;
+        color: #fff;
+        div {
+          gap: 5px;
+          justify-content: flex-start;
+
+          &:nth-child(2) {
+            order: -1;
+          }
+        }
+        img {
+          width: 15px;
+          height: 13px;
+        }
+      }
     }
   }
   @media screen and (max-width: 768px) {
@@ -157,7 +171,6 @@
     }
     .home__contacts {
       min-width: 331px;
-      background-image: url('../../../assets//png/home-contact-bg-small.png');
       .logo-dark {
         display: none;
       }
@@ -173,8 +186,8 @@
       }
 
       button {
-        color: #0e2341;
-        background-color: #d7bb83;
+        color: #fff;
+        background-color: #3d6cbb;
         padding: 1.6rem 5.5rem;
         margin-bottom: 7.5rem;
         border: none;
@@ -182,8 +195,8 @@
         cursor: auto;
 
         &:hover {
-          background-color: #d7bb83;
-          color: #0e2341;
+          background-color: #fff;
+          color: #3d6cbb;
         }
       }
 
@@ -209,9 +222,6 @@
           width: 15px;
           height: 13px;
         }
-      }
-      .overlay {
-        background-color: #00000069;
       }
     }
   }

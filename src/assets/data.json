@@ -92,7 +92,7 @@
     {
       "projectId": 2,
       "projectIndex": "002",
-      "roomFrom": 2,
+      "roomFrom": 1,
       "areaFrom": 89,
       "priceFrom": 355000,
       "projectImgUrl": [
@@ -192,7 +192,7 @@
     {
       "projectId": 3,
       "projectIndex": "003",
-      "roomFrom": 2,
+      "roomFrom": 1,
       "areaFrom": 77,
       "priceFrom": 324500,
       "projectImgUrl": [
@@ -542,7 +542,7 @@
     {
       "projectId": 5,
       "projectIndex": "006",
-      "roomFrom": 3,
+      "roomFrom": 1,
       "areaFrom": 151,
       "priceFrom": 706000,
       "projectImgUrl": [
@@ -736,7 +736,7 @@
     {
       "projectId": 6,
       "projectIndex": "007",
-      "roomFrom": 2,
+      "roomFrom": 1,
       "areaFrom": 106,
       "priceFrom": 280000,
       "projectImgUrl": [
@@ -816,7 +816,7 @@
     {
       "projectId": 7,
       "projectIndex": "008",
-      "roomFrom": 3,
+      "roomFrom": 1,
       "areaFrom": 164,
       "priceFrom": 950000,
       "projectImgUrl": [
@@ -1110,7 +1110,7 @@
     {
       "projectId": 8,
       "projectIndex": "009",
-      "roomFrom": 2,
+      "roomFrom": 1,
       "areaFrom": 124,
       "priceFrom": 240000,
       "projectImgUrl": [
@@ -1157,7 +1157,7 @@
     {
       "projectId": 9,
       "projectIndex": "010",
-      "roomFrom": 3,
+      "roomFrom": 1,
       "areaFrom": 141,
       "priceFrom": 340000,
       "projectImgUrl": [
@@ -1251,7 +1251,7 @@
     {
       "projectId": 10,
       "projectIndex": "011",
-      "roomFrom": 3,
+      "roomFrom": 1,
       "areaFrom": 134,
       "priceFrom": 300000,
       "projectImgUrl": [
@@ -1544,7 +1544,7 @@
     {
       "projectId": 11,
       "projectIndex": "012",
-      "roomFrom": "-",
+      "roomFrom": 1,
       "areaFrom": 36416,
       "priceFrom": 2000000,
       "projectImgUrl": [
@@ -1573,7 +1573,7 @@
     {
       "projectId": 12,
       "projectIndex": "013",
-      "roomFrom": "-",
+      "roomFrom": "1",
       "areaFrom": 8027,
       "priceFrom": 706000,
       "projectImgUrl": [
@@ -1612,7 +1612,7 @@
     {
       "projectId": 13,
       "projectIndex": "014",
-      "roomFrom": "-",
+      "roomFrom": "1",
       "areaFrom": 290,
       "priceFrom": 165000,
       "projectImgUrl": [
@@ -1711,7 +1711,7 @@
     {
       "projectId": 14,
       "projectIndex": "015",
-      "roomFrom": "-",
+      "roomFrom": "0",
       "areaFrom": "34",
       "priceFrom": 3100000,
       "projectImgUrl": [
@@ -1910,7 +1910,7 @@
     {
       "projectId": 15,
       "projectIndex": "016",
-      "roomFrom": "-",
+      "roomFrom": "0",
       "areaFrom": 119,
       "priceFrom": 4500000,
       "projectImgUrl": [
@@ -2037,7 +2037,7 @@
     {
       "projectId": 16,
       "projectIndex": "016",
-      "roomFrom": "-",
+      "roomFrom": "0",
       "areaFrom": 330,
       "priceFrom": 4500000,
       "projectImgUrl": [

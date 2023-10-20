@@ -31,7 +31,7 @@ export const HomeSection8 = () => {
             </div>
             <div className='flex'>
               <img src={svgs.telegramIcon} alt='' />
-              <span>https://t.me/reiwagroup_cy</span>
+              <span>@reiwagroup_cy</span>
             </div>
             <div className='flex'>
               <img src={svgs.emailIcon} alt='' />
