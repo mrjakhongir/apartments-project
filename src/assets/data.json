@@ -3,6 +3,9 @@
     {
       "projectId": 1,
       "projectIndex": "001",
+      "roomFrom": 1,
+      "areaFrom": 64,
+      "priceFrom": 250000,
       "projectImgUrl": [
         "images/project1-1.jpg",
         "images/project1-2.jpg",
@@ -89,6 +92,9 @@
     {
       "projectId": 2,
       "projectIndex": "002",
+      "roomFrom": 2,
+      "areaFrom": 89,
+      "priceFrom": 355000,
       "projectImgUrl": [
         "images/project2-1.jpg",
         "images/project2-2.jpg",
@@ -186,6 +192,9 @@
     {
       "projectId": 3,
       "projectIndex": "003",
+      "roomFrom": 2,
+      "areaFrom": 77,
+      "priceFrom": 324500,
       "projectImgUrl": [
         "images/project3-1.jpg",
         "images/project3-2.jpg",
@@ -334,6 +343,9 @@
     {
       "projectId": 4,
       "projectIndex": "005",
+      "roomFrom": 1,
+      "areaFrom": 50,
+      "priceFrom": 213000,
       "projectImgUrl": [
         "images/project5-1.jpg",
         "images/project5-2.jpg",
@@ -530,6 +542,9 @@
     {
       "projectId": 5,
       "projectIndex": "006",
+      "roomFrom": 3,
+      "areaFrom": 151,
+      "priceFrom": 706000,
       "projectImgUrl": [
         "images/project6-1.jpg",
         "images/project6-2.jpg",
@@ -721,6 +736,9 @@
     {
       "projectId": 6,
       "projectIndex": "007",
+      "roomFrom": 2,
+      "areaFrom": 106,
+      "priceFrom": 280000,
       "projectImgUrl": [
         "images/project7-1.jpg",
         "images/project7-2.jpg",
@@ -798,6 +816,9 @@
     {
       "projectId": 7,
       "projectIndex": "008",
+      "roomFrom": 3,
+      "areaFrom": 164,
+      "priceFrom": 950000,
       "projectImgUrl": [
         "images/project8-1.jpg",
         "images/project8-2.jpg",
@@ -1089,6 +1110,9 @@
     {
       "projectId": 8,
       "projectIndex": "009",
+      "roomFrom": 2,
+      "areaFrom": 124,
+      "priceFrom": 240000,
       "projectImgUrl": [
         "images/project9-1.jpg",
         "images/project9-2.jpg",
@@ -1133,6 +1157,9 @@
     {
       "projectId": 9,
       "projectIndex": "010",
+      "roomFrom": 3,
+      "areaFrom": 141,
+      "priceFrom": 340000,
       "projectImgUrl": [
         "images/project10-1.jpg",
         "images/project10-2.jpg",
@@ -1224,6 +1251,9 @@
     {
       "projectId": 10,
       "projectIndex": "011",
+      "roomFrom": 3,
+      "areaFrom": 134,
+      "priceFrom": 300000,
       "projectImgUrl": [
         "images/project11-1.jpg",
         "images/project11-2.jpg",
@@ -1514,6 +1544,9 @@
     {
       "projectId": 11,
       "projectIndex": "012",
+      "roomFrom": "-",
+      "areaFrom": 36416,
+      "priceFrom": 2000000,
       "projectImgUrl": [
         "images/project12.jpg",
         "images/project12.jpg",
@@ -1528,7 +1561,7 @@
         {
           "type": "Akourdalia 354,127,128,5,134 #128,127,134,5,354",
           "bedroom": 0,
-          "area": 0,
+          "area": 36416,
           "yard": 36416,
           "price": 2000000,
           "innerArea": 0,
@@ -1540,6 +1573,9 @@
     {
       "projectId": 12,
       "projectIndex": "013",
+      "roomFrom": "-",
+      "areaFrom": 8027,
+      "priceFrom": 706000,
       "projectImgUrl": [
         "images/project13.jpg",
         "images/project13.jpg",
@@ -1576,6 +1612,9 @@
     {
       "projectId": 13,
       "projectIndex": "014",
+      "roomFrom": "-",
+      "areaFrom": 290,
+      "priceFrom": 165000,
       "projectImgUrl": [
         "images/project14.jpg",
         "images/project14.jpg",
@@ -1672,6 +1711,9 @@
     {
       "projectId": 14,
       "projectIndex": "015",
+      "roomFrom": "-",
+      "areaFrom": "34",
+      "priceFrom": 3100000,
       "projectImgUrl": [
         "images/project15-1.jpg",
         "images/project15-2.jpg",
@@ -1868,6 +1910,9 @@
     {
       "projectId": 15,
       "projectIndex": "016",
+      "roomFrom": "-",
+      "areaFrom": 119,
+      "priceFrom": 4500000,
       "projectImgUrl": [
         "images/project16-1.jpg",
         "images/project16-2.jpg",
@@ -1992,6 +2037,9 @@
     {
       "projectId": 16,
       "projectIndex": "016",
+      "roomFrom": "-",
+      "areaFrom": 330,
+      "priceFrom": 4500000,
       "projectImgUrl": [
         "images/project17-1.jpg",
         "images/project17-2.jpg",
@@ -2065,6 +2113,9 @@
     {
       "projectId": 17,
       "projectIndex": "004",
+      "roomFrom": 3,
+      "areaFrom": 134,
+      "priceFrom": 787500,
       "projectImgUrl": [
         "https://uploads-ssl.webflow.com/64322999b89d662550666b2e/6475df749642f5302b6b8a35_First.webp"
       ],

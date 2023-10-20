@@ -1,7 +1,4 @@
 .image_slide {
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
   z-index: 2;
   margin-top: 35px;
   width: 1900px;
@@ -9,6 +6,8 @@
   border-radius: 3px;
   transform: translate3d(-3%, 0, -50px);
   transition: 900ms ease-in-out 0s;
+  background-size: cover;
+  background-position: center;
 }
 
 .image_right_slide {
@@ -28,6 +27,7 @@
     margin-top: 35px;
     width: 1900px;
     height: 335px;
+    // border: 1px solid;
   }
 
   .image_right_slide {

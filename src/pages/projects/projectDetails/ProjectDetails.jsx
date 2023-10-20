@@ -11,6 +11,7 @@ import HomeFooter from '../../../components/homeFooter/HomeFooter';
 function ProjectDetails() {
   const { id } = useParams();
   const [showDetails, setShowDetails] = useState(false);
+  const [showDescription, setShowDescription] = useState(false);
   const [numOfDetails, setNumOfDetails] = useState(3);
 
   const filteredData = allProjects.projects.filter(
@@ -43,7 +44,7 @@ function ProjectDetails() {
           <p className='project-description'>
             {data.projectDescription[0]?.textContent}
           </p>
-          {showDetails && (
+          {showDescription && (
             <div className='project-description'>
               {data.projectDescription?.map((item) =>
                 item.textType === 'paragraph' ? (
@@ -65,10 +66,10 @@ function ProjectDetails() {
             </div>
           )}
           <button
-            onClick={() => setShowDetails((prevState) => !prevState)}
+            onClick={() => setShowDescription((prevState) => !prevState)}
             className='btn'
           >
-            {showDetails ? 'Свернуть' : 'Подробнее'}
+            {showDescription ? 'Свернуть' : 'Подробнее'}
           </button>
         </div>
       </div>

@@ -51,7 +51,7 @@ function HomeFooter({ bgColor }) {
           </div>
           <div className='footer__licence'>
             <h3 className='footer__title'>Лицензия</h3>
-            <p>Reiwa Group&Reiwa Investments Ltd</p>
+            <p>Reiwa Group & Reiwa Investments Ltd</p>
             <p>HE 437808</p>
             <p>TAX. 104378</p>
             <p>VAT 10437808U</p>
