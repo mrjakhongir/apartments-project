@@ -11,11 +11,24 @@ import Purchase from './pages/purchase/Purchase';
 import Projects from './pages/projects/Projects';
 
 import { svgs } from './constants/images';
+import { useEffect, useState } from 'react';
 
 function App() {
   function goUp() {
     window.scrollTo(0, 0);
   }
+
+  const [arrowUp, setArrowUp] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 300) {
+        setArrowUp(true);
+      } else {
+        setArrowUp(false);
+      }
+    });
+  }, []);
 
   return (
     <div>
@@ -30,9 +43,11 @@ function App() {
           <Route path='purchase' element={<Purchase />} />
         </Route>
       </Routes>
-      <button onClick={goUp} className='arrow-up'>
-        <img src={svgs.arrow} alt='arrow up' />
-      </button>
+      {arrowUp && (
+        <button onClick={goUp} className='arrow-up'>
+          <img src={svgs.arrow} alt='arrow up' />
+        </button>
+      )}
     </div>
   );
 }

@@ -175,7 +175,7 @@ const Project = ({ project }) => {
                 onClick={handleExtendClick}
                 className='btn extend-btn extend-btn-mobile'
               >
-                {extendContent ? 'Завернуть' : 'Развернуть'}
+                {extendContent ? 'Свернуть' : 'Развернуть'}
               </button>
             )}
             {project.projects.length > 4 && (
@@ -183,7 +183,7 @@ const Project = ({ project }) => {
                 onClick={handleExtendClickDesktop}
                 className='btn extend-btn extend-btn-desktop'
               >
-                {extendContent ? 'Завернуть' : 'Развернуть'}
+                {extendContent ? 'Свернуть' : 'Развернуть'}
               </button>
             )}
           </div>

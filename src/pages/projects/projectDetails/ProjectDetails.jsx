@@ -60,17 +60,6 @@ function ProjectDetails() {
                       <li style={{ margin: '0 0 0.2rem 3rem' }}>{li}</li>
                     ))}
                   </ul>
-                ) : item.textType === 'link' ? (
-                  <a
-                    style={{
-                      display: 'inline-block',
-                      marginTop: '1rem',
-                      color: '#3d6cbb',
-                    }}
-                    href={item.textContent}
-                  >
-                    Подробное
-                  </a>
                 ) : (
                   ''
                 )
@@ -81,7 +70,7 @@ function ProjectDetails() {
             onClick={() => setShowDetails((prevState) => !prevState)}
             className='btn'
           >
-            {showDetails ? 'Свернут' : 'Подробнее'}
+            {showDetails ? 'Свернуть' : 'Подробнее'}
           </button>
         </div>
       </div>
@@ -94,7 +83,7 @@ function ProjectDetails() {
             ))}
           </div>
           <button onClick={handleClick} className='btn house-details--btn'>
-            {showDetails ? 'Завернут' : 'Развернуть'}
+            {showDetails ? 'Свернуть' : 'Развернуть'}
           </button>
         </div>
       </div>
